@@ -6,8 +6,8 @@
 </description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jun 2015 06:15:25 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Jun 2015 06:15:25 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2015 06:30:13 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2015 06:30:13 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -91,15 +91,20 @@ Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopres
         <title>Cara Install Dan Uninstall Aplikasi Di Ubuntu</title>
         <description>&lt;p&gt;Masih bingung menginstall dan uninstall aplikasi di Ubuntu? Tenang saja, saya akan membahas tentang tata cara bagaimana menginstall dan uninstall aplikasi di Ubuntu secara online.
 Pertama, kita harus paham dulu apa itu repository. Repository adalah Sekumpulan paket-paket aplikasi atau program aplikasi yang digunakan untuk Sistem Operasi di Linux yang didapatkan dari Server Mirror website tersebut.
-&lt;!--more--&gt;
-Tidak seperti windows, Ubuntu saat menginstall aplikasi, direkomendasikan untuk menginstall secara online. Karena aplikasi di Ubuntu tidak hanya mempunyai satu paket, karena ubuntu mempunyai beberapa paket yang saling berhubungan dan bergantungan antara paket yang satu dengan paket yang lain.&lt;/p&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Tidak seperti windows, Ubuntu saat menginstall aplikasi, direkomendasikan untuk menginstall secara online. Karena aplikasi di Ubuntu tidak hanya mempunyai satu paket, karena ubuntu mempunyai beberapa paket yang saling berhubungan dan bergantungan antara paket yang satu dengan paket yang lain.&lt;/p&gt;
 
 &lt;p&gt;Jika sudah paham, maka alangkah baiknya kita langsung menuju kelangkah selanjutnya. Hehe.&lt;/p&gt;
 
-&lt;p&gt;Selanjutnya kita harus update dulu package listnya.
-Pertama Buka Terminal atau bisa dengan shortcut keyboard Ctrl+Alt+T.
-Ketikan Perintah berikut
-&amp;gt; sudo apt-get update&lt;/p&gt;
+&lt;p&gt;Selanjutnya kita harus update dulu package listnya.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Pertama Buka Terminal atau bisa dengan shortcut keyboard Ctrl+Alt+T.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ketikan Perintah berikut
+&amp;gt;sudo apt-get update&lt;/p&gt;
 
 &lt;p&gt;Ketikan password anda kemudian tekan enter.
 Lalu jika proses sudah selesai ketikan perintah ini untuk menginstall aplikasi
