@@ -6,14 +6,18 @@
 </description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jun 2015 05:56:04 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Jun 2015 05:56:04 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2015 06:03:46 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2015 06:03:46 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Cara Install Octopress 3</title>
         <description>&lt;p&gt;Octopress sekarang telah release versi 3.0, Banyak fitur yang ditambahkan di octopress versi terbaru ini.
-Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopress sebelumnya karena terlalu banyak waktu menghabiskan deploy ke git&lt;/p&gt;
+Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopress sebelumnya karena terlalu banyak waktu menghabiskan deploy ke git
+Saya tidak tau harus berbuat apa, karena versi yang terbaru ini menggunakan jekyll. Tapi tidak apa-apa saya memulai jekyll juga dari awal
+Saran 
+======
+Saya menyarankan anda tidak migrasi dari 2.0, saya rasa dimulai dari awal lebih menguntungkan&lt;/p&gt;
 
 &lt;h1 id=&quot;install-jekyll&quot;&gt;Install Jekyll&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;gem install Jekyll&lt;/code&gt;&lt;/p&gt;
@@ -42,16 +46,21 @@ Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopres
 &lt;h1 id=&quot;atur-github-deploy&quot;&gt;Atur github deploy&lt;/h1&gt;
 &lt;p&gt;Saya menggunakan git untuk deploy, Bisa S3 ataupun rsync&lt;/p&gt;
 
-&lt;p&gt;Buat repo baru di github
-* Contoh nama repo username.github.io //khusus yang menggunakan domain github.io 
-* Jalankan &lt;code&gt;octopress deploy init git git@github.com:username/username.github.io.git&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Buat repo baru di github&lt;/p&gt;
 
-&lt;p&gt;Seperti perintah generate pada rake&lt;/p&gt;
+&lt;p&gt;Contoh Nama repo username.github.io //khusus yang menggunakan domain github.io&lt;/p&gt;
 
+&lt;p&gt;Jalankan &lt;code&gt;octopress deploy init git git@github.com:username/username.github.io.git&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;build-site&quot;&gt;Build Site&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;octopress build&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Commit Source&lt;/p&gt;
+&lt;h1 id=&quot;preview-your-site&quot;&gt;Preview your site&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;octopress serve&lt;/code&gt;&lt;/p&gt;
 
+&lt;p&gt;Buka browser anda &lt;code&gt;127.0.0.1:4000&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;commit-source&quot;&gt;Commit Source&lt;/h1&gt;
 &lt;p&gt;Jalankan &lt;code&gt;git init&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Jalankan &lt;code&gt;git remote add origin GIT-REPO-URl&lt;/code&gt;&lt;/p&gt;

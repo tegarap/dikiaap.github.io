@@ -63,7 +63,11 @@
 
   <article class="post-content">
     <p>Octopress sekarang telah release versi 3.0, Banyak fitur yang ditambahkan di octopress versi terbaru ini.
-Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopress sebelumnya karena terlalu banyak waktu menghabiskan deploy ke git</p>
+Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopress sebelumnya karena terlalu banyak waktu menghabiskan deploy ke git
+Saya tidak tau harus berbuat apa, karena versi yang terbaru ini menggunakan jekyll. Tapi tidak apa-apa saya memulai jekyll juga dari awal
+Saran 
+======
+Saya menyarankan anda tidak migrasi dari 2.0, saya rasa dimulai dari awal lebih menguntungkan</p>
 
 <h1 id="install-jekyll">Install Jekyll</h1>
 <p><code>gem install Jekyll</code></p>
@@ -92,16 +96,21 @@ Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopres
 <h1 id="atur-github-deploy">Atur github deploy</h1>
 <p>Saya menggunakan git untuk deploy, Bisa S3 ataupun rsync</p>
 
-<p>Buat repo baru di github
-* Contoh nama repo username.github.io //khusus yang menggunakan domain github.io 
-* Jalankan <code>octopress deploy init git git@github.com:username/username.github.io.git</code></p>
+<p>Buat repo baru di github</p>
 
-<p>Seperti perintah generate pada rake</p>
+<p>Contoh Nama repo username.github.io //khusus yang menggunakan domain github.io</p>
 
+<p>Jalankan <code>octopress deploy init git git@github.com:username/username.github.io.git</code></p>
+
+<h1 id="build-site">Build Site</h1>
 <p><code>octopress build</code></p>
 
-<p>Commit Source</p>
+<h1 id="preview-your-site">Preview your site</h1>
+<p><code>octopress serve</code></p>
 
+<p>Buka browser anda <code>127.0.0.1:4000</code></p>
+
+<h1 id="commit-source">Commit Source</h1>
 <p>Jalankan <code>git init</code></p>
 
 <p>Jalankan <code>git remote add origin GIT-REPO-URl</code></p>
