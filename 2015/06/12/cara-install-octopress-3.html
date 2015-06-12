@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Diki Andriansyah A P</title>
-  <meta name="description" content="Brom brom code blog brom!! Blog berisi pengajaran dunia programming Dikelola oleh Diki Andriansyah A P.
-">
+  <title>Cara Install Octopress 3</title>
+  <meta name="description" content="Octopress sekarang telah release versi 3.0, Banyak fitur yang ditambahkan di octopress versi terbaru ini.Fitur rake sudah tidak digunakan lagi menurut imathi...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://dikiaap.github.io/">
+  <link rel="canonical" href="http://dikiaap.github.io/2015/06/12/cara-install-octopress-3.html">
   <link rel="alternate" type="application/rss+xml" title="Diki Andriansyah A P" href="http://dikiaap.github.io/feed.xml" />
 </head>
 
@@ -55,39 +54,63 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Cara Install Octopress 3</h1>
+    <p class="post-meta">Jun 12, 2015 • dikiaap</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jun 12, 2015</span>
+  <article class="post-content">
+    <p>Octopress sekarang telah release versi 3.0, Banyak fitur yang ditambahkan di octopress versi terbaru ini.
+Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopress sebelumnya karena terlalu banyak waktu menghabiskan deploy ke git</p>
 
-        <h2>
-          <a class="post-link" href="/2015/06/12/cara-install-octopress-3.html">Cara Install Octopress 3</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 12, 2015</span>
+<h1 id="install-jekyll">Install Jekyll</h1>
+<p>gem install Jekyll</p>
 
-        <h2>
-          <a class="post-link" href="/2015/06/12/cara-install-dan-uninstall-aplikasi-di-ubuntu.html">Cara Install Dan Uninstall Aplikasi Di Ubuntu</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 12, 2015</span>
+<h1 id="buat-perancah-situs">Buat Perancah Situs</h1>
+<p>jekyll new usernamegithub.github.io //jika anda menggunakan domain github.io
+cd usernamegithub.github.io</p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2015/06/12/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<h1 id="install-octopress">Install Octopress</h1>
+<p>gem install octopress
+gem install rake
+gem octopress-deploy
+gem aws-sdk</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>Jalankan perintah ini
+<code>bundle exec octopress init</code></p>
+
+<p>Tambahkan ini di _config.yml, agar Ruby mengabaikan jika terjadi kesalahan
+<code>exclude: [.bundle, bin, vendor]</code></p>
+
+<p>Atur github deploy 
+Saya menggunakan git untuk deploy, Bisa S3 ataupun rsync</p>
+
+<p>Buat repo baru di github
+1. Contoh nama repo username.github.io //khusus yang menggunakan domain github.io 
+2. Jalankan <code>octopress deploy init git git@github.com:username/username.github.io.git</code></p>
+
+<p>Seperti perintah generate pada rake
+<code>octopress build</code></p>
+
+<p>Commit Source</p>
+
+<p>Jalankan <code>git init</code>
+Jalankan <code>git remote add origin GIT-REPO-URl</code>
+Jalankan
+<code>git add .</code>
+<code>git commit -m 'inital Octopress 3.0 install'</code>
+<code>git checkout -b source</code>
+<code>Run git push -u origin source</code></p>
+
+<p>Deploy Situsmu</p>
+
+<p>Jalankan <code>octopress deploy</code></p>
+
+<p>Sumber (Chrisanthropic)[http://www.chrisanthropic.com/blog/2014/installing-octopress-3-0-from-scratch/]</p>
+
+  </article>
 
 </div>
 

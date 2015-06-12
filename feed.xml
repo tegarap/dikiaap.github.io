@@ -6,9 +6,66 @@
 </description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jun 2015 05:26:00 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Jun 2015 05:26:00 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2015 05:48:43 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2015 05:48:43 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Cara Install Octopress 3</title>
+        <description>&lt;p&gt;Octopress sekarang telah release versi 3.0, Banyak fitur yang ditambahkan di octopress versi terbaru ini.
+Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopress sebelumnya karena terlalu banyak waktu menghabiskan deploy ke git&lt;/p&gt;
+
+&lt;h1 id=&quot;install-jekyll&quot;&gt;Install Jekyll&lt;/h1&gt;
+&lt;p&gt;gem install Jekyll&lt;/p&gt;
+
+&lt;h1 id=&quot;buat-perancah-situs&quot;&gt;Buat Perancah Situs&lt;/h1&gt;
+&lt;p&gt;jekyll new usernamegithub.github.io //jika anda menggunakan domain github.io
+cd usernamegithub.github.io&lt;/p&gt;
+
+&lt;h1 id=&quot;install-octopress&quot;&gt;Install Octopress&lt;/h1&gt;
+&lt;p&gt;gem install octopress
+gem install rake
+gem octopress-deploy
+gem aws-sdk&lt;/p&gt;
+
+&lt;p&gt;Jalankan perintah ini
+&lt;code&gt;bundle exec octopress init&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Tambahkan ini di _config.yml, agar Ruby mengabaikan jika terjadi kesalahan
+&lt;code&gt;exclude: [.bundle, bin, vendor]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Atur github deploy 
+Saya menggunakan git untuk deploy, Bisa S3 ataupun rsync&lt;/p&gt;
+
+&lt;p&gt;Buat repo baru di github
+1. Contoh nama repo username.github.io //khusus yang menggunakan domain github.io 
+2. Jalankan &lt;code&gt;octopress deploy init git git@github.com:username/username.github.io.git&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Seperti perintah generate pada rake
+&lt;code&gt;octopress build&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Commit Source&lt;/p&gt;
+
+&lt;p&gt;Jalankan &lt;code&gt;git init&lt;/code&gt;
+Jalankan &lt;code&gt;git remote add origin GIT-REPO-URl&lt;/code&gt;
+Jalankan
+&lt;code&gt;git add .&lt;/code&gt;
+&lt;code&gt;git commit -m &#39;inital Octopress 3.0 install&#39;&lt;/code&gt;
+&lt;code&gt;git checkout -b source&lt;/code&gt;
+&lt;code&gt;Run git push -u origin source&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Deploy Situsmu&lt;/p&gt;
+
+&lt;p&gt;Jalankan &lt;code&gt;octopress deploy&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Sumber (Chrisanthropic)[http://www.chrisanthropic.com/blog/2014/installing-octopress-3-0-from-scratch/]&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jun 2015 05:28:01 +0000</pubDate>
+        <link>http://dikiaap.github.io/2015/06/12/cara-install-octopress-3.html</link>
+        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/12/cara-install-octopress-3.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cara Install Dan Uninstall Aplikasi Di Ubuntu</title>
