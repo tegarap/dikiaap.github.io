@@ -4,10 +4,10 @@
     <title>Diki Andriansyah A P</title>
     <description>Brom brom code blog brom!! Blog berisi pengajaran dunia programming Dikelola oleh Diki Andriansyah A P.
 </description>
-    <link>http://dikiaap.github.io/blog//</link>
-    <atom:link href="http://dikiaap.github.io/blog//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jun 2015 05:16:24 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Jun 2015 05:16:24 +0000</lastBuildDate>
+    <link>http://dikiaap.github.io/</link>
+    <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 12 Jun 2015 05:18:32 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2015 05:18:32 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Fri, 12 Jun 2015 04:31:39 +0000</pubDate>
-        <link>http://dikiaap.github.io/blog//jekyll/update/2015/06/12/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://dikiaap.github.io/blog//jekyll/update/2015/06/12/welcome-to-jekyll.html</guid>
+        <link>http://dikiaap.github.io/jekyll/update/2015/06/12/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://dikiaap.github.io/jekyll/update/2015/06/12/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
