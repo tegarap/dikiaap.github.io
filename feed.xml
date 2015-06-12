@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diki Andriansyah A P</title>
-    <description>Brom brom code blog brom!! Blog berisi pengajaran dunia programming Dikelola oleh Diki Andriansyah A P.
+    <description>Brom brom code blog brom!! Blog berisi pengajaran dunia programming. Dikelola oleh Diki Andriansyah A P.
 </description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jun 2015 06:06:57 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Jun 2015 06:06:57 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2015 06:15:25 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2015 06:15:25 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -45,8 +45,6 @@ Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopres
 &lt;p&gt;&lt;code&gt;exclude: [.bundle, bin, vendor]&lt;/code&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;atur-github-deploy&quot;&gt;Atur github deploy&lt;/h1&gt;
-&lt;p&gt;Saya menggunakan git untuk deploy, Bisa S3 ataupun rsync&lt;/p&gt;
-
 &lt;p&gt;Buat repo baru di github&lt;/p&gt;
 
 &lt;p&gt;Contoh Nama repo &lt;strong&gt;username.github.io&lt;/strong&gt; //khusus yang menggunakan domain github.io&lt;/p&gt;
