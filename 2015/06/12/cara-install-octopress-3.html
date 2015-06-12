@@ -66,17 +66,21 @@
 Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopress sebelumnya karena terlalu banyak waktu menghabiskan deploy ke git</p>
 
 <h1 id="install-jekyll">Install Jekyll</h1>
-<p>gem install Jekyll</p>
+<p><code>gem install Jekyll</code></p>
 
 <h1 id="buat-perancah-situs">Buat Perancah Situs</h1>
-<p>jekyll new usernamegithub.github.io //jika anda menggunakan domain github.io
-cd usernamegithub.github.io</p>
+<p><code>jekyll new usernamegithub.github.io</code> //jika anda menggunakan domain github.io</p>
+
+<p><code>cd usernamegithub.github.io</code></p>
 
 <h1 id="install-octopress">Install Octopress</h1>
-<p>gem install octopress
-gem install rake
-gem octopress-deploy
-gem aws-sdk</p>
+<p><code>gem install octopress</code></p>
+
+<p><code>gem install rake</code></p>
+
+<p><code>gem octopress-deploy</code></p>
+
+<p><code>gem aws-sdk</code></p>
 
 <p>Jalankan perintah ini
 <code>bundle exec octopress init</code></p>
@@ -88,8 +92,8 @@ gem aws-sdk</p>
 Saya menggunakan git untuk deploy, Bisa S3 ataupun rsync</p>
 
 <p>Buat repo baru di github
-1. Contoh nama repo username.github.io //khusus yang menggunakan domain github.io 
-2. Jalankan <code>octopress deploy init git git@github.com:username/username.github.io.git</code></p>
+    1. Contoh nama repo username.github.io //khusus yang menggunakan domain github.io 
+    2. Jalankan <code>octopress deploy init git git@github.com:username/username.github.io.git</code></p>
 
 <p>Seperti perintah generate pada rake
 <code>octopress build</code></p>

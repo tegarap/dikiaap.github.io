@@ -6,8 +6,8 @@
 </description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jun 2015 05:48:43 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Jun 2015 05:48:43 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2015 05:52:50 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2015 05:52:50 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -16,17 +16,21 @@
 Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopress sebelumnya karena terlalu banyak waktu menghabiskan deploy ke git&lt;/p&gt;
 
 &lt;h1 id=&quot;install-jekyll&quot;&gt;Install Jekyll&lt;/h1&gt;
-&lt;p&gt;gem install Jekyll&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gem install Jekyll&lt;/code&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;buat-perancah-situs&quot;&gt;Buat Perancah Situs&lt;/h1&gt;
-&lt;p&gt;jekyll new usernamegithub.github.io //jika anda menggunakan domain github.io
-cd usernamegithub.github.io&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;jekyll new usernamegithub.github.io&lt;/code&gt; //jika anda menggunakan domain github.io&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cd usernamegithub.github.io&lt;/code&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;install-octopress&quot;&gt;Install Octopress&lt;/h1&gt;
-&lt;p&gt;gem install octopress
-gem install rake
-gem octopress-deploy
-gem aws-sdk&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gem install octopress&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;gem install rake&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;gem octopress-deploy&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;gem aws-sdk&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Jalankan perintah ini
 &lt;code&gt;bundle exec octopress init&lt;/code&gt;&lt;/p&gt;
@@ -38,8 +42,8 @@ gem aws-sdk&lt;/p&gt;
 Saya menggunakan git untuk deploy, Bisa S3 ataupun rsync&lt;/p&gt;
 
 &lt;p&gt;Buat repo baru di github
-1. Contoh nama repo username.github.io //khusus yang menggunakan domain github.io 
-2. Jalankan &lt;code&gt;octopress deploy init git git@github.com:username/username.github.io.git&lt;/code&gt;&lt;/p&gt;
+    1. Contoh nama repo username.github.io //khusus yang menggunakan domain github.io 
+    2. Jalankan &lt;code&gt;octopress deploy init git git@github.com:username/username.github.io.git&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Seperti perintah generate pada rake
 &lt;code&gt;octopress build&lt;/code&gt;&lt;/p&gt;
