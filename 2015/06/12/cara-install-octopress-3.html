@@ -85,34 +85,42 @@ Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopres
 <p>Jalankan perintah ini
 <code>bundle exec octopress init</code></p>
 
-<p>Tambahkan ini di _config.yml, agar Ruby mengabaikan jika terjadi kesalahan
-<code>exclude: [.bundle, bin, vendor]</code></p>
+<p>Tambahkan ini di _config.yml, agar Ruby mengabaikan jika terjadi kesalahan</p>
 
-<p>Atur github deploy 
-Saya menggunakan git untuk deploy, Bisa S3 ataupun rsync</p>
+<p><code>exclude: [.bundle, bin, vendor]</code></p>
+
+<h1 id="atur-github-deploy">Atur github deploy</h1>
+<p>Saya menggunakan git untuk deploy, Bisa S3 ataupun rsync</p>
 
 <p>Buat repo baru di github
-    1. Contoh nama repo username.github.io //khusus yang menggunakan domain github.io 
-    2. Jalankan <code>octopress deploy init git git@github.com:username/username.github.io.git</code></p>
+* Contoh nama repo username.github.io //khusus yang menggunakan domain github.io 
+* Jalankan <code>octopress deploy init git git@github.com:username/username.github.io.git</code></p>
 
-<p>Seperti perintah generate pada rake
-<code>octopress build</code></p>
+<p>Seperti perintah generate pada rake</p>
+
+<p><code>octopress build</code></p>
 
 <p>Commit Source</p>
 
-<p>Jalankan <code>git init</code>
-Jalankan <code>git remote add origin GIT-REPO-URl</code>
-Jalankan
-<code>git add .</code>
-<code>git commit -m 'inital Octopress 3.0 install'</code>
-<code>git checkout -b source</code>
-<code>Run git push -u origin source</code></p>
+<p>Jalankan <code>git init</code></p>
+
+<p>Jalankan <code>git remote add origin GIT-REPO-URl</code></p>
+
+<p>Jalankan</p>
+
+<p><code>git add .</code></p>
+
+<p><code>git commit -m 'inital Octopress 3.0 install'</code></p>
+
+<p><code>git checkout -b source</code></p>
+
+<p><code>Run git push -u origin source</code></p>
 
 <p>Deploy Situsmu</p>
 
 <p>Jalankan <code>octopress deploy</code></p>
 
-<p>Sumber (Chrisanthropic)[http://www.chrisanthropic.com/blog/2014/installing-octopress-3-0-from-scratch/]</p>
+<p>Sumber <a href="http://www.chrisanthropic.com/blog/2014/installing-octopress-3-0-from-scratch/">Chrisanthropic</a></p>
 
   </article>
 
