@@ -6,18 +6,19 @@
 </description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jun 2015 07:30:42 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Jun 2015 07:30:42 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2015 07:33:16 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2015 07:33:16 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Top Linux Distro Pentesting 2015</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/ByLFQL_CYAENWEl.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Ini adalah beberapa distro pentest yang sering digunakan oleh para penetrasi system&lt;/p&gt;
-
-&lt;h1 id=&quot;kali-linux&quot;&gt;Kali Linux&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/www.binarytides.com/blog/wp-content/uploads/2013/08/kali-linux.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Ini adalah beberapa distro pentest yang sering digunakan oleh para penetrasi system
+&lt;!--more--&gt;
+Kali Linux
+=================
+ &lt;img src=&quot;https://i2.wp.com/www.binarytides.com/blog/wp-content/uploads/2013/08/kali-linux.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;backbox&quot;&gt;Backbox&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&quot;https://i2.wp.com/www.linuxuser.co.uk/wp-content/uploads/2012/01/backbox2-tools.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
@@ -166,7 +167,8 @@ Pertama,&lt;/p&gt;
       <item>
         <title>Cara Install Octopress 3</title>
         <description>&lt;p&gt;Octopress sekarang telah release versi 3.0, Banyak fitur yang ditambahkan di octopress versi terbaru ini.
-Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopress sebelumnya karena terlalu banyak waktu menghabiskan deploy ke git&lt;/p&gt;
+Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopress sebelumnya karena terlalu banyak waktu menghabiskan deploy ke git
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Saya tidak tau harus berbuat apa, karena versi yang terbaru ini menggunakan jekyll. Tapi tidak apa-apa saya memulai jekyll juga dari awal&lt;/p&gt;
 
