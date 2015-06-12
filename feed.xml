@@ -6,9 +6,84 @@
 </description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jun 2015 07:05:28 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Jun 2015 07:05:28 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2015 07:12:50 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2015 07:12:50 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Top Linux Distro Pentesting 2015</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/ByLFQL_CYAENWEl.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ini adalah beberapa distro pentest yang sering digunakan oleh para penetrasi system&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Kali Linux&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/www.binarytides.com/blog/wp-content/uploads/2013/08/kali-linux.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Backbox&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/www.linuxuser.co.uk/wp-content/uploads/2012/01/backbox2-tools.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;BlackArch&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dikiaap.files.wordpress.com/2015/02/7549c-awesome.png?w=1440&amp;amp;h=900&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Backtrack (Expired)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i1.wp.com/www.linuxuser.co.uk/wp-content/uploads/2011/07/bt5-menu-1024x602.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Knoppix STD (Expired/No update)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/i1-linux.softpedia-static.com/screenshots/Knoppix-STD_3.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ParrotSec&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dikiaap.files.wordpress.com/2015/02/a5379-parrot-forensics.png?w=1024&amp;amp;h=768&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;DeftOS&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/www.gfi.com/blog/wp-content/uploads/2013/09/11.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Caine&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.caine-live.net/caine6.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;BugTraq&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/b/b6/Screenshot_bugtraq.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Pentoo&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://beginlinux.files.wordpress.com/2009/12/pentoo2.gif?w=550&amp;amp;h=415&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dan banyak lagi distro pentest yang mempunyai keunggulan tersendiri&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jun 2015 07:08:03 +0000</pubDate>
+        <link>http://dikiaap.github.io/2015/06/12/top-linux-distro-pentesting-2015.html</link>
+        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/12/top-linux-distro-pentesting-2015.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Extension Chrome Untuk Privasi</title>
