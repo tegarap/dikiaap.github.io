@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Diki Andriansyah A P</title>
-  <meta name="description" content="Brom brom code blog brom!! Blog berisi pengajaran dunia programming. Dikelola oleh Diki Andriansyah A P.
-">
+  <title>Membuat Host Only Network</title>
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://dikiaap.github.io/">
+  <link rel="canonical" href="http://dikiaap.github.io/2015/06/14/membuat-host-only-network.html">
   <link rel="alternate" type="application/rss+xml" title="Diki Andriansyah A P" href="http://dikiaap.github.io/feed.xml" />
 </head>
 
@@ -55,79 +54,71 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Membuat Host Only Network</h1>
+    <p class="post-meta">Jun 14, 2015 • dikiaap</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jun 14, 2015</span>
+  <article class="post-content">
+    <p><img src="https://dikiaap.files.wordpress.com/2014/12/screenshot-1.png?w=712" alt="Alt text" />
+<!--more--></p>
 
-        <h2>
-          <a class="post-link" href="/2015/06/14/membuat-host-only-network.html">Membuat Host Only Network</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 14, 2015</span>
+<p>Berawal dari pc pas2 an, alias hanya ada 1 di rumah.  Saya berpikiran untuk membangun sebuah lokal network di rumah, yaitu dengan 1 pc dan bantuan 2 OS, yakni OS host dan OS virtual machine di virtual box. Yah, Apa daya cuma punya 1 pc. Tapi tidak apa2. Ini cukup membantu bagi yang ingin ngetest system yang butuh 2 OS / lebih.. Nama Koneksi Jaringan ini adalah Hostonly Network Pertama Buka Virtual Box.</p>
 
-        <h2>
-          <a class="post-link" href="/2015/06/14/wallpaper-indonesian-backtrack-team.html">Wallpaper Indonesian Backtrack Team</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 14, 2015</span>
+<p>Pertama, Setting Network di vbox <code>File &gt; Preferences</code></p>
 
-        <h2>
-          <a class="post-link" href="/2015/06/14/design-kemeja-ibt.html">Design Kemeja IBT</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 14, 2015</span>
+<p>Pilih <code>Network &gt; Lalu Pilih Tab Host-only Network &gt; Tombol Add</code></p>
 
-        <h2>
-          <a class="post-link" href="/2015/06/14/package-for-sublime-text.html">Package for Sublime Text</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 12, 2015</span>
+<p>Klik gambar obeng seperti gambar diatas Untuk mensetting Ip Address Beserta Subnetmasknya</p>
 
-        <h2>
-          <a class="post-link" href="/2015/06/12/top-linux-distro-pentesting-2015.html">Top Linux Distro Pentesting 2015</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 12, 2015</span>
+<p>NOTE:</p>
 
-        <h2>
-          <a class="post-link" href="/2015/06/12/extension-chrome-untuk-privasi.html">Extension Chrome Untuk Privasi</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 12, 2015</span>
+<ul>
+  <li>
+    <p>Perlu diingat IP harus 192.168.56.1 karena itu defaultnya vbox, kalau diganti mungkin tidak akan terdeteksi di jaringan lokalnya</p>
+  </li>
+  <li>
+    <p>DHCP Server tidak usah dicentang, karena kita hanya menggunakan ip address static saja</p>
+  </li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/2015/06/12/cara-install-octopress-3.html">Cara Install Octopress 3</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 12, 2015</span>
+<p>Sekarang pilih OS anda</p>
 
-        <h2>
-          <a class="post-link" href="/2015/06/12/cara-install-dan-uninstall-aplikasi-di-ubuntu.html">Cara Install Dan Uninstall Aplikasi Di Ubuntu</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p>Pilih <code>Network &gt; Tab Adapter 1</code> Settinglah seperti gambar berikut</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>Lalu setting IP nya diwindows (virtual machine), konfigurasi diwindows ini dideteksi sebagai LAN</p>
+
+<p>Sekarang konfigurasi jaringan di komputer kita, konfigurasi di host ini harus memakai eth0</p>
+
+<p>Edit juga network interfaces nya</p>
+
+<p><code>root@pickgoo:~# nano /etc/network/interfaces</code></p>
+
+<p>auto eth0</p>
+
+<p>iface eth0 inet static</p>
+
+<p>address         192.168.56.55</p>
+
+<p>netmask         255.255.255.0</p>
+
+<p>network         192.168.56.0</p>
+
+<p>broadcast       192.168.56.254</p>
+
+<p>post-up route add default gw 192.168.56.1 metric 2</p>
+
+<p>pre-down route del default gw 192.168.56.1</p>
+
+<p>gateway         192.168.56.1</p>
+
+<p>Note : Firewall di OS host dan OS virtual machine harus di disable, Kalau tidak mungkin koneksi nya akan di block oleh firewall tadi</p>
+
+<p>Semoga bermanfaat</p>
+
+  </article>
 
 </div>
 
