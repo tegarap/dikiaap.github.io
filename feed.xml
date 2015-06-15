@@ -6,9 +6,42 @@
 </description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Jun 2015 23:12:21 +0700</pubDate>
-    <lastBuildDate>Mon, 15 Jun 2015 23:12:21 +0700</lastBuildDate>
+    <pubDate>Mon, 15 Jun 2015 23:26:50 +0700</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2015 23:26:50 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Perintah Dasar Di Octopress</title>
+        <description>&lt;p&gt;Berikut ini adalah perintah dasar dari octopress framework&lt;/p&gt;
+
+&lt;p&gt;Jekyll juga punya kekerabatan dengan octopress :)&lt;/p&gt;
+
+&lt;p&gt;Saya menggunakan octopress 3.0.7 dan jekyll 2.5.3&lt;/p&gt;
+
+&lt;h1 id=&quot;membuat-post&quot;&gt;Membuat Post&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;octopress new post &quot;Judul Artikel yang kamu inginkan&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;membuat-halaman-baru&quot;&gt;Membuat Halaman Baru&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;octopress new page &quot;Judul Page yang kamu inginkan&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;membuat-draft&quot;&gt;Membuat Draft&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;octopress new draft &quot;Judul Artikel yang kamu ingin simpan&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;menggunakan-octopress-di-komputer-local-kamu&quot;&gt;Menggunakan Octopress di Komputer local kamu&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;jekyll serve&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;memperbarui-template-dan-postingan-octopress-kamu&quot;&gt;Memperbarui Template dan Postingan Octopress kamu&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;jekyll build&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;mendeploy-situsmu-ke-github&quot;&gt;Mendeploy situsmu ke Github&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;octopress deploy&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Jun 2015 23:14:00 +0700</pubDate>
+        <link>http://dikiaap.github.io/2015/06/15/perintah-dasar-di-octopress.html</link>
+        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/15/perintah-dasar-di-octopress.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cara Install Ruby Di Ubuntu</title>
@@ -428,78 +461,6 @@ Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopres
         <pubDate>Fri, 12 Jun 2015 12:28:01 +0700</pubDate>
         <link>http://dikiaap.github.io/2015/06/12/cara-install-octopress-3.html</link>
         <guid isPermaLink="true">http://dikiaap.github.io/2015/06/12/cara-install-octopress-3.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cara Install Dan Uninstall Aplikasi Di Ubuntu</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://lh3.googleusercontent.com/-VGersloivso/VXL7uyNTWzI/AAAAAAAAAPE/SIeYdwNrkqo/s640/6814198-ubuntu-backgrounds.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Masih bingung menginstall dan uninstall aplikasi di Ubuntu? Tenang saja, saya akan membahas tentang tata cara bagaimana menginstall dan uninstall aplikasi di Ubuntu secara online.
-Pertama, kita harus paham dulu apa itu repository. Repository adalah Sekumpulan paket-paket aplikasi atau program aplikasi yang digunakan untuk Sistem Operasi di Linux yang didapatkan dari Server Mirror website tersebut.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Tidak seperti windows, Ubuntu saat menginstall aplikasi, direkomendasikan untuk menginstall secara online. Karena aplikasi di Ubuntu tidak hanya mempunyai satu paket, karena ubuntu mempunyai beberapa paket yang saling berhubungan dan bergantungan antara paket yang satu dengan paket yang lain.&lt;/p&gt;
-
-&lt;p&gt;Jika sudah paham, maka alangkah baiknya kita langsung menuju kelangkah selanjutnya. Hehe.&lt;/p&gt;
-
-&lt;p&gt;Selanjutnya kita harus update dulu package listnya.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Pertama Buka Terminal atau bisa dengan shortcut keyboard Ctrl+Alt+T.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ketikan Perintah berikut&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Ketikan password anda kemudian tekan enter.
-* Lalu jika proses sudah selesai ketikan perintah ini untuk menginstall aplikasi&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get install nama-aplikasi&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Lalu ketik y dan tekan enter.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Untuk upgrade aplikasi dan Os Ubuntu anda. Anda juga dapat melakukannya dengan perintah ini&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get upgrade&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Lalu ketik y dan tekan enter.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Untuk melihat aplikasi dan paket-paket terbaru yang belum diupdate, Anda juga dapat melakukannya dengan perintah ini&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get dist-upgrade&lt;/code&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Untuk menguninstall aplikasi. Lakukan dengan perintah ini&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get remove nama-aplikasi&lt;/code&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Untuk menguninstall aplikasi sampai keakar-akar paketnya. Lakukan dengan perintah ini&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get purge nama-aplikasi&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Jika kamu belum paham, kamu bisa komentar disini. Agar kami bisa membantu.&lt;/p&gt;
-
-&lt;p&gt;Cukup disini artikel untuk perintah perintah install dan uninstall aplikasi di ubuntu. Nanti di artikel yang akan datang saya akan membahas tentang aplikasi-aplikasi di Ubuntu.&lt;/p&gt;
-
-&lt;p&gt;Semoga bermanfaat.&lt;/p&gt;
-
-&lt;p&gt;Salam Open Source!&lt;/p&gt;
-
-&lt;p&gt;Sumber : Tulisan Tangan Saya Sendiri di &lt;a href=&quot;http://www.linuxindonesia.com/2015/06/cara-menginstall-dan-uninstall-aplikasi.html&quot;&gt;Linuxindonesia.com&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jun 2015 12:23:43 +0700</pubDate>
-        <link>http://dikiaap.github.io/2015/06/12/cara-install-dan-uninstall-aplikasi-di-ubuntu.html</link>
-        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/12/cara-install-dan-uninstall-aplikasi-di-ubuntu.html</guid>
         
         
       </item>
