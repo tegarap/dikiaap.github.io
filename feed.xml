@@ -6,12 +6,12 @@
 </description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Jun 2015 23:26:50 +0700</pubDate>
-    <lastBuildDate>Mon, 15 Jun 2015 23:26:50 +0700</lastBuildDate>
+    <pubDate>Mon, 15 Jun 2015 23:30:15 +0700</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2015 23:30:15 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Perintah Dasar Di Octopress</title>
+        <title>Perintah Dasar Di Octopress 3.0</title>
         <description>&lt;p&gt;Berikut ini adalah perintah dasar dari octopress framework&lt;/p&gt;
 
 &lt;p&gt;Jekyll juga punya kekerabatan dengan octopress :)&lt;/p&gt;
@@ -44,7 +44,7 @@
       </item>
     
       <item>
-        <title>Cara Install Ruby Di Ubuntu</title>
+        <title>Cara Install Ruby Di Ubuntu 15.04</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/100px-Ruby_logo.svg.png&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ruby adalah…&lt;/p&gt;
