@@ -6,8 +6,8 @@
 </description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Jun 2015 14:58:22 +0000</pubDate>
-    <lastBuildDate>Sun, 14 Jun 2015 14:58:22 +0000</lastBuildDate>
+    <pubDate>Mon, 15 Jun 2015 05:23:16 +0000</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2015 05:23:16 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -278,9 +278,10 @@ Pertama,&lt;/p&gt;
       </item>
     
       <item>
-        <title>Cara Install Octopress 3</title>
+        <title>Cara Install Octopress 3.0</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://cdn.tutsplus.com/webdesign/authors/ian-yates/octopress-header.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
+&lt;h1 id=&quot;octopress-30&quot;&gt;Octopress 3.0&lt;/h1&gt;
 &lt;p&gt;Octopress sekarang telah release versi 3.0, Banyak fitur yang ditambahkan di octopress versi terbaru ini.
 Fitur rake sudah tidak digunakan lagi menurut imathis dia kecewa dengan octopress sebelumnya karena terlalu banyak waktu menghabiskan deploy ke git
 &lt;!--more--&gt;&lt;/p&gt;
