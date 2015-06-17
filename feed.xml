@@ -1,14 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Diki Andriansyah A P</title>
+    <title>Brom [ ] Diki Andriansyah A P</title>
     <description>Programs that make the spirit.
 Brom brom code blog brom!! Blog berisi pengetahuan dan kekuatan programming.</description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Jun 2015 23:18:46 +0700</pubDate>
-    <lastBuildDate>Tue, 16 Jun 2015 23:18:46 +0700</lastBuildDate>
+    <pubDate>Wed, 17 Jun 2015 13:01:21 +0700</pubDate>
+    <lastBuildDate>Wed, 17 Jun 2015 13:01:21 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Install Laravel 5 Di Ubuntu</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://www.codeanchor.net/wp-content/uploads/2015/03/Laravel-5.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;installasi&quot;&gt;Installasi&lt;/h1&gt;
+&lt;p&gt;Rekomendasi System&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;PHP &amp;gt;= 5.5.9&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;OpenSSL PHP Extension&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mbstring PHP Extension&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tokenizer PHP Extension&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ada 3 Macam Installasi Laravel, yaitu :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install Laravel Lewat &lt;strong&gt;Composer&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install Laravel Lewat &lt;strong&gt;Composer Create-Project&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install Laravel Lewat &lt;strong&gt;Source Code&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Silahkan pilih untuk kemudahan dan kegunaan yang cocok buat anda&lt;/p&gt;
+
+&lt;h1 id=&quot;install-laravel-lewat-composer&quot;&gt;Install Laravel Lewat Composer&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;sudo apt-get install curl&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;curl -sS https://getcomposer.org/installer | php&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo mv composer.phar /usr/local/bin/composer&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;composer global require &quot;laravel/installer=~1.1&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Executable laravel berada di ~/.composer/vendor/bin/laravel&lt;/p&gt;
+
+&lt;p&gt;Agar lebih mudah dijalankan, kita buat alias untuk laravel&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nano ~/.bashrc&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Sisipkan kode ini &lt;code&gt;alias laravel=&#39;/home/username/.composer/vendor/bin/laravel&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Jangan lupa simpan&lt;/p&gt;
+
+&lt;p&gt;Saya memakai nginx, File local web server saya di /var/www/&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cd /var/www&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;laravel new blog&lt;/code&gt; blog disini adalah folder project kamu.&lt;/p&gt;
+
+&lt;h1 id=&quot;install-laravel-lewat-composer-create-project&quot;&gt;Install Laravel Lewat Composer Create-Project&lt;/h1&gt;
+&lt;p&gt;Kamu juga dapat install laravel menggunakan Composer &lt;code&gt;create-project&lt;/code&gt; lewat terminal&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;composer create-project laravel/laravel blog --prefer-dist&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;install-laravel-lewat-source-code&quot;&gt;Install Laravel Lewat Source Code&lt;/h1&gt;
+&lt;p&gt;Cara ini banyak digunakan oleh programmer, karena kemudahannya&lt;/p&gt;
+
+&lt;p&gt;Source : &lt;a href=&quot;https://github.com/laravel/laravel&quot;&gt;Github Laravel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tapi saya rekomendasikan buat yang mempunyai koneksi internet stabil untuk mendownload secara online, karena pasti akan mendapatkan update terbaru library library dari laravel.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Referensi&lt;/strong&gt; :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://laravel.com/docs/5.1&quot;&gt;Official Website Laravel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://id-laravel.com/post/instalasi-laravel-5/&quot;&gt;Id Laravel&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Jun 2015 12:16:26 +0700</pubDate>
+        <link>http://dikiaap.github.io/2015/06/17/install-laravel-di-ubuntu.html</link>
+        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/17/install-laravel-di-ubuntu.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ebook Laravel 5 Indonesia</title>
@@ -295,52 +384,6 @@ Sublime Text with sail scheme&lt;/p&gt;
         <pubDate>Sun, 14 Jun 2015 21:04:35 +0700</pubDate>
         <link>http://dikiaap.github.io/2015/06/14/package-for-sublime-text.html</link>
         <guid isPermaLink="true">http://dikiaap.github.io/2015/06/14/package-for-sublime-text.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Top Linux Distro Pentesting 2015</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/ByLFQL_CYAENWEl.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ini adalah beberapa distro pentest yang sering digunakan oleh para penetrasi system
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;kali-linux&quot;&gt;Kali Linux&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/www.binarytides.com/blog/wp-content/uploads/2013/08/kali-linux.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;backbox&quot;&gt;Backbox&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/www.linuxuser.co.uk/wp-content/uploads/2012/01/backbox2-tools.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;blackarch&quot;&gt;BlackArch&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://dikiaap.files.wordpress.com/2015/02/7549c-awesome.png?w=1440&amp;amp;h=900&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;backtrack-expired&quot;&gt;Backtrack (Expired)&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://i1.wp.com/www.linuxuser.co.uk/wp-content/uploads/2011/07/bt5-menu-1024x602.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;knoppix-std-expiredno-update&quot;&gt;Knoppix STD (Expired/No update)&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/i1-linux.softpedia-static.com/screenshots/Knoppix-STD_3.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;parrotsec&quot;&gt;ParrotSec&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://dikiaap.files.wordpress.com/2015/02/a5379-parrot-forensics.png?w=1024&amp;amp;h=768&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;deftos&quot;&gt;DeftOS&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/www.gfi.com/blog/wp-content/uploads/2013/09/11.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;caine&quot;&gt;Caine&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;http://www.caine-live.net/caine6.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;bugtraq&quot;&gt;BugTraq&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/b/b6/Screenshot_bugtraq.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;pentoo&quot;&gt;Pentoo&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://beginlinux.files.wordpress.com/2009/12/pentoo2.gif?w=550&amp;amp;h=415&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Dan banyak lagi distro pentest yang mempunyai keunggulan tersendiri&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jun 2015 14:08:03 +0700</pubDate>
-        <link>http://dikiaap.github.io/2015/06/12/top-linux-distro-pentesting-2015.html</link>
-        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/12/top-linux-distro-pentesting-2015.html</guid>
         
         
       </item>
