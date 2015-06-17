@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="/favicon.png" rel="icon">
-  <title>Cara Install Ruby Di Ubuntu 15.04</title>
+  <title>Install RubyGems Di Ubuntu</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://dikiaap.github.io/2015/06/15/cara-install-ruby-di-ubuntu.html">
+  <link rel="canonical" href="http://dikiaap.github.io/2015/06/18/install-rubygems-di-ubuntu.html">
   <link rel="alternate" type="application/rss+xml" title="Brom [ ] Diki Andriansyah A P" href="http://dikiaap.github.io/feed.xml" />
 </head>
 
@@ -55,42 +55,42 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Cara Install Ruby Di Ubuntu 15.04</h1>
-    <p class="post-meta">Jun 15, 2015 • dikiaap</p>
+    <h1 class="post-title">Install RubyGems Di Ubuntu</h1>
+    <p class="post-meta">Jun 18, 2015 • dikiaap</p>
   </header>
 
   <article class="post-content">
-    <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/100px-Ruby_logo.svg.png" alt="Alt" /></p>
+    <p><img src="http://4.bp.blogspot.com/-LJKB_cngNGM/VYHwCH_hRnI/AAAAAAAAAPc/majQS4qnX-4/s320/Ruby.png" alt="Alt text" /></p>
 
-<p>Ruby adalah Bahasa pemrograman open source dinamis, mudah dimengerti dan produktif. Sintaks Ruby elegan, natural, mudah dibaca dan ditulis dan berorientasi objek.</p>
+<p>Apa itu RubyGems?</p>
 
-<p>Ruby merupakan bahasa yang seimbang. Pencipta Ruby, Yukihiro “Matz” Matsumoto, menggabungkan bagian-bagian dari bahasa-bahasa favorit beliau (Perl, Smalltalk, Eiffel, Ada dan Lisp) untuk membentuk bahasa baru yang seimbang antara pemrograman fungsional dengan pemrograman imperatif.</p>
+<blockquote>
+  <p>RubyGems is a package manager for the Ruby programming language that provides a standard format for
+distributing Ruby programs and libraries (in a self-contained format called a “gem”), a tool designed to
+easily manage the installation of gems, and a server for distributing them. It is analogous to pip for the 
+Python programming language. RubyGems was created in about November 2003 and is now part of the standard 
+library from Ruby version 1.9.</p>
 
-<p>Versi Ruby Sekarang adalah 2.2.x</p>
+  <p>RubyGems RubyGems - Wikipedia, the Free Encyclopedia</p>
+</blockquote>
 
-<p>Pertama update dulu, supaya aplikasi anda tetap up to date</p>
+<p>RubyGems bisa di katakan gudangnya library dari ruby, terdapat banyak sekali library disana dengan banyak manfaat-manfaat tertentu.</p>
 
-<p><code>sudo apt-get update</code></p>
+<p>Cara menginstall RubyGems Ini seperti apt-get install di Linux, semua paket yang belum terinstall otomatis langsung di download, bukan di download satu persatu.</p>
 
-<p>Langkah selanjutnya</p>
-
-<p><code>sudo apt-get install ruby</code></p>
+<p>Anda Harus install dulu gemnya</p>
 
 <p><code>sudo apt-get install gem</code></p>
 
-<p><code>sudo apt-get install ruby-dev</code></p>
+<p><code>sudo gem update --system</code></p>
 
-<p>Saya menggunakan Ubuntu versi 15.04</p>
+<p><code>sudo gem update</code></p>
 
-<p>Ubuntu versi tersebut tidak ada kendala dalam penginstallan</p>
+<p><code>sudo gem install bundler</code></p>
 
-<p>Jangan lupa juga menginstall <code>gcc</code> sama <code>make</code></p>
+<p><code>sudo gem install rails</code></p>
 
-<p>Baca juga <a href="https://dikiaap.github.io/2015/06/12/cara-install-octopress-3.html">Cara Install Octopress 3.0</a></p>
-
-<p>Octopress adalah framework website yang bagus untuk blogging yang dibangun dari jekyll dan ruby, Serta lebih bagus dari wordpress, Sudah banyak pengguna wordpress yang pindah ke Octopress Framework</p>
-
-<p>Octopress juga disebut A blog Framework for Hackers :D</p>
+<p>Dan masih banyak lagi, kalian bisa liat banyak library disini https://rubygems.org/gems/</p>
 
   </article>
 
