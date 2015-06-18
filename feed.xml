@@ -6,15 +6,16 @@
 Brom brom code blog brom!! Blog berisi pengetahuan dan kekuatan programming.</description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jun 2015 05:52:52 +0700</pubDate>
-    <lastBuildDate>Thu, 18 Jun 2015 05:52:52 +0700</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2015 15:15:25 +0700</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2015 15:15:25 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Install RubyGems Di Ubuntu</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://4.bp.blogspot.com/-LJKB_cngNGM/VYHwCH_hRnI/AAAAAAAAAPc/majQS4qnX-4/s320/Ruby.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-WX5e5_lXmQk/VYJ8Ch0ZlDI/AAAAAAAAAWA/_cOH42Vv0v8/s320/Ruby.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Apa itu RubyGems?&lt;/p&gt;
+&lt;p&gt;Apa itu RubyGems?
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;RubyGems is a package manager for the Ruby programming language that provides a standard format for
@@ -42,7 +43,7 @@ library from Ruby version 1.9.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;sudo gem install rails&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Dan masih banyak lagi, kalian bisa liat banyak library disini https://rubygems.org/gems/&lt;/p&gt;
+&lt;p&gt;Dan masih banyak lagi, kalian bisa liat banyak library disini &lt;a href=&quot;https://rubygems.org/gems/&quot;&gt;https://rubygems.org/gems/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Jun 2015 05:37:52 +0700</pubDate>
         <link>http://dikiaap.github.io/2015/06/18/install-rubygems-di-ubuntu.html</link>
@@ -53,7 +54,7 @@ library from Ruby version 1.9.&lt;/p&gt;
     
       <item>
         <title>Install Laravel 5 Di Ubuntu</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://www.codeanchor.net/wp-content/uploads/2015/03/Laravel-5.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-QBobw3PS40A/VYJ78Tlm-_I/AAAAAAAAAV4/E6ONrefvado/s500/Laravel-5.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;installasi&quot;&gt;Installasi&lt;/h1&gt;
 &lt;p&gt;Rekomendasi System&lt;/p&gt;
@@ -72,6 +73,8 @@ library from Ruby version 1.9.&lt;/p&gt;
     &lt;p&gt;Tokenizer PHP Extension&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;Ada 3 Macam Installasi Laravel, yaitu :&lt;/p&gt;
 
@@ -142,11 +145,12 @@ library from Ruby version 1.9.&lt;/p&gt;
     
       <item>
         <title>Ebook Laravel 5 Indonesia</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://aditiyagita.com/wp-content/uploads/2013/08/Laravel.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-90iZDBDggW0/VYJ4cGIY1YI/AAAAAAAAATI/6mxzBKeIMeI/s940/Laravel.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Kumpulan Ebook ini saya temukan di grup Facebook “Laravel PHP Indonesia”&lt;/p&gt;
+&lt;p&gt;Silahkan di download ebook ini&lt;/p&gt;
 
-&lt;p&gt;Semoga Bermanfaat bagi yang ingin mempelajari Framework Laravel&lt;/p&gt;
+&lt;p&gt;Semoga Bermanfaat bagi yang ingin mempelajari Framework Laravel
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://leanpub.com/seminggubelajarlaravel&quot;&gt;Seminggu Belajar Laravel&lt;/a&gt;&lt;/p&gt;
 
@@ -170,7 +174,7 @@ library from Ruby version 1.9.&lt;/p&gt;
     
       <item>
         <title>Cara Membuat Post Di Octopress 3.0</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://avatars1.githubusercontent.com/u/167029?v=3&amp;amp;s=200&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-sgSU_Fehgec/VYJ4iLjKgTI/AAAAAAAAAU0/-a7L1OqNziw/s600/octopress.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pertama, Masuk ke folder octopress kamu&lt;/p&gt;
 
@@ -178,7 +182,8 @@ library from Ruby version 1.9.&lt;/p&gt;
 
 &lt;p&gt;Jalankan perintah &lt;code&gt;octopress new post &quot;Judul post&quot;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Post berada di &lt;code&gt;_posts/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Post berada di &lt;code&gt;_posts/&lt;/code&gt;
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Tinggal edit post kamu dengan syntax &lt;strong&gt;Markdown&lt;/strong&gt;&lt;/p&gt;
 
@@ -211,11 +216,14 @@ library from Ruby version 1.9.&lt;/p&gt;
     
       <item>
         <title>Perintah Dasar Di Octopress 3.0</title>
-        <description>&lt;p&gt;Berikut ini adalah perintah dasar dari octopress framework&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-sgSU_Fehgec/VYJ4iLjKgTI/AAAAAAAAAU0/-a7L1OqNziw/s600/octopress.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Berikut ini adalah perintah dasar dari octopress framework&lt;/p&gt;
 
 &lt;p&gt;Jekyll juga punya kekerabatan dengan octopress :)&lt;/p&gt;
 
-&lt;p&gt;Saya menggunakan octopress 3.0.7 dan jekyll 2.5.3&lt;/p&gt;
+&lt;p&gt;Saya menggunakan octopress 3.0.7 dan jekyll 2.5.3
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;membuat-post&quot;&gt;Membuat Post&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;octopress new post &quot;Judul Artikel yang kamu inginkan&quot;&lt;/code&gt;&lt;/p&gt;
@@ -244,11 +252,12 @@ library from Ruby version 1.9.&lt;/p&gt;
     
       <item>
         <title>Cara Install Ruby Di Ubuntu 15.04</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/100px-Ruby_logo.svg.png&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-RgxywtXkyy8/VYJ4XydJcgI/AAAAAAAAASM/wMeQ72vGrjc/s100/100px-Ruby_logo.svg.png&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ruby adalah Bahasa pemrograman open source dinamis, mudah dimengerti dan produktif. Sintaks Ruby elegan, natural, mudah dibaca dan ditulis dan berorientasi objek.&lt;/p&gt;
 
-&lt;p&gt;Ruby merupakan bahasa yang seimbang. Pencipta Ruby, Yukihiro “Matz” Matsumoto, menggabungkan bagian-bagian dari bahasa-bahasa favorit beliau (Perl, Smalltalk, Eiffel, Ada dan Lisp) untuk membentuk bahasa baru yang seimbang antara pemrograman fungsional dengan pemrograman imperatif.&lt;/p&gt;
+&lt;p&gt;Ruby merupakan bahasa yang seimbang. Pencipta Ruby, Yukihiro “Matz” Matsumoto, menggabungkan bagian-bagian dari bahasa-bahasa favorit beliau (Perl, Smalltalk, Eiffel, Ada dan Lisp) untuk membentuk bahasa baru yang seimbang antara pemrograman fungsional dengan pemrograman imperatif.
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Versi Ruby Sekarang adalah 2.2.x&lt;/p&gt;
 
@@ -285,7 +294,7 @@ library from Ruby version 1.9.&lt;/p&gt;
     
       <item>
         <title>Apa Itu Yii Framework?</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://static.yiiframework.com/css/img/logo.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-Lk-u8iOfwVc/VYJ4hsc_uMI/AAAAAAAAAUg/QbJBERxsTGc/s284/logo.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;pengertian-secara-singkat&quot;&gt;Pengertian secara Singkat&lt;/h1&gt;
 &lt;p&gt;Yii adalah framework PHP berbasis komponen, mempunyai kinerja yang tinggi dalam pembuatan 
@@ -318,7 +327,7 @@ Serta dalam hal keamanan Yii juga tidak kalah dengan framework lainnya, Ini juga
     
       <item>
         <title>Membuat Host Only Network</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://dikiaap.files.wordpress.com/2014/12/screenshot-1.png?w=712&quot; alt=&quot;Alt text&quot; /&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-B8CsyI9oUhk/VYJ4jJ5OrhI/AAAAAAAAAVE/J57Wfn6LhxE/s672/screenshot-1.png&quot; alt=&quot;Alt text&quot; /&gt;
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Berawal dari pc pas2 an, alias hanya ada 1 di rumah.  Saya berpikiran untuk membangun sebuah lokal network di rumah, yaitu dengan 1 pc dan bantuan 2 OS, yakni OS host dan OS virtual machine di virtual box. Yah, Apa daya cuma punya 1 pc. Tapi tidak apa2. Ini cukup membantu bagi yang ingin ngetest system yang butuh 2 OS / lebih.. Nama Koneksi Jaringan ini adalah Hostonly Network Pertama Buka Virtual Box.&lt;/p&gt;
@@ -383,7 +392,7 @@ Serta dalam hal keamanan Yii juga tidak kalah dengan framework lainnya, Ini juga
     
       <item>
         <title>Wallpaper Indonesian Backtrack Team</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/i.imgbox.com/4sltKgge.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-O27WOVKeKII/VYJ4aQY_UPI/AAAAAAAAASo/ar0rpdvxCk4/s800/4sltKgge.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Jun 2015 21:51:57 +0700</pubDate>
         <link>http://dikiaap.github.io/2015/06/14/wallpaper-indonesian-backtrack-team.html</link>
@@ -394,12 +403,12 @@ Serta dalam hal keamanan Yii juga tidak kalah dengan framework lainnya, Ini juga
     
       <item>
         <title>Design Kemeja IBT</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://dikiaap.files.wordpress.com/2014/12/cat3.jpg?w=300&amp;amp;h=251&quot; alt=&quot;Alt text&quot; /&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-bx2_0GoSsMI/VYJ6k33IOoI/AAAAAAAAAVc/Z7weHATxBMg/s576/cat1.jpg&quot; alt=&quot;Alt text&quot; /&gt;
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dikiaap.files.wordpress.com/2014/12/cat1.jpg?w=300&amp;amp;h=251&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-hooSJs4iyvc/VYJ6lQM1UsI/AAAAAAAAAVo/srMoAqcr0zg/s576/cat2.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dikiaap.files.wordpress.com/2014/12/cat2.jpg?w=300&amp;amp;h=251&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-MheLGhymQrs/VYJ6lb1ZZNI/AAAAAAAAAVs/q5yYUC8iq7o/s576/cat3.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Jun 2015 21:46:18 +0700</pubDate>
         <link>http://dikiaap.github.io/2015/06/14/design-kemeja-ibt.html</link>
