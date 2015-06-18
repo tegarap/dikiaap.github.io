@@ -6,9 +6,890 @@
 Brom brom code blog brom!! Blog berisi pengetahuan dan kekuatan programming.</description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jun 2015 15:41:03 +0700</pubDate>
-    <lastBuildDate>Thu, 18 Jun 2015 15:41:03 +0700</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2015 16:28:24 +0700</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2015 16:28:24 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Perintah-Perintah Terminal Di Linux</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-oUvlri4N6No/VYKNy-ZwYGI/AAAAAAAAAWc/1YtKQdK7_I8/s800/Linux_2014_dark_logo.png&quot; alt=&quot;Alt text&quot; /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;informasi-sistem&quot;&gt;Informasi Sistem&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;arch : Lihat arsitektur dari mesin (1)&lt;/li&gt;
+  &lt;li&gt;cal 2007 : Lihat tabel kalendar tahun 2007&lt;/li&gt;
+  &lt;li&gt;cat /proc/cpuinfo :
+Menampilkan informasi CPU&lt;/li&gt;
+  &lt;li&gt;cat /proc/interrupts :
+Menampilkan penggunaan interupsi&lt;/li&gt;
+  &lt;li&gt;cat /proc/meminfo :
+Lihat penggunaan memori komputer&lt;/li&gt;
+  &lt;li&gt;cat /proc/swaps :
+Menampilkan partisi swap yang dipakai linux sebagai memori virtual&lt;/li&gt;
+  &lt;li&gt;cat /proc/version :
+Menampilkan versi dari kernel&lt;/li&gt;
+  &lt;li&gt;cat /proc/net/dev :
+Menampilkan informasi kartu nic dan statistik penggunaan nic&lt;/li&gt;
+  &lt;li&gt;cat /proc/mounts :
+Menampilkan filesystem yang termuat&lt;/li&gt;
+  &lt;li&gt;clock -w :
+Simpan perubahan tanggal di BIOS&lt;/li&gt;
+  &lt;li&gt;date :
+Tampilkan tanggal sistem&lt;/li&gt;
+  &lt;li&gt;date 041217002007.00 :
+Tetapkan tanggal dan waktu (Bulan,Hari,Jam,Menit,Tahun,Detik)&lt;/li&gt;
+  &lt;li&gt;dmidecode -q :
+Tampilkan komponen-komponen perangkat keras dari sistem&lt;/li&gt;
+  &lt;li&gt;hdparm -i /dev/hda :
+Tampilkan karakteristik dari sebuah harddisk&lt;/li&gt;
+  &lt;li&gt;hdparm -tT /dev/sda :
+Uji coba tes baca pada sebuah harddisk&lt;/li&gt;
+  &lt;li&gt;lspci -tv :
+Tampilkan perangkat-perangkat PCI yang ada&lt;/li&gt;
+  &lt;li&gt;lsusb -tv -
+Tampilkan perangkat-perangkat USB&lt;/li&gt;
+  &lt;li&gt;uname -m :
+Tampilkan arsitektur mesin (2)&lt;/li&gt;
+  &lt;li&gt;uname -r :
+Tampilkan versi dari kernel yang digunakan&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;matikan-mulai-ulang-dan-keluar-dari-sistem&quot;&gt;Matikan, Mulai Ulang, dan Keluar Dari Sistem&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;init 0 :
+ Matikan sistem (2), matikan komputer&lt;/li&gt;
+  &lt;li&gt;logout :
+ Keluar dari sesi&lt;/li&gt;
+  &lt;li&gt;reboot :
+ Memulai ulang sistem linux anda&lt;/li&gt;
+  &lt;li&gt;shutdown -h now :
+ Mematikan komputer&lt;/li&gt;
+  &lt;li&gt;shutdown -h 16:30 &amp;amp; :
+ Menjadwalkan saat sistem dimatikan&lt;/li&gt;
+  &lt;li&gt;shutdown -c :
+ Membatalkan mematikan sistem yang telah dijadwalkan&lt;/li&gt;
+  &lt;li&gt;shutdown -r now :
+ Memulai ulang sistem linux anda&lt;/li&gt;
+  &lt;li&gt;telinit 0 :
+ Mematikan sistem&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;berkas-dan-direktori&quot;&gt;Berkas dan Direktori&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cd /home :
+ Masuk ke direktori ‘/home’&lt;/li&gt;
+  &lt;li&gt;cd .. :
+ Kembali satu tingkat di atas direktori saat ini&lt;/li&gt;
+  &lt;li&gt;cd ../.. :
+ Kembali dua tingkat&lt;/li&gt;
+  &lt;li&gt;cd :
+ Kembali ke direktori ‘home’&lt;/li&gt;
+  &lt;li&gt;cd ~user1 :
+ Kembali ke direktori ‘home’&lt;/li&gt;
+  &lt;li&gt;cd - :
+ Kembali ke direktori sebelumnya&lt;/li&gt;
+  &lt;li&gt;cp file1 file2 :
+ Menyalin ‘file1’ ke ‘file2’&lt;/li&gt;
+  &lt;li&gt;cp dir/* . :
+ Menyalin semua isi direktori ‘dir’ ke direktori aktif&lt;/li&gt;
+  &lt;li&gt;cp -a /tmp/dir1 . :
+ Menyalin direktori ke direktori anda berada sekarang&lt;/li&gt;
+  &lt;li&gt;cp -a dir1 dir2 :
+ Salin sebuah direktori&lt;/li&gt;
+  &lt;li&gt;cp file file1 :
+ Menghasilkan tipe mime dari file sebagai teks&lt;/li&gt;
+  &lt;li&gt;iconv -l :
+ Memperlihatkan daftar pengkodean kelompok karakter yang dikenali&lt;/li&gt;
+  &lt;li&gt;iconv -f fromEncoding -t toEncoding inputFile &amp;gt; outputFile :
+ Menterjemahkan pengkodean karakter dari satu format ke format yang lain&lt;/li&gt;
+  &lt;li&gt;find . -maxdepth 1 -name *.jpg -print -exec convert :
+ Ubah sekumpulan berkas gambar dalam direktori aktif dan mengirim mereka ke direktori thumbnail
+ (perlu konversi menggunakan Imagemagick)&lt;/li&gt;
+  &lt;li&gt;ln -s file1 lnk1 :
+ Membuat sebuah tautan simbolis untuk ‘file1’ ke suatu berkas tautan ‘lnk1’&lt;/li&gt;
+  &lt;li&gt;ln file1 lnk1 :
+ Membuat tautan fisik antara ‘file1’ dengan berkas tautan ‘lnk1’&lt;/li&gt;
+  &lt;li&gt;ls :
+ Tampilkan berkas-berkas dalam direktori&lt;/li&gt;
+  &lt;li&gt;ls -F :
+ Tampilkan berkas-berkas dalam direktori&lt;/li&gt;
+  &lt;li&gt;ls -l :
+ Menampilkan detil berkas dalam direktori&lt;/li&gt;
+  &lt;li&gt;ls -a :
+ Menampilkan berkas-berkas yang tersembunyi&lt;/li&gt;
+  &lt;li&gt;ls &lt;em&gt;[0-9]&lt;/em&gt; :
+ Menampilkan berkas-berkas serta direktori yang namanya mengandung angka&lt;/li&gt;
+  &lt;li&gt;lstree :
+ Menampilkan direktori dalam satu diagram pohon&lt;/li&gt;
+  &lt;li&gt;mkdir dir1 :
+ Membuat sebuah direktori yang diberi nama ‘dir1’&lt;/li&gt;
+  &lt;li&gt;mkdir dir1 dir2 :
+ Membuat dua direktori dengan satu perintah&lt;/li&gt;
+  &lt;li&gt;mkdir -p /tmp/dir1/dir2 :
+ Membuat pohon direktori&lt;/li&gt;
+  &lt;li&gt;mv dir1 new_dir :
+ Merubah nama atau memindahkan direktori dari ‘dir1’ ke ‘new_dir’&lt;/li&gt;
+  &lt;li&gt;pwd :
+ Menunjukkan setapak dari direktori saat ini&lt;/li&gt;
+  &lt;li&gt;rm -f file1 :
+ Hapus berkas yang bernama ‘file1’&lt;/li&gt;
+  &lt;li&gt;rm -rf dir1 :
+ Menghapus direktori ‘dir1’ beserta isinya tanpa konfirmasi lagi&lt;/li&gt;
+  &lt;li&gt;rm -rf dir1 dir2 :
+ Menghapus dua direktori beserta isinya tanpa konfirmasi lagi&lt;/li&gt;
+  &lt;li&gt;rmdir dir1 :
+ Menghapus direktori ‘dir1’&lt;/li&gt;
+  &lt;li&gt;touch -t 0712250000 file1 :
+ Merubah jejakwaktu suatu berkas atau direktori - (YYMMDDhhmm)&lt;/li&gt;
+  &lt;li&gt;tree :
+ Menampilkan diagram pohon direktori&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;pencarian-berkas&quot;&gt;Pencarian Berkas&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;find / -name file1 :
+ Mencari berkas dan direktori bernama ‘file1’ dari ‘/’&lt;/li&gt;
+  &lt;li&gt;find / -user user1 :
+ Mencari berkas dan direktori milik ‘user1’&lt;/li&gt;
+  &lt;li&gt;find /home/user1 -name *.bin :
+ Mencari berkas dengan ekstensi ‘.bin’ di dalam direktori ‘/home/user1’&lt;/li&gt;
+  &lt;li&gt;find /usr/bin -type f -atime +100 :
+ Mencari berkas biner yang tidak pernah diakses dalam 100 hari terakhir&lt;/li&gt;
+  &lt;li&gt;find /usr/bin -type f -mtime -10 :
+ Mencari berkas yang dibuat atau dirubah dalam 10 hari terakhir&lt;/li&gt;
+  &lt;li&gt;find / -name *.rpm -exec chmod 755 ‘{}’ \; :
+ Mencari berkas dengan ekstensi ‘.rpm’ serta merubah hak berkas saat ketemu&lt;/li&gt;
+  &lt;li&gt;find / -xdev -name *.rpm :
+ Mencari berkas dengan ekstensi ‘.rpm’ dengan mengabaikan partisi yang dapat berpindah seperti
+ cdrom, flash-disk, dll.&lt;/li&gt;
+  &lt;li&gt;locate *.ps :
+ Mencari berkas dengan ekstensi ‘.ps’ - sebelumnya jalankan perintah ‘updatedb’ agar pencarian
+ berhasil&lt;/li&gt;
+  &lt;li&gt;whereis halt :
+ Menunjukkan lokasi dari berkas biner, sumber atau man&lt;/li&gt;
+  &lt;li&gt;which halt :
+ Menunjukkan alamat lengkap ke suatu berkas biner / executable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;memuat-filesystem&quot;&gt;Memuat Filesystem&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fuser -km /mnt/hda2 :
+ Melakukan umount secara paksa ketika perangkat sedang sibuk&lt;/li&gt;
+  &lt;li&gt;mount /dev/hda2 /mnt/hda2 :
+ Memuat disk hda2 - memverifikasi keberadaan direktori ‘/mnt/hda2’&lt;/li&gt;
+  &lt;li&gt;mount /dev/fd0 /mnt/floppy :
+ Memuat floppy disk&lt;/li&gt;
+  &lt;li&gt;mount /dev/cdrom /mnt/cdrom :
+ Memuat cdrom / dvdrom&lt;/li&gt;
+  &lt;li&gt;mount /dev/hdc /mnt/cdrecorder :
+ Memuat cdrw / dvdrom&lt;/li&gt;
+  &lt;li&gt;mount /dev/hdb /mnt/cdrecorder :
+ Memasang cdrw / dvdrw&lt;/li&gt;
+  &lt;li&gt;mount -o loop file.iso /mnt/cdrom :
+ Memuat berkas atau image iso&lt;/li&gt;
+  &lt;li&gt;mount -t vfat /dev/hda5 /mnt/hda5 :
+ Memuat filesystem Windows FAT32&lt;/li&gt;
+  &lt;li&gt;mount /dev/sda1 /mnt/usbdisk :
+ Memuat pen-drive atau flash-drive usb&lt;/li&gt;
+  &lt;li&gt;mount -t smbfs -o username=user,password=pass //WinClient/share /mnt/share :
+ Memuat disk berbagi pakai dari pc windows&lt;/li&gt;
+  &lt;li&gt;umount /dev/hda2 :
+ Melepaskan disk hda2 - keluar dari titik muat ‘/mnt/hda2’ terlebih dahulu agar berhasil&lt;/li&gt;
+  &lt;li&gt;umount -n /mnt/hda2 :
+ Menjalankan umount tanpa menulis ke berkas /etc/mtab - berguna ketika berkas dalam kondisi
+ hanya-baca atau hard disk penuh&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;ruang-disk&quot;&gt;Ruang Disk&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;df -h :
+ Menampilkan daftar partisi yang termuat&lt;/li&gt;
+  &lt;li&gt;dpkg-query -W -f=’${Installed-Size;10}t${Package}n’ | sort -k1,1n :
+ Menunjukkan ruang yang terpakai oleh paket-paket deb yang telah terpasang, diurut berdasarkan
+ ukuran (debian, ubuntu dan sejenisnya)&lt;/li&gt;
+  &lt;li&gt;du -sh dir1 :
+ Memperkirakan ruang yang terpakai oleh direktori ‘dir1’&lt;/li&gt;
+  &lt;li&gt;du -sk * | sort -rn :
+ Menunjukkan ukuran berbagai berkas dan direktori yang diurut berdasarkan ukuran&lt;/li&gt;
+  &lt;li&gt;ls -lSr |more :
+ Menunjukkan ukuran berbagai berkas dan direktori yang diurut berdasarkan ukuran&lt;/li&gt;
+  &lt;li&gt;rpm -q -a –qf ‘%10{SIZE}t%{NAME}n’ | sort -k1,1n :
+ Menunjukkan ruangan yang terpakai oleh paket-paket rpm yang telah terpasang, diurut berdasarkan
+ ukuran (fedora, redhat dan sejenisnya)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;pengguna-dan-grup&quot;&gt;Pengguna dan Grup&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;chage -E 2005-12-31 user1 :
+ Menetapkan batas waktu untuk sandi lewat&lt;/li&gt;
+  &lt;li&gt;groupadd [group] :
+ Membuat grup baru&lt;/li&gt;
+  &lt;li&gt;groupdel [group] :
+ Menghapus grup&lt;/li&gt;
+  &lt;li&gt;groupmod -n moon sun :
+ Merubah nama grup dari moon menjadi sun&lt;/li&gt;
+  &lt;li&gt;grpck :
+ Memeriksa sintaks yang benar dan bentuk data dari ‘/etc/group’ serta grup yang ada&lt;/li&gt;
+  &lt;li&gt;newgrp - [group] :
+ Masuk ke dalam grup baru untuk merubah grup standar dari data yang baru dibuat&lt;/li&gt;
+  &lt;li&gt;passwd :
+ Merubah sandi lewat&lt;/li&gt;
+  &lt;li&gt;passwd user1 :
+ Merubah sandi lewat pengguna (hanya oleh root)&lt;/li&gt;
+  &lt;li&gt;pwck :
+ Memeriksa sintaks yang benar serta format data dari ‘/etc/passwd’ dan pengguna yang ada&lt;/li&gt;
+  &lt;li&gt;useradd -c “User Linux” -g admin -d /home/user1 -s /bin/bash user1 :
+ Membuat pengguna baru “user1” yang dimiliki oleh grup “admin”&lt;/li&gt;
+  &lt;li&gt;useradd user1 :
+ Membuat pengguna baru&lt;/li&gt;
+  &lt;li&gt;userdel -r user1 :
+ Menghapus pengguna (‘-r’ menghilangkan direktori home)&lt;/li&gt;
+  &lt;li&gt;usermod -c “User FTP” -g system -d /ftp/user1 -s /bin/nologin user1 :
+ Merubah atribut pengguna&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;hak-pada-berkas&quot;&gt;Hak Pada Berkas&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;chgrp group1 file1 :
+ Merubah grup dari data&lt;/li&gt;
+  &lt;li&gt;chmod ugo+rwx directory1 :
+ Menetapkan izin membaca ®, menulis (w) dan (x) akses ke pemilik pengguna (u) grup (g)
+ dan lainnya (o)&lt;/li&gt;
+  &lt;li&gt;chmod go-rwx directory1 :
+ Memindahkan izin membaca ®, menulis (w) dan (x) akses ke pemilik pengguna (g) dan lainnya (o)&lt;/li&gt;
+  &lt;li&gt;chmod u+s /bin/file1 :
+ Menetapkan bit SUID pada data binari - pengguna yang menjalankan data tersebut memperoleh izin
+ yang sama seperti pemilik&lt;/li&gt;
+  &lt;li&gt;chmod u-s /bin/file1 :
+ Mematikan bit SUID pada data binari&lt;/li&gt;
+  &lt;li&gt;chmod g+s /home/public :
+ Menetapkan bit SGID pada direktori - mirip dengan SUID tapi untuk direktori&lt;/li&gt;
+  &lt;li&gt;chmod g-s /home/public :
+ Non-aktifkan bit SGID pada direktori&lt;/li&gt;
+  &lt;li&gt;chmod o+t /home/public :
+ Menetapkan bit STIKY pada direktori - mengizinkan penghapusan data hanya untuk pemilik yang sah&lt;/li&gt;
+  &lt;li&gt;chmod o-t /home/public :
+ Non-aktifkan bit STIKY pada direktori&lt;/li&gt;
+  &lt;li&gt;chown user1 file1 :
+ Merubah kepemilikan dari data&lt;/li&gt;
+  &lt;li&gt;chown -R user1 directory1 :
+ Merubah pengguna pemilik dari direktori dan semua data serta direktori yang ada di dalamnya&lt;/li&gt;
+  &lt;li&gt;chown user1:group1 file1 :
+ Merubah pemilik dan Group dari sebuah File&lt;/li&gt;
+  &lt;li&gt;find / -perm -u+s :
+ Melihat semua file di dalam sistem dengan konfigurasi SUID&lt;/li&gt;
+  &lt;li&gt;ls -lh :
+ Memperlihatkan hal-hal yang diizinkan di dalam file-file&lt;/li&gt;
+  &lt;li&gt;ls /tmp | pr -T5 -W$COLUMNS :
+ Membagi terminal menjadi 5 kolom&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;atribut-khusus-pada-berkas&quot;&gt;Atribut Khusus Pada Berkas&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;chattr +a file1 :
+ Untuk menuliskan kata pembuka dari suatu file dengan mode lampiran&lt;/li&gt;
+  &lt;li&gt;chattr +c file1 :
+ Mengizinkan kompresi/dekompresi file secara otomatis oleh kernel&lt;/li&gt;
+  &lt;li&gt;chattr +d file1 :
+ Memastikan program mengabaikan Dump pada saat proses backup file&lt;/li&gt;
+  &lt;li&gt;Chattr +i file1 :
+ Mengekalkan file tertentu, sehingga tidak dapat dihapus, diubah, diganti nama, atau di-link-kan&lt;/li&gt;
+  &lt;li&gt;chattr +s file1 :
+ Membuat file tertentu aman saat dihapus&lt;/li&gt;
+  &lt;li&gt;chattr +S file1 :
+ Memastikan file yang telah dimodifikasi tertulis dengan mode sinkronis (snychronous mode) layaknya
+ dengan sync&lt;/li&gt;
+  &lt;li&gt;chattr +u file1 :
+ Membuatmu bisa menemukan kembali konten yang sudah ter-cancel&lt;/li&gt;
+  &lt;li&gt;lsattr :
+ Untuk memperlihatkan atribut-atribut spesial&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;arsip-dan-berkas-terkompresi&quot;&gt;Arsip dan Berkas Terkompresi&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bunzip2 file1.bz2 :
+ Melakukan dekompresi suatu berkas bernama ‘file1.bz2’&lt;/li&gt;
+  &lt;li&gt;bzip2 file1 :
+ Melakukan kompresi suatu berkas bernama ‘file1’&lt;/li&gt;
+  &lt;li&gt;gunzip file1.gz :
+ Melakukan dekompresi suatu berkas bernama ‘file1.gz’&lt;/li&gt;
+  &lt;li&gt;gzip file1 :
+ Melakukan kompresi suatu berkas bernama ‘file1’&lt;/li&gt;
+  &lt;li&gt;gzip -9 file1 :
+ Melakukan kompresi secara maksimal&lt;/li&gt;
+  &lt;li&gt;rar a file1.rar test_file :
+ Membuat suatu arsip rar bernama ‘file1.rar’&lt;/li&gt;
+  &lt;li&gt;rar a file1.rar file1 file2 dir1 :
+ Melakukan kompresi ‘file1’, ‘file2’ dan ‘dir1’ secara simultan&lt;/li&gt;
+  &lt;li&gt;rar x file1.rar :
+ Melakukan dekompresi arsip berekstensi rar&lt;/li&gt;
+  &lt;li&gt;tar -cvf archive.tar file1 :
+ Membuat suatu arsip tar agar tidak terkompresi&lt;/li&gt;
+  &lt;li&gt;tar -cvf archive.tar file1 file2 dir1 :
+ Membuat arsip yang memuat ‘file1’, ‘file2’ dan ‘dir1’&lt;/li&gt;
+  &lt;li&gt;tar -tf archive.tar :
+ Memperlihatkan konten suatu arsip&lt;/li&gt;
+  &lt;li&gt;tar -xvf archive.tar :
+ Mengekstrak suatu arsip tar&lt;/li&gt;
+  &lt;li&gt;tar -xvf archive.tar -C /tmp :
+ Mengekstrak arsip tar ke /tmp&lt;/li&gt;
+  &lt;li&gt;tar -cvfj archive.tar.bz2 dir1 :
+ Mengkompresi direktori ‘dir1’ ke dalam arsip bzip2&lt;/li&gt;
+  &lt;li&gt;tar -xvfj archive.tar.bz2 :
+ Melakukan dekompresi terhadap arsip bzip2&lt;/li&gt;
+  &lt;li&gt;tar -cvfz archive.tar.gz dir1 :
+ Mengkompresi direktori ‘dir1’ ke dalam arsip gzip&lt;/li&gt;
+  &lt;li&gt;tar -xvfz archive.tar.gz :
+ Melakukan dekompresi terhadap arsip gzip&lt;/li&gt;
+  &lt;li&gt;unrar x file1.rar :
+ Melakukan dekompresi arsip berekstensi rar&lt;/li&gt;
+  &lt;li&gt;unzip file1.zip :
+ Melakukan dekompresi arsip berekstensi zip&lt;/li&gt;
+  &lt;li&gt;zip file1.zip file1 :
+ Mengkompresi berkas ‘file1’ ke dalam arsip zip&lt;/li&gt;
+  &lt;li&gt;zip -r file1.zip file1 file2 dir1 :
+ Mengkompresi beberapa file dan direktori ke dalam arsip zip secara simultan&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;paket-rpm-fedora-redhat-dan-sejenisnya&quot;&gt;Paket RPM (Fedora, RedHat, dan Sejenisnya)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rpm -ivh [package.rpm] :
+ Menginstal suatu paket rpm&lt;/li&gt;
+  &lt;li&gt;rpm -ivh –nodeeps [package.rpm] :
+ Meenginstal suatu paket rpm dengan mengabaikan permintaan file-file pendukungnya (dependencies)&lt;/li&gt;
+  &lt;li&gt;rpm -U [package.rpm] :
+ Melakukan upgrade suatu paket rpm tanpa mengubah konfigurasi file-filenya&lt;/li&gt;
+  &lt;li&gt;rpm -F [package.rpm] :
+ Melakukan upgrade suatu paket rpm hanya ketika paket tersebut telah terinstal&lt;/li&gt;
+  &lt;li&gt;rpm -e [package] :
+ Menghapus paket rpm&lt;/li&gt;
+  &lt;li&gt;rpm -qa :
+ Memperlihatkan semua paket-paket rpm yang terinstal pada sistem&lt;/li&gt;
+  &lt;li&gt;rpm -qa | grep httpd :
+ Memperlihatkan semua paket-paket rpm dengan nama “httpd”&lt;/li&gt;
+  &lt;li&gt;rpm -qi [package] :
+ Mendapatkan informasi dari paket tententu yang terinstal&lt;/li&gt;
+  &lt;li&gt;rpm -qg “System Environment/Daemons” :
+ Memperlihatkan paket-paket rpm sebagai suatu kumpulan software&lt;/li&gt;
+  &lt;li&gt;rpm -ql [package] :
+ Memperlihatkan daftar file-file yang disajikan oleh paket-paket rmp yang terinstal&lt;/li&gt;
+  &lt;li&gt;rpm -qc [package] :
+ Memperlihatkan daftar konfigurasi file-file yang disajikan oleh suatu paket rpm yang terinstal&lt;/li&gt;
+  &lt;li&gt;rpm -q [package] –whatrequires :
+ Memperlihatkan daftar file dukungan yang dibutuhkan oleh suatu paket rpm&lt;/li&gt;
+  &lt;li&gt;rpm -q [package] –whatprovides :
+ Memperlihatkan kemampuan yang disajikan oleh suatu paket rpm&lt;/li&gt;
+  &lt;li&gt;rpm -q [package] –scripts :
+ Memperlihatkan tulisan (script) ketika instalasa/penghapusan dimulai&lt;/li&gt;
+  &lt;li&gt;rpm -q [package] –changelog :
+ Memperlihatkan sejarah perbaikan dari suatu paket rpm&lt;/li&gt;
+  &lt;li&gt;rpm -qf /etc/httpd/conf/httpd.conf :
+ Memeriksa file yang ikutserta dalam paket rpm&lt;/li&gt;
+  &lt;li&gt;rpm -qp [package.rpm] -l :
+ Memperlihatkan daftar file-file yang disajikan paket rpm namun belum terinstal&lt;/li&gt;
+  &lt;li&gt;rpm –import /media/cdrom/RPM-GPG-KEY :
+ Meng-import public-key digital signature&lt;/li&gt;
+  &lt;li&gt;rpm –checksig [package.rpm] :
+ Memastikan integritas dari paket rpm&lt;/li&gt;
+  &lt;li&gt;rpm -qa gpg-pubkey :
+ Memeriksa integritas semua paket rpm yang terinstal&lt;/li&gt;
+  &lt;li&gt;rpm -V [package] :
+ Memeriksa ukuran file, izin, tipe, kepemilikan, kumpulan, MD5 ckecksum dan modifikasi terakhir&lt;/li&gt;
+  &lt;li&gt;rpm -Va :
+ Memeriksa semua paket-paket rpm yang terinstal di sistim - agar digunakan dengan hati-hati&lt;/li&gt;
+  &lt;li&gt;rpm -Vp [package.rpm] :
+ Memeriksa suatu paket rpm yang berlum terinstal&lt;/li&gt;
+  &lt;li&gt;rpm -ivh /usr/src/redhat/RPMS/&lt;code&gt;arch&lt;/code&gt;/[package.rpm] :
+ Menginstal paket yang terbuat dari soure rpm&lt;/li&gt;
+  &lt;li&gt;rpm2cpio [package.rpm] | cpio –extract –make-directories &lt;em&gt;bin&lt;/em&gt; :
+ Mengekstrak file executable dari suatu paket rpm&lt;/li&gt;
+  &lt;li&gt;rpmbuild –rebuild [package.src.rpm] :
+ Membuat suatu paket rpm dari source rpm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;peralatan-paket-yum-fedora-redhat-dan-sejenisnya&quot;&gt;Peralatan paket YUM (Fedora, RedHat, dan Sejenisnya)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;yum -y install [package] :
+ Mengunduh dan menginstal suatu paket rpm&lt;/li&gt;
+  &lt;li&gt;yum localinstall [package.rpm] :
+ Untuk menginstal RPM, dan mencoba untuk menyelesaikan semua dependensi yang dapat digunakan
+ oleh repositori Anda&lt;/li&gt;
+  &lt;li&gt;yum -y update :
+ Mengupdate paket-paket rpm yang telah terinstal di sistem&lt;/li&gt;
+  &lt;li&gt;yum update [package] :
+ Mengupgrade paket rpm&lt;/li&gt;
+  &lt;li&gt;yum remove [package] :
+ Menghapus suatu paket rpm&lt;/li&gt;
+  &lt;li&gt;yum list :
+ Menampilkan daftar paket-paket yang terinstal di sistem&lt;/li&gt;
+  &lt;li&gt;yum search [package] :
+ Menemukan suatu paket tertentu pada repository rpm&lt;/li&gt;
+  &lt;li&gt;yum clean [package] :
+ Membersihkan chache penghapusan paket-paket rpm yang telah diunduh&lt;/li&gt;
+  &lt;li&gt;yum clean headers :
+ Menghapus semua file header yang digunakan oleh sistem pengguna untuk menghapus dependensi&lt;/li&gt;
+  &lt;li&gt;yum clean all :
+ Hilangkan dari kantong paket dan judul berkas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;paket-deb-debian-ubuntu-dan-sejenisnya&quot;&gt;Paket DEB (Debian, Ubuntu dan Sejenisnya)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dpkg -i [package.deb] :
+ Install/upgrade paket deb&lt;/li&gt;
+  &lt;li&gt;dpkg -r [package] :
+ Menghilangkan paket deb dari sistem&lt;/li&gt;
+  &lt;li&gt;dpkg -l :
+ Menampilkan semua paket deb yang terpasang pada sistem&lt;/li&gt;
+  &lt;li&gt;dpkg -l | grep httpd :
+ Menampilkan semua paket deb dengan nama “httpd”&lt;/li&gt;
+  &lt;li&gt;dpkg -s [package] :
+ Memperoleh informasi mengenai paket tertentu yang dipasang pada sistem&lt;/li&gt;
+  &lt;li&gt;dpkg -L [package] :
+ Menampilkan daftar file yang disediakan oleh sebuah paket yang terpasang pada sistem&lt;/li&gt;
+  &lt;li&gt;dpkg –contents [package.deb] :
+ Menampilkan daftar berkas dari paket yang tidak terpasang&lt;/li&gt;
+  &lt;li&gt;dpkg -S /bin/ping :
+ Memverifikasi nama paket dimana berkas tersimpan&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;peralatan-paket-apt-debian-ubuntu-dan-sejenisnya&quot;&gt;Peralatan paket APT (Debian, Ubuntu dan Sejenisnya)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;apt-cache search [package] :
+ Tampilkan daftar paket-paket yang berhubungan dengan kata ‘search-packages’&lt;/li&gt;
+  &lt;li&gt;apt-cdrom install [package] :
+ Pasang / tingkatkan sebuah paket deb dari cdrom&lt;/li&gt;
+  &lt;li&gt;apt-get install [package] :
+ Pasang / tingkatkan versi dari sebuah paket deb&lt;/li&gt;
+  &lt;li&gt;apt-get update :
+ Perbaharui daftar paket&lt;/li&gt;
+  &lt;li&gt;apt-get upgrade :
+ Tingkatkan versi dari semua paket-paket yang telah terpasang&lt;/li&gt;
+  &lt;li&gt;apt-get remove [package] :
+ Hapus paket deb dari sistem&lt;/li&gt;
+  &lt;li&gt;apt-get check :
+ Memastikan penyelesaian yang benar dari dependensi&lt;/li&gt;
+  &lt;li&gt;apt-get clean :
+ Bersihkan berkas sementara dari paket-paket yang telah diunduh&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;peralatan-paket-pacman-arch-frugalware-dan-sejenisnya&quot;&gt;Peralatan Paket Pacman (Arch, Frugalware, dan Sejenisnya)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pacman -S name :
+ Install paket ‘name’ dengan ketergantungan&lt;/li&gt;
+  &lt;li&gt;pacman -R name :
+ Hapus paket ‘name’ dan seluruh filenya&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;lihat-isi-berkas&quot;&gt;Lihat Isi Berkas&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cat file1 :
+ Lihat isi dari berkas1 dimulai dari baris pertama&lt;/li&gt;
+  &lt;li&gt;head -2 file1 :
+ Menampilkan dua baris pertama dari suatu file&lt;/li&gt;
+  &lt;li&gt;less file1 :
+ Mirip dengan perintah ‘more’ tapi mempermudah melihat ke belakang dan ke depan dari isi berkas&lt;/li&gt;
+  &lt;li&gt;more file1 :
+ Tampilkan isi dari sebuah berkas secara lengkap&lt;/li&gt;
+  &lt;li&gt;tac file1 :
+ Tampilkan isi sebuah berkas dari baris terakhir&lt;/li&gt;
+  &lt;li&gt;tail -2 file1 :
+ Tampilkan dua baris terakhir dari suatu file&lt;/li&gt;
+  &lt;li&gt;tail -f /var/log/messages :
+ Tampilkan waktu sebenarnya yang berada di sebuah berkas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;manipulasi-teks&quot;&gt;Manipulasi Teks&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cat example.txt | awk ‘NR%2==1’ :
+ Menghilangkan seluruh baris genap dari berkas example.txt&lt;/li&gt;
+  &lt;li&gt;echo a b c | awk ‘{print $1}’ :
+ Menampilkan kolom pertama dari suatu baris&lt;/li&gt;
+  &lt;li&gt;echo a b c | awk ‘{print $1,$3}’ :
+ Menampilkan kolom pertama dan ketiga dari suatu baris&lt;/li&gt;
+  &lt;li&gt;cat -n file1 :
+ Memberi nomor baris pada tampilan suatu file&lt;/li&gt;
+  &lt;li&gt;comm -1 file1 file2 :
+ Bandingkan isi dua berkas dengan menghapus baris yang hanya terdapat pada ‘file1’&lt;/li&gt;
+  &lt;li&gt;comm -2 file1 file2 :
+ Membandingkan isi dua berkas dengan menghapus baris yang hanya terdapat pada ‘file2’&lt;/li&gt;
+  &lt;li&gt;comm -3 file1 file2 :
+ Membandingkan isi dua berkas dengan menghapus baris yang terdapat pada kedua berkas&lt;/li&gt;
+  &lt;li&gt;diff file1 file2 :
+ Mencari perbedaan antara dua file&lt;/li&gt;
+  &lt;li&gt;grep Aug /var/log/messages :
+ Mencari kata “Aug” dalam berkas ‘/var/log/messages’&lt;/li&gt;
+  &lt;li&gt;grep ^Aug /var/log/messages :
+ Mencari kata-kata yang diawali dengan “Aug” dalam berkas ‘/var/log/messages’&lt;/li&gt;
+  &lt;li&gt;grep [0-9] /var/log/messages :
+ Memilih semua baris yang mengandung angka pada berkas ‘/var/log/messages’&lt;/li&gt;
+  &lt;li&gt;grep Aug -R /var/log/* :
+ Mencari untai kata “Aug” pada berkas-berkas di dalam direktori ‘/var/log/’ dan dibawahnya&lt;/li&gt;
+  &lt;li&gt;paste file1 file2 :
+ Menggabungkan isi dari dua berkas kedalam satu kolom&lt;/li&gt;
+  &lt;li&gt;paste -d ‘+’ file1 file2 :
+ Menggabungkan isi dua berkas dalam bentuk kolom dengan pemisah ‘+’ diantaranya&lt;/li&gt;
+  &lt;li&gt;sdiff file1 file2 :
+ Mencari perbedaan antara dua berkas dan tampilkan secara interaktif selayaknya “diff”&lt;/li&gt;
+  &lt;li&gt;sed ‘s/string1/string2/g’ example.txt :
+ Mengganti semua ‘string1’ dengan ‘string2’ dalam berkas example.txt&lt;/li&gt;
+  &lt;li&gt;sed ‘/^$/d’ example.txt :
+ Menghapus seluruh baris kosong dari berkas example.txt&lt;/li&gt;
+  &lt;li&gt;sed ‘/ */d; /^$/d’ example.txt :
+ Menghapus komentar serta baris kosong dari berkas example.txt&lt;/li&gt;
+  &lt;li&gt;sed -e ‘1d’ exampe.txt :
+ Menghapus baris pertama dari berkas example.txt&lt;/li&gt;
+  &lt;li&gt;sed -n ‘/string1/p’ :
+ Menampilkan hanya baris yang mengandung kata ‘string1’&lt;/li&gt;
+  &lt;li&gt;sed -e ‘s/ *$//’ example.txt :
+ Menghapus karakter kosong pada setiap akhir baris&lt;/li&gt;
+  &lt;li&gt;sed -e ‘s/string1//g’ example.txt :
+ Menghapus semua kata ‘string1’ dari berkas example.txt&lt;/li&gt;
+  &lt;li&gt;sed -n ‘1,5p’ example.txt :
+ Menampilkan baris 1 hingga 5 dari berkas example.txt&lt;/li&gt;
+  &lt;li&gt;sed -n ‘5p;5q’ example.txt :
+ Menampilkan baris 5 dari berkas example.txt&lt;/li&gt;
+  &lt;li&gt;sed -e ‘s/00*/0/g’ example.txt :
+ Menggantikan banyak angka 0 dengan satu 0&lt;/li&gt;
+  &lt;li&gt;sort file1 file2 :
+ Mengurutkan isi dari 2 berkas&lt;/li&gt;
+  &lt;li&gt;sort file1 file2 | uniq :
+ Mengurutkan isi dua berkas tanpa menampilkan pengulangan&lt;/li&gt;
+  &lt;li&gt;sort file1 file2 | uniq -u :
+ Mengurutkan isi dua berkas dan hanya menampilkan baris yang unik&lt;/li&gt;
+  &lt;li&gt;sort file1 file2 | uniq -d :
+ Mengurutkan isi dua berkas dan hanya menampilkan baris yang diulang&lt;/li&gt;
+  &lt;li&gt;echo ‘word’ | tr ‘[:lower:]’ ‘[:upper:]’ :
+ Merubah dari huruf kecil menjadi huruf besar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;kelompok-karakter-dan-konversi-format-berkas&quot;&gt;Kelompok Karakter dan Konversi Format Berkas&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dos2unix filedos.txt fileunix.txt :
+ Merubah berkas teks dari format MSDOS ke UNIX&lt;/li&gt;
+  &lt;li&gt;recode ..HTML &amp;lt; page.txt &amp;gt; page.html :
+ Merubah berkas teks menjadi html&lt;/li&gt;
+  &lt;li&gt;recode -l | more :
+ Tampilkan semua format konversi yang tersedia&lt;/li&gt;
+  &lt;li&gt;unix2dos fileunix.txt filedos.txt :
+ Merubah berkas teks dari format UNIX ke MSDOS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;analisis-filesystem&quot;&gt;Analisis Filesystem&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;badblocks -v /dev/hda1 :
+ Periksa blok yang rusak pada disk hda1&lt;/li&gt;
+  &lt;li&gt;dosfsck /dev/hda1 :
+ Perbaiki / periksa integritas filesystem dos pada disk hda1&lt;/li&gt;
+  &lt;li&gt;e2fsck /dev/hda1 :
+ Perbaiki / periksa integritas filesystem ext2 pada disk hda1&lt;/li&gt;
+  &lt;li&gt;e2fsck -j /dev/hda1 :
+ Perbaiki / periksa integritas filesystem ext3 pada disk hda1&lt;/li&gt;
+  &lt;li&gt;fsck /dev/hda1 :
+ Perbaiki / periksa integritas filesystem linux pada disk hda1&lt;/li&gt;
+  &lt;li&gt;fsck.ext2 /dev/hda1 :
+ Perbaiki / periksa integritas filesystem ext2 pada disk hda1&lt;/li&gt;
+  &lt;li&gt;fsck.ext3 /dev/hda1 :
+ Perbaiki / periksa integritas filesystem ext3 pada disk hda1&lt;/li&gt;
+  &lt;li&gt;fsck.vfat /dev/hda1 :
+ Perbaiki / periksa integritas filesystem fat pada disk hda1&lt;/li&gt;
+  &lt;li&gt;fsck.msdos /dev/hda1 :
+ Perbaiki / periksa integritas filesystem dos pada disk hda1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;format-filesystem&quot;&gt;Format Filesystem&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fdformat -n /dev/fd0 :
+ Memformat diket flopi&lt;/li&gt;
+  &lt;li&gt;mke2fs /dev/hda1 :
+ Membuat filesystem tipe linux ext2 pada partisi hda1&lt;/li&gt;
+  &lt;li&gt;mke2fs -j /dev/hda1 :
+ Membuat filesystem tipe linux ext3 (journal) pada partisi hda1&lt;/li&gt;
+  &lt;li&gt;mkfs /dev/hda1 :
+ Membuat filesystem tipe linux pada partisi hda1&lt;/li&gt;
+  &lt;li&gt;mkfs -t vfat 32 -F /dev/hda1 :
+ Membuat filesystem FAT32&lt;/li&gt;
+  &lt;li&gt;mkswap /dev/hda3 :
+ Membuat filesystem swap&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;filesystem-swap&quot;&gt;Filesystem SWAP&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mkswap /dev/hda3 :
+ Membuat filesystem swap&lt;/li&gt;
+  &lt;li&gt;swapon /dev/hda3 :
+ Mengaktivasi partisi swap baru&lt;/li&gt;
+  &lt;li&gt;swapon /dev/hda2 /dev/hdb3 :
+ Mengaktifkan dua partisi swap dengan satu perintah&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;penyimpanan-duplikat&quot;&gt;Penyimpanan Duplikat&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;find /var/log -name ‘*.log’ | tar cv –files-from=- | bzip2 &amp;gt; log.tar.bz2 :
+ Mencari semua berkas dengan ekstensi ‘.log’ serta membuat arsip bzip&lt;/li&gt;
+  &lt;li&gt;find /home/user1 -name ‘*.txt’ | xargs cp -av –target-directory=/home/backup/ –parents :
+ Mencari dan menduplikasi semua berkas dengan ekstensi ‘.txt’ dari satu directory ke directory lain&lt;/li&gt;
+  &lt;li&gt;dd bs=1M if=/dev/hda | gzip | ssh user@ip_addr ‘dd of=hda.gz’ :
+ Membuat backup hard-disk lokal pada mesin ter-remote menggunakan ssh&lt;/li&gt;
+  &lt;li&gt;dd if=/dev/sda of=/tmp/file1 :
+ Mem-backup isi harddrive dalam sebuah file&lt;/li&gt;
+  &lt;li&gt;dd if=/dev/hda of=/dev/fd0 bs=512 count=1 :
+ Membuat duplikasi MBR(brother Boot Record kedalam floppy&lt;/li&gt;
+  &lt;li&gt;dd if=/dev/fd0 of=/dev/hda bs=512 count=1 :
+ Mengembalikan MBR dari backup yang disalin dan disimpan di floppy&lt;/li&gt;
+  &lt;li&gt;dump -0aj -f /tmp/home0.bak /home :
+ Membuat semua backup dari direktori ‘/home’&lt;/li&gt;
+  &lt;li&gt;dump -1aj -f /tmp/home0.bak /home :
+ Membuat backup tambahan dari direktori ‘/home’&lt;/li&gt;
+  &lt;li&gt;restore -if /tmp/home0.bak :&lt;/li&gt;
+  &lt;li&gt;Mengembalikan backup secara interaktif&lt;/li&gt;
+  &lt;li&gt;rsync -rogpav –delete /home /tmp :
+ Sinkronisasi antar direktori- direktori&lt;/li&gt;
+  &lt;li&gt;rsync -rogpav -e ssh –delete /home ip_address:/tmp :
+ rsync menggunakan SSH tunnel&lt;/li&gt;
+  &lt;li&gt;rsync -az -e ssh –delete ip_addr:/home/public /home/local :
+ Mengsinkronkan direktori lokal dengan direktori yang dikendalikan lewat ssh dan kompresi&lt;/li&gt;
+  &lt;li&gt;rsync -az -e ssh –delete /home/local ip_addr:/home/public :
+ Mengsinkronkan directory yang dikendalikan dengan direktori lokal lewat ssh dan kompresi&lt;/li&gt;
+  &lt;li&gt;tar -Puf backup.tar /home/user :
+ Membuat backup tambahan dari dari direktori ‘/home/user’&lt;/li&gt;
+  &lt;li&gt;( cd /tmp/local/ &amp;amp;&amp;amp; tar c . ) | ssh -C user@ip_addr ‘cd /home/share/ &amp;amp;&amp;amp; tar x -p’ :
+ Salin isi dari sebuah direktori melalui ssh pada direktori yang di kendalikan&lt;/li&gt;
+  &lt;li&gt;( tar c /home ) | ssh -C user@ip_addr ‘cd /home/backup-home &amp;amp;&amp;amp; tar x -p’ salin direktori lokal ke
+ direktori yang dikenalikan lewat ssh&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;tar cf - .&lt;/td&gt;
+          &lt;td&gt;(cd /tmp/backup ; tar xf - ) :&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;cdrom&quot;&gt;CDROM&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cd-paranoia -B :
+ Mengkonversi lajur audio dari CD ke berkas wav&lt;/li&gt;
+  &lt;li&gt;cd-paranoia – :
+ Mengkonversi tiga lajur audio pertama dari CD ke berkas wav&lt;/li&gt;
+  &lt;li&gt;cdrecord -v gracetime=2 dev=/dev/cdrom -eject blank=fast -force :
+ Menghapus isi cd-rw&lt;/li&gt;
+  &lt;li&gt;cdrecord -v dev=/dev/cdrom cd.iso :
+ Membakar berkas ISO ke dalam CD&lt;/li&gt;
+  &lt;li&gt;gzip -dc cd_iso.gz | cdrecord dev=/dev/cdrom - :
+ Membakar berkas ISO terkompresi ke dalam CD&lt;/li&gt;
+  &lt;li&gt;cdrecord –scanbus :
+ Memindai bus data untuk mengidentifikasi kanal scsi&lt;/li&gt;
+  &lt;li&gt;dd if=/dev/hdc | md5sum :
+ Melakukan perhitungan md5sum terhadap perangkat, semacam CD&lt;/li&gt;
+  &lt;li&gt;mkisofs /dev/cdrom &amp;gt; cd.iso :
+ Membuat berkas image ISO dari sebuah cdrom&lt;/li&gt;
+  &lt;li&gt;mkisofs /dev/cdrom | gzip &amp;gt; cd_iso.gz :
+ Membuat berkas image ISO terkompresi dari sebuah cdrom&lt;/li&gt;
+  &lt;li&gt;mkisofs -J -allow-leading-dots -R -V :
+ Membuat berkas image ISO dari suatu direktori&lt;/li&gt;
+  &lt;li&gt;mount -o loop cd.iso /mnt/iso :
+ Memuat image ISO ke direktori ‘/mnt/iso’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;networking-ethernet--wlan&quot;&gt;Networking (Ethernet / Wlan)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dhclient eth0 :
+ Mengaktifkan ‘eth0’ ke mode dhcp&lt;/li&gt;
+  &lt;li&gt;ethtool eth0 :
+ Menampilkan statistik penggunaan jaringan yang melalui ‘eth0’&lt;/li&gt;
+  &lt;li&gt;host http://www.example.com :
+ Menampilkan hasil pencarian dari nama komputer ke alamat ip dan sebaliknya&lt;/li&gt;
+  &lt;li&gt;hostname :
+ Menampilkan nama komputer dari sistem&lt;/li&gt;
+  &lt;li&gt;ifconfig eth0 :
+ Menampilkan konfigurasi suatu nic&lt;/li&gt;
+  &lt;li&gt;ifconfig eth0 192.168.1.1 netmask 255.255.255.0 :
+ Mengatur alamat IP&lt;/li&gt;
+  &lt;li&gt;ifconfig eth0 promisc :
+ Mengkonfigurasi ‘eth0’ ke dalam mode bebas agar dapat mengendus paket yang beredar pada jaringan&lt;/li&gt;
+  &lt;li&gt;ifdown eth0 :
+ Menonaktifkan ‘eth0’&lt;/li&gt;
+  &lt;li&gt;ifup eth0 :
+ Mengaktifkan ‘eth0’&lt;/li&gt;
+  &lt;li&gt;ip link show :
+ Menampilkan status koneksi pada semua antarmuka jaringan&lt;/li&gt;
+  &lt;li&gt;iwconfig eth1 :
+ Menampilkan jaringan wireless&lt;/li&gt;
+  &lt;li&gt;iwlist scan :
+ Melakukan pemindaian wifi untuk mengetahui koneksi wireless yang tersedia&lt;/li&gt;
+  &lt;li&gt;mii-tool eth0 :
+ Menampilkan status koneksi ‘eth0’&lt;/li&gt;
+  &lt;li&gt;netstat -tup -
+ Menampilkan semua koneksi jaringan yang aktif beserta identifikasi prosesnya&lt;/li&gt;
+  &lt;li&gt;netstat -tupl :
+ Menampilkan semua layanan jaringan yang ‘mendengarkan’ pada sistem beserta identifikasi prosesnya&lt;/li&gt;
+  &lt;li&gt;netstat -rn :
+ Menampilkan tabel routing seperti perintah ‘route -n’&lt;/li&gt;
+  &lt;li&gt;nslookup http://www.example.com :
+ Mencari resolusi dari nama komputer ke alamat ip dan sebaliknya&lt;/li&gt;
+  &lt;li&gt;route -n :
+ Menampilkan tabel routing&lt;/li&gt;
+  &lt;li&gt;route add -net 0/0 gw IP_Gateway :
+ Mengkonfigurasi gerbang jaringan&lt;/li&gt;
+  &lt;li&gt;route add -net 192.168.0.0 netmask 255.255.0.0 gw 192.168.1.1 :
+ Menambahkan rute statik untuk mencapai jaringan ‘192.168.0.0/16’&lt;/li&gt;
+  &lt;li&gt;route del 0/0 gw IP_gateway :
+ Menghapus rute statik&lt;/li&gt;
+  &lt;li&gt;echo “1” &amp;gt; /proc/sys/net/ipv4/ip_forward :
+ Mengaktifkan rute ip /proc/sys/net/ipv4/ip_forward agar nic berfungi sebagai gerbang perantara
+ jaringan&lt;/li&gt;
+  &lt;li&gt;tcpdump tcp port 80 :
+ Menampilkan semua lalu-lintas HTTP&lt;/li&gt;
+  &lt;li&gt;whois http://www.example.com :
+ Menampilkan hasil pencarian informasi suatu domain melalui database whois&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;jaringan-microsoft-windows-samba&quot;&gt;Jaringan Microsoft Windows (Samba)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mount -t smbfs -o username=user,password=pass //WinClient/share /mnt/share :
+ Memuat ruang disk yang berbagi pakai pada jaringan windows&lt;/li&gt;
+  &lt;li&gt;nbtscan ip_addr :
+ Menunjukkan nama netbios suatu alamat ip&lt;/li&gt;
+  &lt;li&gt;nmblookup -A ip_addr :
+ Menunjukkan nama netbios suatu alamat ip&lt;/li&gt;
+  &lt;li&gt;smbclient -L ip_addr/hostname :
+ Menunjukkan nama ruang disk dan printer yang berbagi pakai pada suatu pc windows&lt;/li&gt;
+  &lt;li&gt;smbget -Rr smb://ip_addr/share :
+ Sebagaimana wget dapat mengunduh berkas dari layanan berbagi pakai pada pc windows melalui
+ smb&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;iptables-firewall&quot;&gt;IPTables (firewall)&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;iptables -t filter -L :
+ Perlihatkan seluruh rantai tabel filter&lt;/li&gt;
+  &lt;li&gt;iptables -t nat -L :
+ Perlihatkan seluruh rantai tabel nat&lt;/li&gt;
+  &lt;li&gt;iptables -t filter -F :
+ Hapus semua aturan pada tabel filter&lt;/li&gt;
+  &lt;li&gt;iptables -t nat -F :
+ Hapus semua aturan pada tabel nat&lt;/li&gt;
+  &lt;li&gt;iptables -t filter -X :
+ Hapus semua rantai yang dibuat oleh pengguna&lt;/li&gt;
+  &lt;li&gt;iptables -t filter -A INPUT -p tcp –dport telnet -j ACCEPT :
+ Izinkan koneksi telnet ke rantai input&lt;/li&gt;
+  &lt;li&gt;iptables -t filter -A OUTPUT -p tcp –dport http -j DROP :
+ Tolak koneksi HTTP ke rantai output&lt;/li&gt;
+  &lt;li&gt;iptables -t filter -A FORWARD -p tcp –dport pop3 -j ACCEPT :
+ Izinkan koneksi POP3 melalui rantai forward&lt;/li&gt;
+  &lt;li&gt;iptables -t filter -A INPUT -j LOG –log-prefix :
+ Catat transaksi pada rantai input&lt;/li&gt;
+  &lt;li&gt;iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE :
+ Konfigurasikan PAT (Port Address Traslation) pada eth0 dengan merubah paket yang keluar&lt;/li&gt;
+  &lt;li&gt;iptables -t nat -A PREROUTING -d 192.168.0.1 -p tcp -m tcp –dport 22 -j DNAT –to-destination
+ 10.0.0.2:22 :
+ Alihkan paket yang ditujukan untuk suatu alamat ke alamat lainnya&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;pemantauan-dan-pencarian-kesalahan&quot;&gt;Pemantauan dan Pencarian Kesalahan&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;free -m :
+ Menampilkan RAM yang belum terpakai sistem, dalam hitungan megabyte&lt;/li&gt;
+  &lt;li&gt;kill -9 process_id :
+ Memaksa penghentian proses serta mematikannya&lt;/li&gt;
+  &lt;li&gt;kill -1 process_id :
+ Memaksa suatu proses agar memuat ulang konfigurasinya&lt;/li&gt;
+  &lt;li&gt;last reboot :
+ Menampilkan kapan pemuatan ulang sistem terakhir kali terjadi&lt;/li&gt;
+  &lt;li&gt;lsmod :
+ Menampilkan modul-modul kernel yang di muat saat ini&lt;/li&gt;
+  &lt;li&gt;lsof -p process_id :
+ Menampilkan daftar berkas yang dibuka oleh suatu proses&lt;/li&gt;
+  &lt;li&gt;lsof /home/user1 :
+ Menampilkan daftar berkas yang terbuka pada suatu alamat direktori sistem&lt;/li&gt;
+  &lt;li&gt;ps -eafw :
+ Menampilkan berbagai proses yang sedang berjalan&lt;/li&gt;
+  &lt;li&gt;ps -e -o pid,args –forest :
+ Menampilkan berbagai proses yang sedang berjalan dengan tampilan hirarki&lt;/li&gt;
+  &lt;li&gt;pstree :
+ Menampilkan diagram pohon proses yang berjalan&lt;/li&gt;
+  &lt;li&gt;smartctl -A /dev/hda :
+ Memantau realibilitas hard disk melalui fungsi SMART&lt;/li&gt;
+  &lt;li&gt;smartctl -i /dev/hda :
+ Memeriksa apakah fungsi SMART aktif pada suatu harddisk&lt;/li&gt;
+  &lt;li&gt;strace -c ls &amp;gt;/dev/null :
+ Menampilkan panggilan fungsi sistem yang dibuat dan diterima oleh proses&lt;/li&gt;
+  &lt;li&gt;strace -f -e open ls &amp;gt;/dev/null :
+ Menampilkan panggilan pustaka fungsi&lt;/li&gt;
+  &lt;li&gt;tail /var/log/dmesg :
+ Menampilkan laporan pesan yang terjadi saat kernel dimulai&lt;/li&gt;
+  &lt;li&gt;tail /var/log/messages :
+ Menampilkan laporan kejadian pada sistem&lt;/li&gt;
+  &lt;li&gt;top :
+ Menampilkan proses yang berjalan dalam tampilan daftar yang aktif, diurut berdasarkan penggunaan
+ sumber daya CPU&lt;/li&gt;
+  &lt;li&gt;watch -n1 ‘cat /proc/interrupts’ :
+ Menampilkan interupsi perangkat keras dalam waktu riil&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;perintah-berguna-lainnya&quot;&gt;Perintah Berguna Lainnya&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;alias hh=’history’ :    Inisialisasi “hh” untuk perintah “history”&lt;/li&gt;
+  &lt;li&gt;chsh :
+ Ganti perintah shell&lt;/li&gt;
+  &lt;li&gt;gpg file1.gpg :
+ Mendeskripsikan sebuah berkas dengan GNU Privacy Guard&lt;/li&gt;
+  &lt;li&gt;man ping :
+ Lihat manual untuk command ping&lt;/li&gt;
+  &lt;li&gt;mkbootdisk –device /dev/fd0 &lt;code&gt;uname -r&lt;/code&gt; :
+ Membuat boot floopy&lt;/li&gt;
+  &lt;li&gt;wget -r http://www.example.com :
+ Download keseluruhan halaman web&lt;/li&gt;
+  &lt;li&gt;wget -c http://www.example.com/file.iso :
+ Mendownload sebuah file dengan kemampuan untuk berhenti dan melanjutkan kemudian&lt;/li&gt;
+  &lt;li&gt;echo ‘wget -c http://www.example.com/files.iso’ | at 09:00 :
+ Mulai mengunduh pada waktu yang ditentukan&lt;/li&gt;
+  &lt;li&gt;whatis …keyword :
+ Menampilkann deskripsi dari apa yang dilakukan oleh suatu program&lt;/li&gt;
+  &lt;li&gt;who -a :
+ Menampilkan pengguna yang sedang login di sistem&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sumber &lt;a href=&quot;https://indonesianbacktrack.or.id/forum/thread-6183.html&quot;&gt;Indonesian Backtrack Team&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Jun 2015 16:04:14 +0700</pubDate>
+        <link>http://dikiaap.github.io/2015/06/18/perintah-perintah-terminal-di-linux.html</link>
+        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/18/perintah-perintah-terminal-di-linux.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Install RubyGems Di Ubuntu</title>
@@ -397,22 +1278,6 @@ Serta dalam hal keamanan Yii juga tidak kalah dengan framework lainnya, Ini juga
         <pubDate>Sun, 14 Jun 2015 21:51:57 +0700</pubDate>
         <link>http://dikiaap.github.io/2015/06/14/wallpaper-indonesian-backtrack-team.html</link>
         <guid isPermaLink="true">http://dikiaap.github.io/2015/06/14/wallpaper-indonesian-backtrack-team.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Design Kemeja IBT</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-bx2_0GoSsMI/VYJ6k33IOoI/AAAAAAAAAVc/Z7weHATxBMg/s576/cat1.jpg&quot; alt=&quot;Alt text&quot; /&gt;
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-hooSJs4iyvc/VYJ6lQM1UsI/AAAAAAAAAVo/srMoAqcr0zg/s576/cat2.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-MheLGhymQrs/VYJ6lb1ZZNI/AAAAAAAAAVs/q5yYUC8iq7o/s576/cat3.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 14 Jun 2015 21:46:18 +0700</pubDate>
-        <link>http://dikiaap.github.io/2015/06/14/design-kemeja-ibt.html</link>
-        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/14/design-kemeja-ibt.html</guid>
         
         
       </item>
