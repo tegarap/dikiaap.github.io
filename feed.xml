@@ -5,9 +5,35 @@
     <description>Brom [ ] Diki Andriansyah A P merupakan blog berisi pengetahuan dan pengamatan programming. Programs that make the spirit. Dengan Jiwa Open Source Saya mengelola blog ini secara semangat</description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jun 2015 11:35:14 +0700</pubDate>
-    <lastBuildDate>Fri, 19 Jun 2015 11:35:14 +0700</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2015 11:46:59 +0700</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2015 11:46:59 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Monitoring Jaringan Menggunakan Tor Arm</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://www.torproject.org/images/onion.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tools ini digunakan untuk memonitoring aplikasi tor browser/vidalia (untuk surfing anonymity). Seperti halnya gnome-system-monitor tapi tools ini berbasis cli, tools ini namanya arm.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Yang belum menginstall&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;dunkenciels@pickgoo:~$ sudo apt-get install tor-arm&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Jalankan aplikasi tor atau Start service tor nya&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;dunkenciels@pickgoo:~$ sudo service tor start&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Sekarang perintah ini digunakan untuk memonitoring tor&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;dunkenciels@pickgoo:~$ arm 127.0.0.1 9050&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Jun 2015 11:42:22 +0700</pubDate>
+        <link>http://dikiaap.github.io/2015/06/19/monitoring-jaringan-menggunakan-tor-arm.html</link>
+        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/19/monitoring-jaringan-menggunakan-tor-arm.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Membuat User Di Mysql Dan Hak Akses User Mysql</title>
@@ -1298,39 +1324,6 @@ library from Ruby version 1.9.&lt;/p&gt;
         <pubDate>Mon, 15 Jun 2015 22:57:25 +0700</pubDate>
         <link>http://dikiaap.github.io/2015/06/15/cara-install-ruby-di-ubuntu.html</link>
         <guid isPermaLink="true">http://dikiaap.github.io/2015/06/15/cara-install-ruby-di-ubuntu.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Apa Itu Yii Framework?</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-Lk-u8iOfwVc/VYJ4hsc_uMI/AAAAAAAAAUg/QbJBERxsTGc/s284/logo.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;pengertian-secara-singkat&quot;&gt;Pengertian secara Singkat&lt;/h1&gt;
-&lt;p&gt;Yii adalah framework PHP berbasis komponen, mempunyai kinerja yang tinggi dalam pembuatan 
-web aplikasi berskala besar.&lt;/p&gt;
-
-&lt;p&gt;Yii merupakan singkatan dari &lt;strong&gt;Yes It is!&lt;/strong&gt;
-Apakah cepat? Apakah Aman? Apakah Profesional? Apakah Yii cocok dengan Project saya selanjutnya? .. &lt;strong&gt;Yes, it is!&lt;/strong&gt;
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;perbedaan-mendasar&quot;&gt;Perbedaan Mendasar&lt;/h1&gt;
-&lt;p&gt;Berbeda dengan Native Php, Yii dikembangkan untuk memudahkan para pengembang untuk memudahkan pembuatan aplikasinya. Ada banyak sekali plugin dan library yang telah disediakan oleh framework yang satu ini. Jika Native Php harus membuat aplikasi dari nol, Maka Yii bisa membuat aplikasi lebih dari nol.&lt;/p&gt;
-
-&lt;h1 id=&quot;development&quot;&gt;Development&lt;/h1&gt;
-&lt;p&gt;Sesuai dengan namanya framework, Pasti Yii mempunyai keunggulan tersendiri dalam hal pengembangan sebuah website
-Yii sangat cocok dalam pengembangan Aplikasi dalam lalu lintas berskala tinggi dan besar, seperti E-commere, Cms, Forum, Situs Berita Besar, dan sebagainya&lt;/p&gt;
-
-&lt;h1 id=&quot;help&quot;&gt;Help?&lt;/h1&gt;
-&lt;p&gt;Jangan takut jika mengalami masalah dalam mempelajari dan membangun aplikasi menggunakan Yii, sekarang sudah banyak forum diskusi Yii framework, Ebook Yii Guide, dan pastinya para pengembang di komunitas yii juga yang akan selalu ada jika anda mengalami kesulitan&lt;/p&gt;
-
-&lt;h1 id=&quot;time-to-move-on&quot;&gt;Time To Move On&lt;/h1&gt;
-&lt;p&gt;Sekarang waktunya berpindah, Kenapa? Karena jika Anda masih menggunakan Native Php mungkin anda akan dikatakan kurang update dalam pemrogramman backend development, Ini kata senior saya. Hehe
-Serta dalam hal keamanan Yii juga tidak kalah dengan framework lainnya, Ini juga jadi keunggulan Yii sendiri&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 Jun 2015 22:29:57 +0700</pubDate>
-        <link>http://dikiaap.github.io/2015/06/15/apa-itu-yii-framework.html</link>
-        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/15/apa-itu-yii-framework.html</guid>
         
         
       </item>
