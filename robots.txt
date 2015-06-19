@@ -2,5 +2,6 @@ User-agent: Mediapartners-Google
 Disallow:
 
 User-agent: *
-Disallow: /search
+Disallow: /.bundle/
+Disallow: /.gitignore
 Allow: /
