@@ -5,9 +5,149 @@
     <description>Brom [ ] Diki Andriansyah A P merupakan blog berisi pengetahuan dan pengamatan programming. Programs that make the spirit. Dengan Jiwa Open Source Saya mengelola blog ini secara semangat</description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jun 2015 15:04:30 +0700</pubDate>
-    <lastBuildDate>Fri, 19 Jun 2015 15:04:30 +0700</lastBuildDate>
+    <pubDate>Sat, 20 Jun 2015 13:09:24 +0700</pubDate>
+    <lastBuildDate>Sat, 20 Jun 2015 13:09:24 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Pemrogramman Bash Sederhana</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://images3.alphacoders.com/824/82485.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bourne-Again shell
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
+Perubahan tertunda ditampilkan di halaman iniBelum Diperiksa
+Bourne-Again shell lebih sering disebut dengan bash. Bash ini salah program dalam GNU Project yang menjadi shell yang paling banyak digunakan pada lingkungan *NIX. Bourne-Again shell merupakan pengembangan dari Bourne shell. Namanya diambil dari penciptanya, yakni Stephen Bourne.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Bash sendiri kemudian dikembangkan Brian Fox. Saat ini, bash menjadi script’ primer pada sistem Linux dan telah disertakan pula di Mac OS X Tiger. Selain Bash, shell yang ada ialah C-shell dan Korn Shell. Perbedaan ketiganya terlihat pada format penyimpananya, yaitu Bash (.sh), C-shell (.csh), dan Korn Shell (.ksh). (Wikipedia)&lt;/p&gt;
+
+&lt;p&gt;Contoh ini hanya dasarnya saja ya, saya juga lagi belajar nih :D laughing
+Buka tools editing kalian, ketik dan simpan dengan extension .sh
+Untuk jalaninnya dengan cara bash namafile.sh atau ./namafile.sh
+Nih contohnya&lt;/p&gt;
+
+&lt;p&gt;File name : break.sh&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+# file : break.sh
+total=0
+jumlah=0
+echo &quot;Akhiri dengan memasukan angka 0 atau negatif&quot;
+while true
+do
+echo &quot;Nilai : &quot;
+read nilai
+if [  $nilai -le 0 ]
+then
+      break
+fi
+jumlah=`expr $jumlah + 1`
+total=`expr $total + $nilai`
+done
+rata=`expr $total / $jumlah`
+echo &quot;Rata-rata $rata&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;File name: cobawhile.sh&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+# file : cobawhile.sh
+i=1
+while [  &quot;$i&quot; -lt 7 ]
+do
+echo $i
+i=`expr $i + 1`
+done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;File name: cthfor.sh&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+for bil in 1 2 3 4 5 6 7 8 9 10
+do echo $bil
+done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;File name: echo.sh&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+# file : echo.sh
+echo &quot;Test code &quot;
+echo
+ps
+echo
+who
+echo
+ls
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;File name: elif.sh&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+# file : elif.sh
+OPTIONS=&quot;Hello Quit&quot;
+select opt in $OPTIONS; do
+if [ &quot;$opt&quot; = &quot;Quit&quot; ]; then
+echo done
+exit
+elif [ &quot;$opt&quot; = &quot;Hello&quot; ]; then
+echo Hello world
+else
+clear
+echo bad option
+fi
+done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;File name: hari.sh&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+# file : hari.sh
+kodehari=`date +%w `
+case $kodehari in
+0) echo &quot;Hari Minggu&quot; ;;
+1) echo &quot;Hari Senin&quot; ;;
+2) echo &quot;Hari Selasa&quot; ;;
+3) echo &quot;Hari Rabu&quot; ;;
+4) echo &quot;Hari Kamis&quot; ;;
+5) echo &quot;Hari Jumat&quot; ;;
+6) echo &quot;Hari Sabtu&quot; ;;
+esac
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;File name: ucapan.sh&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+# file : ucapan.sh
+date
+jam=`date +%H`
+if [ $jam -lt 10 ]
+then
+    echo &quot;Selamat pagi&quot;
+else
+    if [ $jam -lt 15 ]
+    then
+        echo &quot;Selamat siang&quot;
+    else
+        if [ $jam -lt 17 ]
+        then
+            echo &quot;Selamat sore&quot;
+        else
+            echo &quot;Selamat lembur&quot;
+        fi
+    fi
+fi
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lebih lengkap silahkan kunjungi http://pemula.linux.or.id/programming/bash-shell.html
+Semoga bermanfaa&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Jun 2015 12:53:31 +0700</pubDate>
+        <link>http://dikiaap.github.io/2015/06/20/pemrogramman-bash-sederhana.html</link>
+        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/20/pemrogramman-bash-sederhana.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Monitoring Jaringan Menggunakan Tor Arm</title>
@@ -1282,48 +1422,6 @@ library from Ruby version 1.9.&lt;/p&gt;
         <pubDate>Mon, 15 Jun 2015 23:14:00 +0700</pubDate>
         <link>http://dikiaap.github.io/2015/06/15/perintah-dasar-di-octopress.html</link>
         <guid isPermaLink="true">http://dikiaap.github.io/2015/06/15/perintah-dasar-di-octopress.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cara Install Ruby Di Ubuntu 15.04</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-RgxywtXkyy8/VYJ4XydJcgI/AAAAAAAAASM/wMeQ72vGrjc/s100/100px-Ruby_logo.svg.png&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ruby adalah Bahasa pemrograman open source dinamis, mudah dimengerti dan produktif. Sintaks Ruby elegan, natural, mudah dibaca dan ditulis dan berorientasi objek.&lt;/p&gt;
-
-&lt;p&gt;Ruby merupakan bahasa yang seimbang. Pencipta Ruby, Yukihiro “Matz” Matsumoto, menggabungkan bagian-bagian dari bahasa-bahasa favorit beliau (Perl, Smalltalk, Eiffel, Ada dan Lisp) untuk membentuk bahasa baru yang seimbang antara pemrograman fungsional dengan pemrograman imperatif.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Versi Ruby Sekarang adalah 2.2.x&lt;/p&gt;
-
-&lt;p&gt;Pertama update dulu, supaya aplikasi anda tetap up to date&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Langkah selanjutnya&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get install ruby&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get install gem&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get install ruby-dev&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Saya menggunakan Ubuntu versi 15.04&lt;/p&gt;
-
-&lt;p&gt;Ubuntu versi tersebut tidak ada kendala dalam penginstallan&lt;/p&gt;
-
-&lt;p&gt;Jangan lupa juga menginstall &lt;code&gt;gcc&lt;/code&gt; sama &lt;code&gt;make&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Baca juga &lt;a href=&quot;https://dikiaap.github.io/2015/06/12/cara-install-octopress-3.html&quot;&gt;Cara Install Octopress 3.0&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Octopress adalah framework website yang bagus untuk blogging yang dibangun dari jekyll dan ruby, Serta lebih bagus dari wordpress, Sudah banyak pengguna wordpress yang pindah ke Octopress Framework&lt;/p&gt;
-
-&lt;p&gt;Octopress juga disebut A blog Framework for Hackers :D&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 Jun 2015 22:57:25 +0700</pubDate>
-        <link>http://dikiaap.github.io/2015/06/15/cara-install-ruby-di-ubuntu.html</link>
-        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/15/cara-install-ruby-di-ubuntu.html</guid>
         
         
       </item>
