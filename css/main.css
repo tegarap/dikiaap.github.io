@@ -124,6 +124,11 @@ pre {
       max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
+  @media screen and (max-width: 600px) {
+    .wrapper {
+      max-width: calc(800px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; } }
 
 /**
  * Clearfix
@@ -215,23 +220,10 @@ pre {
       padding-right: 15px;
       padding-left: 15px; } }
 
-.posted {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
-  font-weight: 300;
-  margin-top: 44px;
-  margin-bottom: 0;
-  padding-left: 10px;
-  margin-left: 25px;
-  float: left;
-  color: #f8f8f8; }
-  .posted, .posted:visited {
-    color: #f8f8f8; }
-
 .site-title {
   font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
   font-weight: 600;
-  font-size: 26px;
   line-height: 107px;
   letter-spacing: -1px;
   margin-bottom: 0;

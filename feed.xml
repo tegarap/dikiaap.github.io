@@ -5,9 +5,44 @@
     <description>Brom [ ] Diki Andriansyah A P merupakan blog berisi pengetahuan dan pengamatan programming. Programs that make the spirit. Dengan Jiwa Open Source Saya mengelola blog ini dengan tata keseriusan dan kegembiraan</description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Jul 2015 03:52:46 +0700</pubDate>
-    <lastBuildDate>Thu, 02 Jul 2015 03:52:46 +0700</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2015 04:48:11 +0700</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2015 04:48:11 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Docs Laravel 5</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-90iZDBDggW0/VYJ4cGIY1YI/AAAAAAAAATI/6mxzBKeIMeI/s940/Laravel.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mempelajari laravel memanglah ada kesuiltan tersendiri, yaitu dokumentasi nya masih kebanyakan berbahasa inggris.&lt;/p&gt;
+
+&lt;p&gt;Walaupun berbahasa inggris tapi kita patut bersyukur, karena dokumentasi ini telah di koreksi secara detail oleh pihak laravel sendiri. Maka dari itu dokumentasi ini pasti mudah di praktekkan dengan bahasa yang lebih mudah di terjemahkan.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Untuk dokumentas sendiri kalian bisa lihat di&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/laravel/docs&quot;&gt;https://github.com/laravel/docs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://laravel.com/docs/5.1&quot;&gt;http://laravel.com/docs/5.1&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Untuk dokumentasi versi bahasa indonesia silahkan anda liat - liat di sini&lt;/p&gt;
+
+&lt;p&gt;Dokumentasi nya juga bisa di install ke Android kamu&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/miftahafina/laradocs&quot;&gt;https://github.com/miftahafina/laradocs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 02 Jul 2015 04:39:37 +0700</pubDate>
+        <link>http://dikiaap.github.io/2015/07/02/docs-laravel-5.html</link>
+        <guid isPermaLink="true">http://dikiaap.github.io/2015/07/02/docs-laravel-5.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Pemrogramman Bash Sederhana</title>
@@ -1384,42 +1419,6 @@ library from Ruby version 1.9.&lt;/p&gt;
         <pubDate>Tue, 16 Jun 2015 14:37:00 +0700</pubDate>
         <link>http://dikiaap.github.io/2015/06/16/cara-membuat-post-di-octopress.html</link>
         <guid isPermaLink="true">http://dikiaap.github.io/2015/06/16/cara-membuat-post-di-octopress.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Perintah Dasar Di Octopress 3.0</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-sgSU_Fehgec/VYJ4iLjKgTI/AAAAAAAAAU0/-a7L1OqNziw/s600/octopress.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Berikut ini adalah perintah dasar dari octopress framework&lt;/p&gt;
-
-&lt;p&gt;Jekyll juga punya kekerabatan dengan octopress :)&lt;/p&gt;
-
-&lt;p&gt;Saya menggunakan octopress 3.0.7 dan jekyll 2.5.3
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;membuat-post&quot;&gt;Membuat Post&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;octopress new post &quot;Judul Artikel yang kamu inginkan&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;membuat-halaman-baru&quot;&gt;Membuat Halaman Baru&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;octopress new page &quot;Judul Page yang kamu inginkan&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;membuat-draft&quot;&gt;Membuat Draft&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;octopress new draft &quot;Judul Artikel yang kamu ingin simpan&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;menggunakan-octopress-di-komputer-local-kamu&quot;&gt;Menggunakan Octopress di Komputer local kamu&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;jekyll serve&lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;memperbarui-template-dan-postingan-octopress-kamu&quot;&gt;Memperbarui Template dan Postingan Octopress kamu&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;jekyll build&lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;mendeploy-situsmu-ke-github&quot;&gt;Mendeploy situsmu ke Github&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;octopress deploy&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 Jun 2015 23:14:00 +0700</pubDate>
-        <link>http://dikiaap.github.io/2015/06/15/perintah-dasar-di-octopress.html</link>
-        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/15/perintah-dasar-di-octopress.html</guid>
         
         
       </item>

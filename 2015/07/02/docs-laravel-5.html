@@ -10,16 +10,16 @@
   <meta name="HandheldFriendly" content="True">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
   <link href="/favicon.png" rel="icon">
-  <title>Pemrogramman Bash Sederhana</title>  
+  <title>Docs Laravel 5</title>  
 
   
-  <meta name="description" content="Bourne-Again shell lebih sering disebut dengan bash. Bash ini salah program dalam GNU Project yang menjadi shell yang paling banyak digunakan pada ..." />
+  <meta name="description" content="" />
 
   
-  <meta name="keywords" content="Membuat Bash Program, Bash Program Pemula, Linux Pemula" />
+  <meta name="keywords" content="Docs Laravel Indonesia, Docs 5 Laravel Indonesia, Ebook Laravel Indonesia" />
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://dikiaap.github.io/2015/06/20/pemrogramman-bash-sederhana.html">
+  <link rel="canonical" href="http://dikiaap.github.io/2015/07/02/docs-laravel-5.html">
   <link rel="alternate" type="application/rss+xml" title="Brom [ ] Diki Andriansyah A P" href="http://dikiaap.github.io/feed.xml" />
   <span  itemprop='author'><meta name="author" content="dikiaap"><span  itemprop='author'></span>
 </head>
@@ -55,141 +55,36 @@
         <div class="post">
 
   <header class="post-header">
-    <span itemprop="name"><h1 class="post-title"><center>Pemrogramman Bash Sederhana</center></h1></span>
-    <p class="post-meta">20 Jun 2015 • <a href="https://github.com/dikiaap">dikiaap</a>   • <img src="/dikiaap.png" width="18" height="18"></p>
+    <span itemprop="name"><h1 class="post-title"><center>Docs Laravel 5</center></h1></span>
+    <p class="post-meta">2 Jul 2015 • <a href="https://github.com/dikiaap">dikiaap</a>   • <img src="/dikiaap.png" width="18" height="18"></p>
   </header>
 
   <article class="post-content">
-    <p><img src="http://images3.alphacoders.com/824/82485.jpg" alt="Alt text" /></p>
+    <p><img src="https://lh3.googleusercontent.com/-90iZDBDggW0/VYJ4cGIY1YI/AAAAAAAAATI/6mxzBKeIMeI/s940/Laravel.jpg" alt="Alt text" /></p>
 
-<p>Bourne-Again shell
-Dari Wikipedia bahasa Indonesia, ensiklopedia bebas.
-Bourne-Again shell lebih sering disebut dengan bash. Bash ini salah program dalam GNU Project yang menjadi shell yang paling banyak digunakan pada lingkungan *NIX. Bourne-Again shell merupakan pengembangan dari Bourne shell. Namanya diambil dari penciptanya, yakni Stephen Bourne.
+<p>Mempelajari laravel memanglah ada kesuiltan tersendiri, yaitu dokumentasi nya masih kebanyakan berbahasa inggris.</p>
+
+<p>Walaupun berbahasa inggris tapi kita patut bersyukur, karena dokumentasi ini telah di koreksi secara detail oleh pihak laravel sendiri. Maka dari itu dokumentasi ini pasti mudah di praktekkan dengan bahasa yang lebih mudah di terjemahkan.
 <!--more--></p>
 
-<p>Bash sendiri kemudian dikembangkan Brian Fox. Saat ini, bash menjadi script’ primer pada sistem Linux dan telah disertakan pula di Mac OS X Tiger. Selain Bash, shell yang ada ialah C-shell dan Korn Shell. Perbedaan ketiganya terlihat pada format penyimpananya, yaitu Bash (.sh), C-shell (.csh), dan Korn Shell (.ksh).</p>
+<p>Untuk dokumentas sendiri kalian bisa lihat di</p>
 
-<p>Contoh ini hanya dasarnya saja ya.
-Buka tools editing kalian, ketik dan simpan dengan extension .sh. 
-Untuk jalaninnya dengan cara <code>bash namafile.sh</code> atau <code>./namafile.sh</code></p>
+<ul>
+  <li>
+    <p><a href="https://github.com/laravel/docs">https://github.com/laravel/docs</a></p>
+  </li>
+  <li>
+    <p><a href="http://laravel.com/docs/5.1">http://laravel.com/docs/5.1</a></p>
+  </li>
+</ul>
 
-<p>Nih contohnya</p>
+<p>Untuk dokumentasi versi bahasa indonesia silahkan anda liat - liat di sini</p>
 
-<p>File name : break.sh</p>
+<p>Dokumentasi nya juga bisa di install ke Android kamu</p>
 
-<pre><code>#!/bin/bash
-# file : break.sh
-total=0
-jumlah=0
-echo "Akhiri dengan memasukan angka 0 atau negatif"
-while true
-do
-echo "Nilai : "
-read nilai
-if [  $nilai -le 0 ]
-then
-      break
-fi
-jumlah=`expr $jumlah + 1`
-total=`expr $total + $nilai`
-done
-rata=`expr $total / $jumlah`
-echo "Rata-rata $rata"
-</code></pre>
-
-<p>File name: cobawhile.sh</p>
-
-<pre><code>#!/bin/bash
-# file : cobawhile.sh
-i=1
-while [  "$i" -lt 7 ]
-do
-echo $i
-i=`expr $i + 1`
-done
-</code></pre>
-
-<p>File name: cthfor.sh</p>
-
-<pre><code>#!/bin/bash
-for bil in 1 2 3 4 5 6 7 8 9 10
-do echo $bil
-done
-</code></pre>
-
-<p>File name: echo.sh</p>
-
-<pre><code>#!/bin/bash
-# file : echo.sh
-echo "Test code "
-echo
-ps
-echo
-who
-echo
-ls
-</code></pre>
-
-<p>File name: elif.sh</p>
-
-<pre><code>#!/bin/bash
-# file : elif.sh
-OPTIONS="Hello Quit"
-select opt in $OPTIONS; do
-if [ "$opt" = "Quit" ]; then
-echo done
-exit
-elif [ "$opt" = "Hello" ]; then
-echo Hello world
-else
-clear
-echo bad option
-fi
-done
-</code></pre>
-
-<p>File name: hari.sh</p>
-
-<pre><code>#!/bin/bash
-# file : hari.sh
-kodehari=`date +%w `
-case $kodehari in
-0) echo "Hari Minggu" ;;
-1) echo "Hari Senin" ;;
-2) echo "Hari Selasa" ;;
-3) echo "Hari Rabu" ;;
-4) echo "Hari Kamis" ;;
-5) echo "Hari Jumat" ;;
-6) echo "Hari Sabtu" ;;
-esac
-</code></pre>
-
-<p>File name: ucapan.sh</p>
-
-<pre><code>#!/bin/bash
-# file : ucapan.sh
-date
-jam=`date +%H`
-if [ $jam -lt 10 ]
-then
-    echo "Selamat pagi"
-else
-    if [ $jam -lt 15 ]
-    then
-        echo "Selamat siang"
-    else
-        if [ $jam -lt 17 ]
-        then
-            echo "Selamat sore"
-        else
-            echo "Selamat lembur"
-        fi
-    fi
-fi
-</code></pre>
-
-<p>Lebih lengkap silahkan kunjungi http://pemula.linux.or.id/programming/bash-shell.html
-Semoga bermanfaa</p>
+<ul>
+  <li><a href="https://github.com/miftahafina/laradocs">https://github.com/miftahafina/laradocs</a></li>
+</ul>
 
   </article>
 	</div>
