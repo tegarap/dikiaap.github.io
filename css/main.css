@@ -232,6 +232,30 @@ pre {
   color: #f8f8f8; }
   .site-title, .site-title:visited {
     color: #f8f8f8; }
+  @media screen and (max-width: 600px) {
+    .site-title {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 107px;
+      letter-spacing: -1px;
+      margin-bottom: 0;
+      float: left;
+      color: #f8f8f8; }
+      .site-title, .site-title:visited {
+        color: #f8f8f8; } }
+  @media screen and (max-width: 800px) {
+    .site-title {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 107px;
+      letter-spacing: -1px;
+      margin-bottom: 0;
+      float: left;
+      color: #f8f8f8; }
+      .site-title, .site-title:visited {
+        color: #f8f8f8; } }
 
 .site-nav {
   float: right;
