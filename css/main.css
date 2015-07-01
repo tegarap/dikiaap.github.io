@@ -217,7 +217,7 @@ pre {
 
 .posted {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 300;
   margin-top: 44px;
   margin-bottom: 0;
@@ -229,6 +229,8 @@ pre {
     color: #f8f8f8; }
 
 .site-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   font-size: 26px;
   line-height: 107px;
   letter-spacing: -1px;
