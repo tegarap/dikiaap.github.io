@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Brom [ ] Diki Andriansyah A P</title>
-    <description>Brom [ ] Diki Andriansyah A P merupakan blog berisi pengetahuan dan pengamatan programming. Programs that make the spirit. Dengan Jiwa Open Source Saya mengelola blog ini secara semangat</description>
+    <description>Brom [ ] Diki Andriansyah A P merupakan blog berisi pengetahuan dan pengamatan programming. Programs that make the spirit. Dengan Jiwa Open Source Saya mengelola blog ini dengan tata keseriusan dan kegembiraan</description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Jun 2015 13:09:24 +0700</pubDate>
-    <lastBuildDate>Sat, 20 Jun 2015 13:09:24 +0700</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2015 16:08:21 +0700</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2015 16:08:21 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -14,17 +14,17 @@
         <description>&lt;p&gt;&lt;img src=&quot;http://images3.alphacoders.com/824/82485.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Bourne-Again shell
-Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
-Perubahan tertunda ditampilkan di halaman iniBelum Diperiksa
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas.
 Bourne-Again shell lebih sering disebut dengan bash. Bash ini salah program dalam GNU Project yang menjadi shell yang paling banyak digunakan pada lingkungan *NIX. Bourne-Again shell merupakan pengembangan dari Bourne shell. Namanya diambil dari penciptanya, yakni Stephen Bourne.
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;Bash sendiri kemudian dikembangkan Brian Fox. Saat ini, bash menjadi script’ primer pada sistem Linux dan telah disertakan pula di Mac OS X Tiger. Selain Bash, shell yang ada ialah C-shell dan Korn Shell. Perbedaan ketiganya terlihat pada format penyimpananya, yaitu Bash (.sh), C-shell (.csh), dan Korn Shell (.ksh). (Wikipedia)&lt;/p&gt;
+&lt;p&gt;Bash sendiri kemudian dikembangkan Brian Fox. Saat ini, bash menjadi script’ primer pada sistem Linux dan telah disertakan pula di Mac OS X Tiger. Selain Bash, shell yang ada ialah C-shell dan Korn Shell. Perbedaan ketiganya terlihat pada format penyimpananya, yaitu Bash (.sh), C-shell (.csh), dan Korn Shell (.ksh).&lt;/p&gt;
 
-&lt;p&gt;Contoh ini hanya dasarnya saja ya, saya juga lagi belajar nih :D laughing
-Buka tools editing kalian, ketik dan simpan dengan extension .sh
-Untuk jalaninnya dengan cara bash namafile.sh atau ./namafile.sh
-Nih contohnya&lt;/p&gt;
+&lt;p&gt;Contoh ini hanya dasarnya saja ya.
+Buka tools editing kalian, ketik dan simpan dengan extension .sh. 
+Untuk jalaninnya dengan cara &lt;code&gt;bash namafile.sh&lt;/code&gt; atau &lt;code&gt;./namafile.sh&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Nih contohnya&lt;/p&gt;
 
 &lt;p&gt;File name : break.sh&lt;/p&gt;
 
@@ -186,7 +186,7 @@ Semoga bermanfaa&lt;/p&gt;
 
 &lt;p&gt;Oke langsung aja ya. Pembuatan user di mysql digunakan untuk melindungi ancaman serangan dari luar (dalam keterangan ini bukan user di database khusus untuk sebuah web), karena sebenarnya saat kita login
 di server msyql adalah login sebagai root (administrator) yang bisa mempunyai hak akses penuh ke
-semua data. Maka kita harus membuat user baru untuk mencegah ancaman sewaktu2. Dalam
+semua data. Maka kita harus membuat user baru untuk mencegah ancaman sewaktu-waktu. Dalam
 pengaksesan kali ini, saya menggunakan jaringan lokal dan dibutuhkan 2 komputer / lebih untuk bisa
 saling mengakses / login di mysql server. Cara ini juga bisa diterapkan di sebuah paket hosting.&lt;/p&gt;
 
@@ -226,8 +226,6 @@ saling mengakses / login di mysql server. Cara ini juga bisa diterapkan di sebua
   &lt;p&gt;rtt min/avg/max/mdev = 0.071/0.072/0.074/0.008 ms&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;ternyata sudah berhasil terkoneksi&lt;/p&gt;
-
 &lt;p&gt;Sekarang saatnya untuk membuat user, ini codenya&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;mysql&amp;gt; create user &#39;diki&#39;@&#39;200.200.7.98&#39; identified by &#39;admin99&#39;;&lt;/code&gt;&lt;/p&gt;
@@ -236,7 +234,7 @@ saling mengakses / login di mysql server. Cara ini juga bisa diterapkan di sebua
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;ip 200.200.7.98 adalah ip komputer lain, yang digunakan untuk mengakses (bkn ip komputer sendiri)&lt;/p&gt;
+    &lt;p&gt;Ip 200.200.7.98 adalah ip komputer lain, yang digunakan untuk mengakses (bkn ip komputer sendiri)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;admin99 adalah password user tersebut&lt;/p&gt;
@@ -259,7 +257,7 @@ saling mengakses / login di mysql server. Cara ini juga bisa diterapkan di sebua
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;ip 200.200.7.27 adalah ip user 1 (server)&lt;/p&gt;
+    &lt;p&gt;Ip 200.200.7.27 adalah ip user 1 (server)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;diatas kita sudah dapat mengakses database “accsess”
@@ -267,9 +265,9 @@ Selanjutya kita lihat, tabel apa saja yang bisa di akses.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;code&gt;mysql&amp;gt; use accsess;&lt;/code&gt; //(untuk menggunakan database accsess)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mysql&amp;gt; use accsess;&lt;/code&gt; //untuk menggunakan database accsess&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;mysql&amp;gt; show tables;&lt;/code&gt; //(untuk melihat table)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mysql&amp;gt; show tables;&lt;/code&gt; //untuk melihat table&lt;/p&gt;
 
 &lt;p&gt;Oke, kita coba menambahkan field ke tabel TBL_PETUGAS&lt;/p&gt;
 
@@ -1377,11 +1375,11 @@ library from Ruby version 1.9.&lt;/p&gt;
 
 &lt;p&gt;Referensi Syntax &lt;strong&gt;Markdown&lt;/strong&gt; :&lt;/p&gt;
 
-&lt;p&gt;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;https://help.github.com/articles/markdown-basics/&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/markdown-basics/&quot;&gt;https://help.github.com/articles/markdown-basics/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;https://daringfireball.net/projects/markdown/syntax&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/syntax&quot;&gt;https://daringfireball.net/projects/markdown/syntax&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Jun 2015 14:37:00 +0700</pubDate>
         <link>http://dikiaap.github.io/2015/06/16/cara-membuat-post-di-octopress.html</link>
