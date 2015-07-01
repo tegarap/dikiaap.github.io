@@ -217,9 +217,9 @@ pre {
 
 .posted {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
-  margin-top: 48px;
+  margin-top: 44px;
   margin-bottom: 0;
   padding-left: 10px;
   margin-left: 25px;
@@ -230,7 +230,7 @@ pre {
 
 .site-title {
   font-size: 26px;
-  line-height: 118px;
+  line-height: 107px;
   letter-spacing: -1px;
   margin-bottom: 0;
   padding-left: 70px;
