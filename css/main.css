@@ -326,14 +326,17 @@ pre {
 @media screen and (max-width: 800px) {
   .footer-col-1,
   .footer-col-2 {
-    width: calc(50% - (30px / 2)); }
+    width: calc(50% - (30px / 2));
+    text-align: -webkit-center; }
 
   .footer-col-3 {
-    width: calc(100% - (30px / 2)); } }
+    width: calc(100% - (30px / 2));
+    text-align: -webkit-center; } }
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
-    width: calc(100% - (30px / 2)); } }
+    width: calc(100% - (30px / 2));
+    text-align: -webkit-center; } }
 /**
  * Page content
  */
