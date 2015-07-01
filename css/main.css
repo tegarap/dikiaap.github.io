@@ -181,7 +181,7 @@ pre {
     width: calc(100% - (30px / 2)); } }
 @media screen and (max-width: 600px) {
   .content-col {
-    float: none;
+    float: left;
     width: calc(100% - (30px / 2)); } }
 .wrapper-v2 {
   max-width: calc(1360px - (30px * 2));
