@@ -174,7 +174,7 @@ pre {
 @media screen and (max-width: 800px) {
   .content-col-1,
   .content-col-2 {
-    width: calc(50% - (30px / 2));
+    width: calc(100% - (30px / 2));
     height: calc(20% - (30px / 2)); }
 
   .content-col-3 {
