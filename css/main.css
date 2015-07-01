@@ -116,7 +116,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: calc(1100px);
+  max-width: calc(1160px);
   margin-right: auto;
   margin-left: auto; }
   @media screen and (max-width: 800px) {
@@ -227,7 +227,6 @@ pre {
   line-height: 107px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  padding-left: 70px;
   float: left;
   color: #f8f8f8; }
   .site-title, .site-title:visited {
