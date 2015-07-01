@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -216,10 +216,10 @@ pre {
       padding-left: 15px; } }
 
 .posted {
-  font-family: "Open Sans Light";
-  font-size: 19px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
   margin-top: 48px;
-  letter-spacing: -1px;
   margin-bottom: 0;
   padding-left: 10px;
   margin-left: 25px;
