@@ -179,8 +179,9 @@ pre {
 @media screen and (max-width: 800px) {
   .content-col-1,
   .content-col-2 {
-    width: calc(100% - (30px / 2));
-    height: calc(20% - (30px / 2)); }
+    width: calc(80% - (30px / 2));
+    height: calc(20% - (30px / 2));
+    overflow-x: hidden; }
 
   .content-col-3 {
     width: calc(100% - (30px / 2)); } }
@@ -239,6 +240,7 @@ pre {
       line-height: 107px;
       letter-spacing: -1px;
       margin-bottom: 0;
+      width: auto;
       float: left;
       color: #f8f8f8; }
       .site-title, .site-title:visited {
@@ -250,6 +252,7 @@ pre {
       font-weight: 600;
       line-height: 107px;
       letter-spacing: -1px;
+      width: auto;
       margin-bottom: 0;
       float: left;
       color: #f8f8f8; }
