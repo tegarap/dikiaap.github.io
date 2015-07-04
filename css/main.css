@@ -232,7 +232,8 @@ pre {
   font-weight: 300;
   font-size: 20px;
   color: #505050;
-  text-align: center; }
+  text-align: center;
+  letter-spacing: -0.3px; }
 
 .contentku {
   font-weight: 300;
