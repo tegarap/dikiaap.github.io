@@ -15,7 +15,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  color: #3D3D3D;
+  color: #090909;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
 
@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #f4645f;
+  color: #f0523f;
   text-decoration: none; }
   a:visited {
-    color: #f4645f; }
+    color: #f0523f; }
   a:hover {
     color: #3f3f3f;
     text-decoration: none; }
@@ -82,7 +82,7 @@ hr {
  * Blockquotes
  */
 blockquote {
-  color: #828282;
+  color: #757575;
   border-left: 4px solid #f0523f;
   padding-left: 15px;
   font-size: 16px;
@@ -96,13 +96,14 @@ blockquote {
  */
 pre,
 code {
-  font-size: 15px;
-  border: 1px solid #e8e8e8;
+  font-size: 14px;
+  border: 1px solid #f0f0f0;
   border-radius: 3px;
-  background-color: #eef; }
+  background-color: #f8f8f8;
+  color: #2E2E2E; }
 
 code {
-  padding: 1px 5px; }
+  padding: 3px 5px; }
 
 pre {
   padding: 8px 12px;
@@ -286,7 +287,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #505050;
+    color: #161616;
     line-height: 1.5;
     font-size: 20px;
     margin-right: 40px; }
