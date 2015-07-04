@@ -153,11 +153,9 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #f4645f;
-  border-bottom: 1px solid #f4645f;
+  border-bottom: 1px solid #e8e8e8;
   min-height: 120px;
-  position: relative;
-  background-color: #f4645f; }
+  position: relative; }
 
 .content-col-wrapper {
   font-size: 15px;
@@ -227,10 +225,9 @@ pre {
   line-height: 107px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
-  color: #f8f8f8; }
+  float: left; }
   .site-title, .site-title:visited {
-    color: #f8f8f8; }
+    color: #505050; }
   @media screen and (max-width: 600px) {
     .site-title {
       font-family: 'Open Sans', sans-serif;
@@ -239,8 +236,7 @@ pre {
       line-height: 107px;
       letter-spacing: -1px;
       margin-bottom: 0;
-      float: left;
-      color: #f8f8f8; }
+      float: left; }
       .site-title, .site-title:visited {
         color: #f8f8f8; } }
   @media screen and (max-width: 800px) {
@@ -262,9 +258,8 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #f8f8f8;
+    color: #505050;
     line-height: 1.5;
-    font-weight: bold;
     font-size: 20px;
     margin-right: 40px; }
     .site-nav .page-link:not(:first-child) {
@@ -274,7 +269,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: grey;
+      background-color: #f8f8f8;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -286,7 +281,8 @@ pre {
         line-height: 0;
         padding-top: 10px;
         text-align: center;
-        background-color: grey; }
+        border-radius: 4px;
+        background-color: #f8f8f8; }
         .site-nav .menu-icon > svg {
           width: 18px;
           height: 15px; }
