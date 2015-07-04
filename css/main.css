@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #f0523f;
+  color: #f4645f;
   text-decoration: none; }
   a:visited {
-    color: #f0523f; }
+    color: #f4645f; }
   a:hover {
     color: #3f3f3f;
     text-decoration: none; }
@@ -238,9 +238,9 @@ pre {
 
 .contentku {
   font-weight: 300;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: -1px;
-  margin-bottom: 15px;
+  margin-bottom: 23px;
   letter-spacing: -0.4px;
   float: left;
   color: #505050; }
@@ -346,7 +346,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #6C6C6C;
+  color: #4B4B4B;
   margin-left: -15px; }
 
 .footer-col {
@@ -407,7 +407,7 @@ pre {
   margin-bottom: 30px; }
 
 .post-title {
-  font-size: 60px;
+  font-size: 56px;
   letter-spacing: -1px;
   line-height: 1;
   font-weight: 600; }
@@ -416,7 +416,8 @@ pre {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-family: 'Lato', sans-serif; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {

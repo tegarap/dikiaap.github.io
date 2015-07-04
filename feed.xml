@@ -5,9 +5,43 @@
     <description>Brom [ ] Diki Andriansyah A P merupakan blog berisi pengetahuan dan pengamatan programming. Programs that make the spirit. Dengan Jiwa Open Source Saya mengelola blog ini dengan tata keseriusan dan kegembiraan</description>
     <link>http://dikiaap.github.io/</link>
     <atom:link href="http://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Jul 2015 21:05:38 +0700</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2015 21:05:38 +0700</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2015 22:05:22 +0700</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2015 22:05:22 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Pengertian Lorem Ipsum</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://cdn.mycoverpoint.com/wp-content/uploads/Lorem-Ipsum-Facebook-Timeline-Cover.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dari wikipedia dijelaskan&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis atau
+presentasi visual seperti font, tipografi, dan tata letak. Maksud penggunaan lipsum adalah agar pengamat tidak terlalu
+berkonsentrasi kepada arti harfiah per kalimat, melainkan lebih kepada elemen desain dari teks yang dipresentasi.
+Lorem ipsum disebut juga dengan greeking (melatinkan/meyunanikan) karena kalimat ini berasal dari bahasa Latin.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Seperti itu penjelasannya, dalam industri pengembang web sendiri lorem ipsum adalah contoh teks yang paling banyak dikembangkan untuk pengembangan web disisi front end tersendiri&lt;/p&gt;
+
+&lt;p&gt;Banyak contoh text lorem ipsum yang dikenal, tapi saya akan memberikan yang paling banyak di gunakan oleh para pengembang, Yaitu seperti ini :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Sat, 04 Jul 2015 21:41:40 +0700</pubDate>
+        <link>http://dikiaap.github.io/2015/07/04/pengertian-lorem-ipsum.html</link>
+        <guid isPermaLink="true">http://dikiaap.github.io/2015/07/04/pengertian-lorem-ipsum.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Docs Laravel 5</title>
@@ -1377,48 +1411,6 @@ library from Ruby version 1.9.&lt;/p&gt;
         <pubDate>Tue, 16 Jun 2015 23:08:55 +0700</pubDate>
         <link>http://dikiaap.github.io/2015/06/16/ebook-laravel-5.html</link>
         <guid isPermaLink="true">http://dikiaap.github.io/2015/06/16/ebook-laravel-5.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cara Membuat Post Di Octopress 3.0</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-sgSU_Fehgec/VYJ4iLjKgTI/AAAAAAAAAU0/-a7L1OqNziw/s600/octopress.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pertama, Masuk ke folder octopress kamu&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;cd octpressmu&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Jalankan perintah &lt;code&gt;octopress new post &quot;Judul post&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Post berada di &lt;code&gt;_posts/&lt;/code&gt;
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Tinggal edit post kamu dengan syntax &lt;strong&gt;Markdown&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Terus build menggunakan jekyll&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;jekyll build&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Deploy post ke github&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;octopress deploy&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Cek post yang kamu buat di situsmu&lt;/p&gt;
-
-&lt;p&gt;Untuk menghapus post tinggal hapus file yang kamu inginkan di folder &lt;code&gt;_posts/&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Referensi Syntax &lt;strong&gt;Markdown&lt;/strong&gt; :&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/markdown-basics/&quot;&gt;https://help.github.com/articles/markdown-basics/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/syntax&quot;&gt;https://daringfireball.net/projects/markdown/syntax&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 16 Jun 2015 14:37:00 +0700</pubDate>
-        <link>http://dikiaap.github.io/2015/06/16/cara-membuat-post-di-octopress.html</link>
-        <guid isPermaLink="true">http://dikiaap.github.io/2015/06/16/cara-membuat-post-di-octopress.html</guid>
         
         
       </item>
