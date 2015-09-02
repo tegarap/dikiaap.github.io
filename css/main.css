@@ -236,7 +236,13 @@ pre {
   .content-col {
     float: center;
     width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
+    width: calc(100% - (30px / 2)); }
+
+  .moresidebar {
+    display: none; }
+
+  .content-col-2 {
+    display: none; } }
 .wrapper-v2 {
   max-width: calc(1360px - (30px * 2));
   margin-right: auto;
