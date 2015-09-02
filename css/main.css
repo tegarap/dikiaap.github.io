@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -86,7 +86,7 @@ blockquote {
   border-left: 4px solid #f0523f;
   padding-left: 15px;
   font-size: 16px;
-  letter-spacing: -1px;
+  letter-spacing: 0.1px;
   font-style: none; }
   blockquote > :last-child {
     margin-bottom: 0; }
@@ -159,6 +159,24 @@ pre {
   border-bottom: 1px solid #e8e8e8;
   min-height: 120px;
   position: relative; }
+
+.space {
+  height: 30px; }
+
+.titlepost {
+  height: 30px;
+  font-family: 'Lato', sans-serif;
+  width: 670px;
+  float: left;
+  border-bottom: 1px dashed #eee;
+  padding-top: 5px; }
+
+.datepost {
+  height: 30px;
+  width: 100px;
+  float: left;
+  border-bottom: 1px dashed #eee;
+  padding-top: 5px; }
 
 .content-col-wrapper {
   font-size: 15px;

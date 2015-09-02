@@ -1,0 +1,53 @@
+<footer class="site-footer">
+  <div class="wrapper-v3">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+      <h2><center><nav  style="font-weight: 600; font-size: 18px;">Sekilas</nav></center></h2>
+        Nama saya Diki Andriansyah A P. Biasanya di panggil Andre. Sekarang saya lagi bermukim di dunia Penulisan Kode. Latar belakang yang bagus. Melakukan hal yang dapat membantu orang lain dan berkontribusi di open source. <a href="{{ site.baseurl }}/me/">Teruskan membaca</a>.
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <h2><center><nav  style="font-weight: 600; font-size: 18px;">Temukan Saya</nav></center></h2>
+        <ul class="contact-list social-media-list">
+          {% if site.email %}
+          <li>
+            <a href="mailto:{{ site.email }}">
+              <span class="username">{{ site.email }}</span>
+            </a> ~ Selalu terbuka
+          </li>
+          {% endif %}
+          {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}">
+              <span class="username">github//{{ site.github_username }}</span>
+            </a> ~ Kodeku ada disini
+          </li>
+          {% endif %}
+          {% if site.twitter_username %}
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <span class="username">twitter//{{ site.twitter_username }}</span>
+            </a> ~ Sering tweet aktivitas
+          </li>
+          {% endif %}
+          <li>
+            <a href="https://id.linkedin.com/in/dikiandriansyahap/">
+              <span class="username">linkedIn</span>
+            </a> ~ Memulai Bisnis?
+          </li>
+          <li>
+            <a href="https://github.com/manganbiner/mangan-obj">
+              <span class="username">mangan-obj</span>
+            </a> ~ tema yang saya buat di website ini
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+      <h2><center><nav  style="font-weight: 600; font-size: 18px;">Deskripsi</nav></center></h2>
+        {{ site.description }}.
+      </div>
+    </div>
+
+  </div>
+</footer>
