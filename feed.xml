@@ -5,9 +5,58 @@
     <description>Brom [ ] Diki Andriansyah A P sebuah blog room yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
     <link>https://dikiaap.github.io/</link>
     <atom:link href="https://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Sep 2015 18:15:54 +0700</pubDate>
-    <lastBuildDate>Thu, 03 Sep 2015 18:15:54 +0700</lastBuildDate>
+    <pubDate>Fri, 04 Sep 2015 01:19:14 +0700</pubDate>
+    <lastBuildDate>Fri, 04 Sep 2015 01:19:14 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Update Blog! Ini Untuk Catatan Log</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae maiores velit repudiandae! Fugit eos veritatis magnam sint, at in facere, commodi tempora repudiandae officiis nesciunt, doloribus voluptatibus similique quisquam eaque.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Emang udah baca dummy nya? :)
+Ini hanya untuk catatan atau log saja. Boleh gak di baca.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;------------------------------------ 4 Sept 15 ------------------------------------
+Tambahan tampilan Halaman 'Me' beserta keterangan di dalamnya.
+
+Penghapusan beberapa kode native css yang tidak diperlukan, tidak pakai front end
+framework biar adem kecepatannya.
+
+Hapus sidebar Quote dan Twitter. Halaman post jadi full.
+
+Hapus 3 table footer : Riwayat, Info, Tentang Blog.
+
+Ganti URI biar SEO friendly.
+
+Tambahan Menu GitHub dan tambahan di paging.
+
+Perbaikan source code build jekyll html, masih banyak yang harus di perbaiki. 
+Emang jekyll .... ._.
+
+Tidak ada fitur komentar, biar blog tetep bersih dari spammer atau yang lainnya.
+Blog ini hanya untuk di baca dan saya jadikan beberapa dokumentasi.
+
+Beberapa Link di Buka di tab Baru.
+
+Perbaikan EYD, masih banyak yang harus di perbaiki.
+
+Perbaikan tampilan mobile, masih banyak yang harus di perbaiki.
+
+Penghapusan beberapa kode dan file
+
+Beberapa konfig baru di _config
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Fri, 04 Sep 2015 00:33:37 +0700</pubDate>
+        <link>https://dikiaap.github.io/update-blog-ini-untuk-catatan-log</link>
+        <guid isPermaLink="true">https://dikiaap.github.io/update-blog-ini-untuk-catatan-log</guid>
+        
+        
+      </item>
     
       <item>
         <title>Rekomendasi Extensions Google Chrome</title>
