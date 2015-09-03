@@ -5,8 +5,8 @@
     <description>Brom [ ] Diki Andriansyah A P sebuah blog room yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
     <link>https://dikiaap.github.io/</link>
     <atom:link href="https://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Sep 2015 00:24:48 +0700</pubDate>
-    <lastBuildDate>Thu, 03 Sep 2015 00:24:48 +0700</lastBuildDate>
+    <pubDate>Thu, 03 Sep 2015 18:15:54 +0700</pubDate>
+    <lastBuildDate>Thu, 03 Sep 2015 18:15:54 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -22,12 +22,12 @@
 &lt;h4 id=&quot;avast-online-security&quot;&gt;&lt;strong&gt;Avast Online Security&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/nz5lVlboMxKFDemenqRWZ5YdRsCXt9orYP9Q6K-HYbCya85EAbcHTDdD6RUlZTtNhI0FS91H=s26-h26-e365-rw&quot; alt=&quot;Alt text&quot; /&gt;
- Mempunyai fungsi yg sama dengan AdBlock, alangkah baik jika menambahkan extension ini, karena ini dapat menambah keamanan browser.&lt;/p&gt;
+ Mempunyai fungsi yang sama dengan AdBlock, alangkah baik jika menambahkan extensions ini, karena ini dapat menambah keamanan browser.&lt;/p&gt;
 
 &lt;h4 id=&quot;dont-track-me-google&quot;&gt;&lt;strong&gt;Don’t Track Me Google&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/17mG-ne4D26pK5JtEMV2B3XX0FgqVZRGe2O0LClnd2-pFwoEVpMKuOk-d2LDYTCNNQ9uNesvq-0=s26-h26-e365-rw&quot; alt=&quot;Alt text&quot; /&gt;
- Ekstensi ini akan menyingkirkan url filter google asli, menyembunyikan informasi. Sehingga memungkinkan anda langsung ke situs tujuan, dan google tidak akan merekam aktifitas kunjungan situs anda.&lt;/p&gt;
+ Extensions ini akan menyingkirkan url filter google asli, dan akan menyembunyikan informasi kemana kunjungan anda. Sehingga memungkinkan anda langsung ke situs tujuan, dan google tidak akan merekam aktifitas kunjungan situs anda.&lt;/p&gt;
 
 &lt;h4 id=&quot;flash-control&quot;&gt;&lt;strong&gt;Flash Control&lt;/strong&gt;&lt;/h4&gt;
 
@@ -43,12 +43,12 @@
 &lt;h4 id=&quot;https-everywhere&quot;&gt;&lt;strong&gt;Https Everywhere&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/aHE880chebb7Qf59JDi8LyTN--MPfSy4imUkDREoajNi1hlGpD_XL1MHq9aAf7tiq43xaObukQo=s26-h26-e365-rw&quot; alt=&quot;Alt text&quot; /&gt;
- Jika anda menggunakan extensions ini, Secara otomatis anda akan di pandu dari “http” untuk menuju ke “https”. Ini akan melindungi Anda terhadap bentuk pengawasan dan pembajakan akun, dan beberapa bentuk penyensoran.&lt;/p&gt;
+ Jika anda menggunakan extensions ini, Secara otomatis anda akan di pandu dari “http” untuk menuju ke “https”. Ini akan melindungi Anda terhadap bentuk pengawasan, pembajakan akun dan beberapa bentuk penyensoran.&lt;/p&gt;
 
 &lt;h4 id=&quot;scriptsafe&quot;&gt;&lt;strong&gt;ScriptSafe&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/Ao16vllnVfHab1Fydg0SQgjrqWpUvsa10wB5rEgWV66Gxvz7242iojr3V8fHpgjo5GmpKLBqQ24=s26-h26-e365-rw&quot; alt=&quot;Alt text&quot; /&gt;
- Sebuah extensions sederhana yang mempunyai fungsi sama seperti NoScript.&lt;/p&gt;
+ Sebuah extensions sederhana yang mempunyai fungsi sama seperti NoScript di Firefox.&lt;/p&gt;
 
 &lt;h4 id=&quot;web-of-trust&quot;&gt;&lt;strong&gt;Web Of Trust&lt;/strong&gt;&lt;/h4&gt;
 
@@ -74,7 +74,7 @@
 &lt;p&gt;Let a little silly, and are looking for something that can make us to be more useful
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;Just dummy post, Its on sidebar&lt;/p&gt;
+&lt;p&gt;Just dummy post, Its on sidebar and I delete it.&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Aug 2015 18:09:51 +0700</pubDate>
         <link>https://dikiaap.github.io/instincts</link>
@@ -87,10 +87,10 @@
         <title>Experimental Material Design</title>
         <description>&lt;p&gt;Material Design merupakan design yang banyak diminati akhir-akhir penghujung tahun 2014 yang lalu, dan sampai sekarang design ini masih trending.&lt;/p&gt;
 
-&lt;p&gt;Google adalah salah satunya yang menerapkan design ini ke produk mereka. Salah satunya yaitu Android versi 4.4.+ dan 5.+
+&lt;p&gt;Google adalah salah satunya yang menerapkan design ini ke produk mereka. Salah satunya yaitu Android versi 4.4.+ dan 5.+.
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;Saya juga membuat design simple dengan software PicsArt di Android saya. Material design ini terinspirasi dari Aplikasi ‘TextSecure’, Salah satu aplikasi messaging dengan fitur enkripsi.&lt;/p&gt;
+&lt;p&gt;Saya juga membuat design simple dengan software PicsArt di Android saya. Material design ini terinspirasi dari Aplikasi ‘TextSecure’. Salah satu aplikasi messaging dengan fitur enkripsi.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://i.imgbox.com/vahjkX3z.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 </description>
@@ -110,7 +110,7 @@
 &lt;p&gt;Walaupun berbahasa inggris tapi kita patut bersyukur, karena dokumentasi ini telah di koreksi secara detail oleh pihak laravel sendiri. Maka dari itu dokumentasi ini pasti mudah di praktekkan dengan bahasa yang lebih mudah di terjemahkan.
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;Untuk dokumentas sendiri kalian bisa lihat di&lt;/p&gt;
+&lt;p&gt;Untuk dokumentasi sendiri kalian bisa lihat di :&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -132,7 +132,7 @@
         <title>Solo Logo Linux Indonesia</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-QY6KDIuJJgY/VYNcCvE5knI/AAAAAAAAAXA/uZo9ZygUnqc/s512/logo.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Solo design saya untuk membuat logo linuxindonesia.com, For happy :)&lt;/p&gt;
+&lt;p&gt;Solo design saya untuk membuat logo linuxindonesia.com, Feel happy :)&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Jun 2015 07:03:00 +0700</pubDate>
         <link>https://dikiaap.github.io/solo-logo-linuxindonesia-com</link>
@@ -157,15 +157,15 @@
         <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-yB0XmIeqdnE/VYJ4b4VgdJI/AAAAAAAAATE/BJQ-AOcbtBs/s576/8a47eafd727f933c1327d4a4fb0b1e5339e48384.png&quot; alt=&quot;Alt text&quot; /&gt;
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;Salah satu contoh package Sublime Text dengan Color Scheme&lt;/p&gt;
+&lt;p&gt;Salah satu contoh package Sublime Text dengan Color Scheme.&lt;/p&gt;
 
-&lt;p&gt;Masih banyak keuntungan menggunakan package di sublime text, seperti snippet yang memudahkan dalam urusan coding, SideBarEnhancements untuk menambahkan list tools untuk SidebarFolder Sublime Text, serta banyak manfaat yang bisa didapatkan.&lt;/p&gt;
+&lt;p&gt;Masih banyak keuntungan menggunakan package di Sublime Text, seperti Snippet yang memudahkan dalam urusan coding, SideBarEnhancements untuk menambahkan list tools untuk SidebarFolder Sublime Text, serta banyak manfaat yang bisa didapatkan.&lt;/p&gt;
 
 &lt;p&gt;Untuk menemukan lebih banyak package :&lt;/p&gt;
 
 &lt;p&gt;Langsung aja kunjungi &lt;a href=&quot;https://packagecontrol.io&quot;&gt;https://packagecontrol.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;disana udah ada tutorialnya, tinggal dipraktekin&lt;/p&gt;
+&lt;p&gt;disana udah ada tutorialnya, tinggal dipraktekkan.&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Jun 2015 21:04:35 +0700</pubDate>
         <link>https://dikiaap.github.io/package-for-sublime-text</link>
