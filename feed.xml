@@ -5,9 +5,72 @@
     <description>Brom [ ] Diki Andriansyah A P sebuah blog room yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
     <link>https://dikiaap.github.io/</link>
     <atom:link href="https://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Sep 2015 01:19:14 +0700</pubDate>
-    <lastBuildDate>Fri, 04 Sep 2015 01:19:14 +0700</lastBuildDate>
+    <pubDate>Sat, 05 Sep 2015 14:48:12 +0700</pubDate>
+    <lastBuildDate>Sat, 05 Sep 2015 14:48:12 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Berkembang, Maju, Dan Terus Maju</title>
+        <description>&lt;p&gt;For Indonesian
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                                /T /I
+                              / |/ | .-~/
+                          T\ Y  I  |/  /  _
+         /T               | \I  |  I  Y.-~/
+        I l   /I       T\ |  |  l  |  T  /
+     T\ |  \ Y l  /T   | \I  l   \    l Y
+ __  | \l   \l  \I l __l  l   \      _. |
+ \ ~-l   \    \  \  \ ~\  \    . .-~   |
+  \   ~-. \-.  \  \  ^._ ^. --.  /  \   |
+.--~-._  ~-  \  _  ~-_.---.- ._ /._ ./ ./
+ &amp;gt;--.  ~-.   ._  ~&amp;gt;--    -\   7   7   ]
+^.___~==-._    ~-{  .-~ .  \ Y . /    |        Loves
+ &amp;lt;__ ~--.  ~       /_/   \   \I  Y   : |        
+   ^-.__           ~(_/   \   &amp;gt;._:   | l _____
+       ^--.,___.-~-  /_/   !  \-.~---l_ /     ---.
+              (_/ .  ~(   /      -~---,Y   -=b-. _)
+               (_/ .  \  :           / l      c-~o \
+                \ /    \.    .     .^   \_.-~~~--.  )
+                 (_/ .   \  /     /       !       )/
+                  / / _.   /.   ./:      /        v
+                  ~(_/ .   /    _  \  .-&amp;lt;_
+                    /_/ . / .-~- \.  / \  \          ,z=.
+                    ~( /   /  :   | K   &amp;lt;-.~-.______//
+                      \-,.    l   I/ \_    __{---&amp;gt;._(==.
+                       //(     \  &amp;lt;    ~~~-     //
+                      // /\     \  \     ,v=.  ((		
+                    .^. / /\     \  }__ //===- 			
+                   / / / /  /-.,__ {---(==-		        
+                 .^ /       :  T  ~|   ll   			
+                / .  .  . : | :!        \			
+               (_/  /   | | j-/          ~^			
+                 ~-&amp;lt;_(_.^-~/					
+                 						
+								_____________
+								|.---------.|
+								||         ||
+								||         ||
+								||_________||
+								*----)-(----*
+								___[=== x]___
+								*-==========-*(&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;1&lt;/h4&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;2&lt;/h3&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;3&lt;/h2&gt;
+
+&lt;h1 id=&quot;on&quot;&gt;On!&lt;/h1&gt;
+</description>
+        <pubDate>Sat, 05 Sep 2015 01:05:21 +0700</pubDate>
+        <link>https://dikiaap.github.io/berkembang-maju-dan-terus-maju</link>
+        <guid isPermaLink="true">https://dikiaap.github.io/berkembang-maju-dan-terus-maju</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update Blog! Ini Untuk Catatan Log</title>
@@ -17,10 +80,15 @@
 
 &lt;!--more--&gt;
 
-&lt;p&gt;Emang udah baca dummy nya? :)
-Ini hanya untuk catatan atau log saja. Boleh gak di baca.&lt;/p&gt;
+&lt;p&gt;Emang udah baca dummy nya?
+Ini hanya untuk catatan atau log saja.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;------------------------------------ 4 Sept 15 ------------------------------------
+&lt;pre&gt;&lt;code&gt;------------------------------------ 5 Sept 15 ------------------------------------
+Perbaikan dan penambahan fitur di index utama : IG
+
+Update nav mobile
+
+------------------------------------ 4 Sept 15 ------------------------------------
 Tambahan tampilan Halaman 'Me' beserta keterangan di dalamnya.
 
 Penghapusan beberapa kode native css yang tidak diperlukan, tidak pakai front end
@@ -60,7 +128,12 @@ Beberapa konfig baru di _config
     
       <item>
         <title>Rekomendasi Extensions Google Chrome</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://www.wallspick.com/wp-content/uploads/2015/02/chrome_paint_drop_wallpaper.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://www.wallspick.com/wp-content/uploads/2015/02/chrome_paint_drop_wallpaper.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Privasi? Apa penting di Indonesia? Bagaimana tanggapan seluruh orang di Indonesia tentang privasi?
+Berapa banyak orang yang sudah install berbagai macam aplikasi di gadget mereka? Apa mereka tahu fungsi kode baik maupun jahat yang telah mereka install di gadget mereka? Oh no …&lt;/p&gt;
+
+&lt;p&gt;Dari pada nyesel belakangan, ya mulai perbaiki dari sekarang. Ini contoh extensions di Google Chrome yang bagus untuk melindungi keamanan privasi. Extensions ini bisa di implementasikan untuk banyak hal keamanan yang ada di dunia maya ini. Tapi yang ini hanya untuk sebatas browser saja. Yang lainnya bisa di cari sendiri. Ok. :)&lt;/p&gt;
 
 &lt;h4 id=&quot;adblock&quot;&gt;&lt;strong&gt;AdBlock&lt;/strong&gt;&lt;/h4&gt;
 
@@ -118,7 +191,7 @@ Beberapa konfig baru di _config
     
       <item>
         <title>Instincts</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgbox.com/FVXzVeXv.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgbox.com/FVXzVeXv.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Let a little silly, and are looking for something that can make us to be more useful
 &lt;!--more--&gt;&lt;/p&gt;
@@ -139,9 +212,11 @@ Beberapa konfig baru di _config
 &lt;p&gt;Google adalah salah satunya yang menerapkan design ini ke produk mereka. Salah satunya yaitu Android versi 4.4.+ dan 5.+.
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;Saya juga membuat design simple dengan software PicsArt di Android saya. Material design ini terinspirasi dari Aplikasi ‘TextSecure’. Salah satu aplikasi messaging dengan fitur enkripsi.&lt;/p&gt;
+&lt;p&gt;Saya juga membuat design simple dengan software PicsArt di Android saya :) Jajajaja … design pake PicsArt? Material design ini terinspirasi dari Aplikasi ‘TextSecure’. Salah satu aplikasi messaging dengan fitur enkripsi. Bagus sih enkripsinya. Tapi tau sendiri kan kalo pake Android. Sama aja!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://i.imgbox.com/vahjkX3z.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Oke, ini dia contohnya.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgbox.com/vahjkX3z.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Jul 2015 21:23:12 +0700</pubDate>
         <link>https://dikiaap.github.io/experimental-material-design</link>
@@ -152,14 +227,14 @@ Beberapa konfig baru di _config
     
       <item>
         <title>Docs Laravel 5</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-90iZDBDggW0/VYJ4cGIY1YI/AAAAAAAAATI/6mxzBKeIMeI/s940/Laravel.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-90iZDBDggW0/VYJ4cGIY1YI/AAAAAAAAATI/6mxzBKeIMeI/s940/Laravel.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Mempelajari laravel memanglah ada kesuiltan tersendiri, yaitu dokumentasi nya masih kebanyakan berbahasa inggris.&lt;/p&gt;
+&lt;p&gt;Mempelajari laravel memanglah ada kesuiltan tersendiri, yaitu dokumentasi nya masih kebanyakan berbahasa inggris. Waduh.&lt;/p&gt;
 
-&lt;p&gt;Walaupun berbahasa inggris tapi kita patut bersyukur, karena dokumentasi ini telah di koreksi secara detail oleh pihak laravel sendiri. Maka dari itu dokumentasi ini pasti mudah di praktekkan dengan bahasa yang lebih mudah di terjemahkan.
+&lt;p&gt;Walaupun berbahasa inggris tapi patut bersyukur bro … karena dokumentasi ini telah di koreksi secara detail oleh pihak laravel. Maka dari itu dokumentasi ini pasti mudah di praktekin dengan bahasa pemrogramman yang lebih mudah di pahami. So langsung coba aja.
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;Untuk dokumentasi sendiri kalian bisa lihat di :&lt;/p&gt;
+&lt;p&gt;Untuk dokumentasi sendiri bisa lihat di :&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -179,7 +254,7 @@ Beberapa konfig baru di _config
     
       <item>
         <title>Solo Logo Linux Indonesia</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-QY6KDIuJJgY/VYNcCvE5knI/AAAAAAAAAXA/uZo9ZygUnqc/s512/logo.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-QY6KDIuJJgY/VYNcCvE5knI/AAAAAAAAAXA/uZo9ZygUnqc/s512/logo.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Solo design saya untuk membuat logo linuxindonesia.com, Feel happy :)&lt;/p&gt;
 </description>
@@ -192,7 +267,7 @@ Beberapa konfig baru di _config
     
       <item>
         <title>Wallpaper IBT</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-O27WOVKeKII/VYJ4aQY_UPI/AAAAAAAAASo/ar0rpdvxCk4/s800/4sltKgge.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-O27WOVKeKII/VYJ4aQY_UPI/AAAAAAAAASo/ar0rpdvxCk4/s800/4sltKgge.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Jun 2015 21:51:57 +0700</pubDate>
         <link>https://dikiaap.github.io/wallpaper-indonesian-backtrack-team</link>
@@ -203,18 +278,15 @@ Beberapa konfig baru di _config
     
       <item>
         <title>Package for Sublime Text</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-yB0XmIeqdnE/VYJ4b4VgdJI/AAAAAAAAATE/BJQ-AOcbtBs/s576/8a47eafd727f933c1327d4a4fb0b1e5339e48384.png&quot; alt=&quot;Alt text&quot; /&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-yB0XmIeqdnE/VYJ4b4VgdJI/AAAAAAAAATE/BJQ-AOcbtBs/s576/8a47eafd727f933c1327d4a4fb0b1e5339e48384.png&quot; alt=&quot;Image&quot; /&gt;
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;Salah satu contoh package Sublime Text dengan Color Scheme.&lt;/p&gt;
-
-&lt;p&gt;Masih banyak keuntungan menggunakan package di Sublime Text, seperti Snippet yang memudahkan dalam urusan coding, SideBarEnhancements untuk menambahkan list tools untuk SidebarFolder Sublime Text, serta banyak manfaat yang bisa didapatkan.&lt;/p&gt;
-
-&lt;p&gt;Untuk menemukan lebih banyak package :&lt;/p&gt;
+&lt;p&gt;Ini dia, Salah satu editor kesayangan saya dan ini contoh package Sublime Text dengan Color Scheme.
+Untuk menemukan lebih banyak package :&lt;/p&gt;
 
 &lt;p&gt;Langsung aja kunjungi &lt;a href=&quot;https://packagecontrol.io&quot;&gt;https://packagecontrol.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;disana udah ada tutorialnya, tinggal dipraktekkan.&lt;/p&gt;
+&lt;p&gt;Disana udah ada tutorialnya, tinggal dipraktekin.&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Jun 2015 21:04:35 +0700</pubDate>
         <link>https://dikiaap.github.io/package-for-sublime-text</link>
