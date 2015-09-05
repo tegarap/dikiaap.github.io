@@ -1,4 +1,4 @@
-#[Brom [ ] Diki Andriansyah A P](https://dikiaap.github.io)
-My Activity post in there.
+#Brom [ ] Diki Andriansyah A P
+I post there.
 
 :heart: GitHub, Jekyll & Octopress

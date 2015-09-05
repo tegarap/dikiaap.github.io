@@ -188,6 +188,38 @@ pre {
   border-bottom: 1px dashed #E1E2E3;
   padding-top: 5px; }
 
+.photos:before, .photos:after,
+.caption:before,
+.caption:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.photos {
+  position: relative;
+  margin-bottom: 15px;
+  margin-top: 8px; }
+
+.photo {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  float: left; }
+  .photo img {
+    background-color: #f0f0f0;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px; }
+  .photo.p1:hover ~ .c1, .photo.p2:hover ~ .c2, .photo.p3:hover ~ .c3, .photo.p4:hover ~ .c4 {
+    display: block; }
+
+.caption {
+  display: none;
+  top: 100%;
+  line-height: 1;
+  font-size: 0.8em;
+  position: absolute; }
+
 .datepost {
   height: 30px;
   width: 100px;
@@ -226,7 +258,7 @@ pre {
     width: calc(100% - (30px / 2));
     height: -webkit-calc(20% - (30px / 2));
     height: calc(20% - (30px / 2));
-    text-align: center; } }
+    text-align: left; } }
 @media screen and (max-width: 600px) {
   .content-col {
     float: center;
