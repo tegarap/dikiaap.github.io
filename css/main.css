@@ -211,13 +211,13 @@ pre {
     width: 80px;
     height: 80px;
     border-radius: 10px; }
-  .photo.p1:hover ~ .c1, .photo.p2:hover ~ .c2, .photo.p3:hover ~ .c3, .photo.p4:hover ~ .c4 {
+  .photo.p0:hover ~ .c0, .photo.p1:hover ~ .c1, .photo.p2:hover ~ .c2, .photo.p3:hover ~ .c3, .photo.p4:hover ~ .c4 {
     display: block; }
 
 .caption {
   display: none;
   top: 100%;
-  line-height: 1;
+  line-height: 1.1;
   font-size: 0.8em;
   position: absolute; }
 
