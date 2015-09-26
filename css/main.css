@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Cutive Mono";
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -64,26 +64,26 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #EA5550;
+  color: #3c4245;
   text-decoration: none; }
   a:visited {
-    color: #EA5550; }
+    color: #3c4245; }
   a:hover {
-    color: #3f3f3f;
+    color: #151617;
     text-decoration: none; }
 
 hr {
-  border-top: 1px solid #f0523f;
-  border-bottom: 1px solid #f0523f;
-  border-left: 1px solid #f0523f;
-  border-right: 1px solid #f0523f; }
+  border-top: 1px solid #3c4245;
+  border-bottom: 1px solid #3c4245;
+  border-left: 1px solid #3c4245;
+  border-right: 1px solid #3c4245; }
 
 /**
  * Blockquotes
  */
 blockquote {
   color: #757575;
-  border-left: 4px solid #f0523f;
+  border-left: 4px solid #3c4245;
   padding-left: 15px;
   font-size: 16px;
   letter-spacing: 0.1px;
@@ -96,6 +96,7 @@ blockquote {
  */
 pre,
 code {
+  font-family: "Cutive Mono";
   font-size: 14px;
   border: 1px solid #f0f0f0;
   border-radius: 3px;
@@ -117,7 +118,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: calc(1160px);
+  max-width: calc(850px);
   margin-right: auto;
   margin-left: auto; }
   @media screen and (max-width: 800px) {
@@ -177,15 +178,11 @@ pre {
 /**
  * Add new config
  */
-.space {
-  height: 30px; }
-
 .titlepost {
   height: 30px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Cutive Mono";
   width: 90%;
   float: left;
-  border-bottom: 1px dashed #E1E2E3;
   padding-top: 5px; }
 
 .photos:before, .photos:after,
@@ -222,6 +219,7 @@ pre {
 
 .datepost {
   height: 30px;
+  font-family: "VT323";
   width: 100px;
   float: left;
   border-bottom: 1px dashed #E1E2E3;
@@ -266,10 +264,9 @@ pre {
     width: calc(100% - (30px / 2)); } }
 .dummy {
   font-weight: 300;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: -1px;
   margin-bottom: 3px;
-  letter-spacing: -0.4px;
   float: left;
   color: #505050; }
   .dummy, .dummy:visited {
@@ -278,19 +275,19 @@ pre {
     text-align: left; }
 
 .site-title {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Cutive Mono";
   font-weight: 400;
   line-height: 115px;
   font-size: 36px;
   letter-spacing: -1px;
   margin-bottom: 0;
   margin-left: 4px;
-  float: left; }
+  text-align: center; }
   .site-title, .site-title:visited {
     color: #505050; }
   @media screen and (max-width: 600px) {
     .site-title {
-      font-family: 'Open Sans', sans-serif;
+      font-family: "Cutive Mono";
       font-size: 24px;
       font-weight: 600;
       line-height: 107px;
@@ -301,7 +298,7 @@ pre {
         color: #f8f8f8; } }
   @media screen and (max-width: 800px) {
     .site-title {
-      font-family: 'Open Sans', sans-serif;
+      font-family: "Cutive Mono";
       font-size: 24px;
       font-weight: 600;
       line-height: 107px;
@@ -316,7 +313,7 @@ pre {
  * Simple on {sites}/me/
  */
 .site-title-simple {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Cutive Mono";
   font-weight: 400;
   font-size: 36px;
   letter-spacing: -1px;
@@ -326,7 +323,7 @@ pre {
     color: #505050; }
   @media screen and (max-width: 600px) {
     .site-title-simple {
-      font-family: 'Open Sans', sans-serif;
+      font-family: "Cutive Mono";
       font-size: 24px;
       font-weight: 600;
       line-height: 107px;
@@ -336,7 +333,7 @@ pre {
         color: #f8f8f8; } }
   @media screen and (max-width: 800px) {
     .site-title-simple {
-      font-family: 'Open Sans', sans-serif;
+      font-family: "Cutive Mono";
       font-size: 24px;
       font-weight: 600;
       letter-spacing: -1px;
@@ -349,8 +346,7 @@ pre {
  * Site nav
  */
 .site-nav {
-  float: right;
-  line-height: 120px;
+  line-height: 90px;
   margin-right: 10px; }
   .site-nav .menu-icon {
     display: none; }
@@ -455,7 +451,8 @@ pre {
 
 .post-link {
   display: block;
-  font-size: 16px; }
+  font-size: 17px;
+  font-family: "VT323"; }
 
 /**
  * Posts
@@ -474,7 +471,7 @@ pre {
 
 .post-content {
   margin-bottom: 30px;
-  font-family: 'Lato', sans-serif; }
+  font-family: "Cutive Mono"; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {

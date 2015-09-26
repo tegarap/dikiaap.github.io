@@ -5,8 +5,8 @@
     <description>Brom [ ] Diki Andriansyah A P sebuah blog room yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
     <link>https://dikiaap.github.io/</link>
     <atom:link href="https://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Sep 2015 18:19:15 +0700</pubDate>
-    <lastBuildDate>Tue, 22 Sep 2015 18:19:15 +0700</lastBuildDate>
+    <pubDate>Sat, 26 Sep 2015 15:47:29 +0700</pubDate>
+    <lastBuildDate>Sat, 26 Sep 2015 15:47:29 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -83,7 +83,9 @@
 &lt;p&gt;Emang udah baca dummy nya?
 Ini hanya untuk catatan atau log saja.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;------------------------------------ 5 Sept 15 ------------------------------------
+&lt;pre&gt;&lt;code&gt;----------------------------------- 26 Sept 15 ------------------------------------
+Update geek template ... ! ~.~
+------------------------------------ 5 Sept 15 ------------------------------------
 Perbaikan dan penambahan fitur di index utama : IG
 
 Update nav mobile
@@ -229,7 +231,7 @@ Berapa banyak orang yang sudah install berbagai macam aplikasi di gadget mereka?
         <title>Docs Laravel 5</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-90iZDBDggW0/VYJ4cGIY1YI/AAAAAAAAATI/6mxzBKeIMeI/s940/Laravel.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Mempelajari laravel memanglah ada kesuiltan tersendiri, yaitu dokumentasi nya masih kebanyakan berbahasa inggris. Waduh.&lt;/p&gt;
+&lt;p&gt;Mempelajari laravel memanglah ada kesulitan tersendiri, yaitu dokumentasi nya masih kebanyakan berbahasa inggris. Waduh.&lt;/p&gt;
 
 &lt;p&gt;Walaupun berbahasa inggris tapi patut bersyukur bro … karena dokumentasi ini telah di koreksi secara detail oleh pihak laravel. Maka dari itu dokumentasi ini pasti mudah di praktekin dengan bahasa pemrogramman yang lebih mudah di pahami. So langsung coba aja.
 &lt;!--more--&gt;&lt;/p&gt;
@@ -267,7 +269,7 @@ Berapa banyak orang yang sudah install berbagai macam aplikasi di gadget mereka?
     
       <item>
         <title>Wallpaper IBT</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-O27WOVKeKII/VYJ4aQY_UPI/AAAAAAAAASo/ar0rpdvxCk4/s800/4sltKgge.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgbox.com/BJTaPiqa.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Jun 2015 21:51:57 +0700</pubDate>
         <link>https://dikiaap.github.io/2015/06/14/wallpaper-indonesian-backtrack-team/</link>
