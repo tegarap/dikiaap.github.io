@@ -161,8 +161,8 @@ pre {
  */
 .icon > svg {
   display: inline-block;
-  width: 39px;
-  height: 39px;
+  width: 29px;
+  height: 29px;
   vertical-align: middle; }
   .icon > svg path {
     fill: #4A4A4A; }
@@ -185,6 +185,11 @@ pre {
   float: left;
   padding-top: 5px; }
 
+.big {
+  font-size: 18px;
+  background: url("/images/fun-line.png") 0 100% no-repeat;
+  background-size: 20px; }
+
 .photos:before, .photos:after,
 .caption:before,
 .caption:after {
@@ -204,8 +209,8 @@ pre {
   float: left; }
   .photo img {
     background-color: #f0f0f0;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px; }
   .photo.p0:hover ~ .c0, .photo.p1:hover ~ .c1, .photo.p2:hover ~ .c2, .photo.p3:hover ~ .c3, .photo.p4:hover ~ .c4 {
     display: block; }
@@ -264,7 +269,7 @@ pre {
     width: calc(100% - (30px / 2)); } }
 .dummy {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 17px;
   letter-spacing: -1px;
   margin-bottom: 3px;
   float: left;
@@ -434,8 +439,14 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0 0; }
 
+@media screen and (max-width: 800px) {
+  .page-content {
+    padding-bottom: 30px; } }
+@media screen and (max-width: 600px) {
+  .page-content {
+    padding-bottom: 30px; } }
 .page-heading {
   font-size: 20px; }
 
