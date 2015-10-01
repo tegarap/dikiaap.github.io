@@ -5,8 +5,8 @@
     <description>Brom [ ] Diki Andriansyah A P sebuah blog room yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
     <link>https://dikiaap.github.io/</link>
     <atom:link href="https://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2015 07:54:26 +0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2015 07:54:26 +0700</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2015 17:34:47 +0700</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2015 17:34:47 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -98,12 +98,14 @@
 &lt;p&gt;Emang udah baca dummy nya?
 Ini hanya untuk catatan atau log saja.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;----------------------------------- 26 Sept 15 ------------------------------------
+&lt;pre&gt;&lt;code&gt;------------------------------------ 1 Okt 15 -------------------------------------
+Clean code.
+----------------------------------- 26 Sept 15 ------------------------------------
 Update geek template ... ! ~.~
 ------------------------------------ 5 Sept 15 ------------------------------------
 Perbaikan dan penambahan fitur di index utama : IG
 
-Update nav mobile
+Update nav mobile.
 
 ------------------------------------ 4 Sept 15 ------------------------------------
 Tambahan tampilan Halaman 'Me' beserta keterangan di dalamnya.
@@ -131,9 +133,9 @@ Perbaikan EYD, masih banyak yang harus di perbaiki.
 
 Perbaikan tampilan mobile, masih banyak yang harus di perbaiki.
 
-Penghapusan beberapa kode dan file
+Penghapusan beberapa kode dan file.
 
-Beberapa konfig baru di _config
+Beberapa konfig baru di _config.
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Fri, 04 Sep 2015 00:33:37 +0700</pubDate>
