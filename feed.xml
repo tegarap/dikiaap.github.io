@@ -5,14 +5,16 @@
     <description>Brom [ ] Diki Andriansyah A P sebuah blog room yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
     <link>https://dikiaap.github.io/</link>
     <atom:link href="https://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2015 17:34:47 +0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2015 17:34:47 +0700</lastBuildDate>
+    <pubDate>Sun, 04 Oct 2015 20:24:56 +0700</pubDate>
+    <lastBuildDate>Sun, 04 Oct 2015 20:24:56 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>What Web</title>
         <description>&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
 &lt;div class=&quot;embed-container&quot;&gt;    &lt;iframe title=&quot;YouTube video player&quot; width=&quot;640&quot; height=&quot;390&quot; src=&quot;http://www.youtube.com/embed/LnxyidXfM60&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;&lt;code&gt;Old Video&lt;/code&gt; :&amp;#8217;)
 &lt;!--more--&gt;&lt;/p&gt;
@@ -26,8 +28,7 @@
     
       <item>
         <title>Berkembang, Maju, Dan Terus Maju</title>
-        <description>&lt;p&gt;For Indonesian
-&lt;!--more--&gt;&lt;/p&gt;
+        <description>&lt;!--more--&gt;
 
 &lt;pre&gt;&lt;code&gt;                                /T /I
                               / |/ | .-~/
@@ -71,14 +72,6 @@
 								___[=== x]___
 								*-==========-*(&quot;)
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&quot;section&quot;&gt;1&lt;/h4&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;2&lt;/h3&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;3&lt;/h2&gt;
-
-&lt;h1 id=&quot;on&quot;&gt;On!&lt;/h1&gt;
 </description>
         <pubDate>Sat, 05 Sep 2015 01:05:21 +0700</pubDate>
         <link>https://dikiaap.github.io/2015/09/05/berkembang-maju-dan-terus-maju/</link>
@@ -88,15 +81,16 @@
       </item>
     
       <item>
-        <title>Update Blog! Ini Untuk Catatan Log</title>
+        <title>Changelog Blog</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae maiores velit repudiandae! Fugit eos veritatis magnam sint, at in facere, commodi tempora repudiandae officiis nesciunt, doloribus voluptatibus similique quisquam eaque.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;hr /&gt;
+
 &lt;!--more--&gt;
 
-&lt;p&gt;Emang udah baca dummy nya?
-Ini hanya untuk catatan atau log saja.&lt;/p&gt;
+&lt;p&gt;Ini hanya untuk catatan saja.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;------------------------------------ 1 Okt 15 -------------------------------------
 Clean code.
@@ -147,12 +141,12 @@ Beberapa konfig baru di _config.
     
       <item>
         <title>Rekomendasi Extensions Chrome</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://www.wallspick.com/wp-content/uploads/2015/02/chrome_paint_drop_wallpaper.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Privasi? Apa penting di Indonesia? Bagaimana tanggapan seluruh orang di Indonesia tentang privasi?
+        <description>&lt;p&gt;Privasi? Apa penting di Indonesia? Bagaimana tanggapan seluruh orang di Indonesia tentang privasi?
 Berapa banyak orang yang sudah install berbagai macam aplikasi di gadget mereka? Apa mereka tahu fungsi kode baik maupun jahat yang telah mereka install di gadget mereka? Oh no …&lt;/p&gt;
 
 &lt;p&gt;Dari pada nyesel belakangan, ya mulai perbaiki dari sekarang. Ini contoh extensions di Google Chrome yang bagus untuk melindungi keamanan privasi. Extensions ini bisa di implementasikan untuk banyak hal keamanan yang ada di dunia maya ini. Tapi yang ini hanya untuk sebatas browser saja. Yang lainnya bisa di cari sendiri. Ok. :)&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h4 id=&quot;adblock&quot;&gt;&lt;strong&gt;AdBlock&lt;/strong&gt;&lt;/h4&gt;
 
@@ -210,7 +204,7 @@ Berapa banyak orang yang sudah install berbagai macam aplikasi di gadget mereka?
     
       <item>
         <title>Instincts</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgbox.com/FVXzVeXv.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/zC3smhB.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Let a little silly, and are looking for something that can make us to be more useful
 &lt;!--more--&gt;&lt;/p&gt;
@@ -235,7 +229,7 @@ Berapa banyak orang yang sudah install berbagai macam aplikasi di gadget mereka?
 
 &lt;p&gt;Oke, ini dia contohnya.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://i.imgbox.com/vahjkX3z.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/nBCO4Dy.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Jul 2015 21:23:12 +0700</pubDate>
         <link>https://dikiaap.github.io/2015/07/12/experimental-material-design/</link>
@@ -246,12 +240,12 @@ Berapa banyak orang yang sudah install berbagai macam aplikasi di gadget mereka?
     
       <item>
         <title>Docs Laravel 5</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-90iZDBDggW0/VYJ4cGIY1YI/AAAAAAAAATI/6mxzBKeIMeI/s940/Laravel.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Mempelajari laravel memanglah ada kesulitan tersendiri, yaitu dokumentasi nya masih kebanyakan berbahasa inggris. Waduh.&lt;/p&gt;
+        <description>&lt;p&gt;Mempelajari laravel memanglah ada kesulitan tersendiri, yaitu dokumentasi nya masih kebanyakan berbahasa inggris. Waduh.&lt;/p&gt;
 
 &lt;p&gt;Walaupun berbahasa inggris tapi patut bersyukur bro … karena dokumentasi ini telah di koreksi secara detail oleh pihak laravel. Maka dari itu dokumentasi ini pasti mudah di praktekin dengan bahasa pemrogramman yang lebih mudah di pahami. So langsung coba aja.
 &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/aYnvJOP.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Untuk dokumentasi sendiri bisa lihat di :&lt;/p&gt;
 
@@ -273,9 +267,9 @@ Berapa banyak orang yang sudah install berbagai macam aplikasi di gadget mereka?
     
       <item>
         <title>Solo Logo Linux Indonesia</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-QY6KDIuJJgY/VYNcCvE5knI/AAAAAAAAAXA/uZo9ZygUnqc/s512/logo.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/nybEQ3m.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Solo design saya untuk membuat logo linuxindonesia.com, Feel happy :)&lt;/p&gt;
+&lt;p&gt;Solo design saya untuk membuat logo linuxindonesia.com. :)&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Jun 2015 07:03:00 +0700</pubDate>
         <link>https://dikiaap.github.io/2015/06/19/solo-logo-linuxindonesia-com/</link>
@@ -297,10 +291,10 @@ Berapa banyak orang yang sudah install berbagai macam aplikasi di gadget mereka?
     
       <item>
         <title>Package for Sublime Text</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-yB0XmIeqdnE/VYJ4b4VgdJI/AAAAAAAAATE/BJQ-AOcbtBs/s576/8a47eafd727f933c1327d4a4fb0b1e5339e48384.png&quot; alt=&quot;Image&quot; /&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/iVBla85.png&quot; alt=&quot;Image&quot; /&gt;
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;Ini dia, Salah satu editor kesayangan saya dan ini contoh package Sublime Text dengan Color Scheme.
+&lt;p&gt;Ini dia, Salah satu editor kesayangan saya dan ini contoh package Sublime Text.
 Untuk menemukan lebih banyak package :&lt;/p&gt;
 
 &lt;p&gt;Langsung aja kunjungi &lt;a href=&quot;https://packagecontrol.io&quot;&gt;https://packagecontrol.io&lt;/a&gt;&lt;/p&gt;
