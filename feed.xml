@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Brom [ ] Diki Andriansyah A P</title>
+    <title>Diki Andriansyah A P Blog - Stay Brom</title>
     <description>Brom [ ] Diki Andriansyah A P sebuah blog room yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
     <link>https://dikiaap.github.io/</link>
     <atom:link href="https://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Oct 2015 04:00:55 +0700</pubDate>
-    <lastBuildDate>Mon, 12 Oct 2015 04:00:55 +0700</lastBuildDate>
+    <pubDate>Thu, 15 Oct 2015 02:59:52 +0700</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2015 02:59:52 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Help</title>
+        <description>&lt;!--more--&gt;
+</description>
+        <pubDate>Thu, 15 Oct 2015 02:46:43 +0700</pubDate>
+        <link>https://dikiaap.github.io/write/2015/10/15/help/</link>
+        <guid isPermaLink="true">https://dikiaap.github.io/write/2015/10/15/help/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Developing, Advancing, and Continue to Advance</title>
@@ -57,8 +68,8 @@
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Mon, 12 Oct 2015 04:00:15 +0700</pubDate>
-        <link>https://dikiaap.github.io/2015/10/12/developing-advancing-and-continue-to-advance/</link>
-        <guid isPermaLink="true">https://dikiaap.github.io/2015/10/12/developing-advancing-and-continue-to-advance/</guid>
+        <link>https://dikiaap.github.io/write/2015/10/12/developing-advancing-and-continue-to-advance/</link>
+        <guid isPermaLink="true">https://dikiaap.github.io/write/2015/10/12/developing-advancing-and-continue-to-advance/</guid>
         
         
       </item>
@@ -74,8 +85,8 @@
 &lt;!--more--&gt;
 </description>
         <pubDate>Fri, 28 Aug 2015 18:09:51 +0700</pubDate>
-        <link>https://dikiaap.github.io/2015/08/28/instincts/</link>
-        <guid isPermaLink="true">https://dikiaap.github.io/2015/08/28/instincts/</guid>
+        <link>https://dikiaap.github.io/write/2015/08/28/instincts/</link>
+        <guid isPermaLink="true">https://dikiaap.github.io/write/2015/08/28/instincts/</guid>
         
         
       </item>
@@ -94,21 +105,8 @@
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/nBCO4Dy.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Jul 2015 21:23:12 +0700</pubDate>
-        <link>https://dikiaap.github.io/2015/07/12/experimental-material-design/</link>
-        <guid isPermaLink="true">https://dikiaap.github.io/2015/07/12/experimental-material-design/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Solo Logo Linux Indonesia</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/nybEQ3m.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Solo design saya untuk membuat logo linuxindonesia.com. :)&lt;/p&gt;
-</description>
-        <pubDate>Fri, 19 Jun 2015 07:03:00 +0700</pubDate>
-        <link>https://dikiaap.github.io/2015/06/19/solo-logo-linuxindonesia-com/</link>
-        <guid isPermaLink="true">https://dikiaap.github.io/2015/06/19/solo-logo-linuxindonesia-com/</guid>
+        <link>https://dikiaap.github.io/write/2015/07/12/experimental-material-design/</link>
+        <guid isPermaLink="true">https://dikiaap.github.io/write/2015/07/12/experimental-material-design/</guid>
         
         
       </item>
