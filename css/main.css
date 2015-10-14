@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cutive+Mono|VT323|Halant");
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono|VT323|Halant") screen;
 /**
  * Reset some basic elements
  */
@@ -86,8 +86,7 @@ blockquote {
   color: #2F2F2F;
   border-left: 4px double #DEDEDE;
   font-size: 16px;
-  letter-spacing: 0.1px;
-  font-style: none; }
+  letter-spacing: 0.1px; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -99,7 +98,7 @@ code {
   font-family: "Cutive Mono";
   font-size: 14px;
   border: 1px solid #f0f0f0;
-  border-radius: 3px;
+  border-radius: 1em;
   background-color: #f8f8f8;
   color: #2E2E2E; }
 
