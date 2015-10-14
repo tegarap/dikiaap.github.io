@@ -36,6 +36,12 @@ img {
   max-width: 100%;
   vertical-align: middle; }
 
+img.displayed {
+  display: block;
+  margin: 55px auto;
+  width: 25px;
+  height: 25px; }
+
 /**
  * Figures
  */
@@ -171,7 +177,6 @@ pre {
  */
 .site-header {
   border-bottom: 1px solid #e8e8e8;
-  min-height: 120px;
   position: relative; }
 
 /**
@@ -286,7 +291,8 @@ pre {
   font-size: 36px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  margin-left: 4px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center; }
   .site-title, .site-title:visited {
     color: #505050; }
