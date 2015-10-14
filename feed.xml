@@ -5,20 +5,9 @@
     <description>Brom [ ] Diki Andriansyah A P sebuah blog room yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
     <link>https://dikiaap.github.io/</link>
     <atom:link href="https://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Oct 2015 02:59:52 +0700</pubDate>
-    <lastBuildDate>Thu, 15 Oct 2015 02:59:52 +0700</lastBuildDate>
+    <pubDate>Thu, 15 Oct 2015 04:18:37 +0700</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2015 04:18:37 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>Help</title>
-        <description>&lt;!--more--&gt;
-</description>
-        <pubDate>Thu, 15 Oct 2015 02:46:43 +0700</pubDate>
-        <link>https://dikiaap.github.io/write/2015/10/15/help/</link>
-        <guid isPermaLink="true">https://dikiaap.github.io/write/2015/10/15/help/</guid>
-        
-        
-      </item>
     
       <item>
         <title>Developing, Advancing, and Continue to Advance</title>
@@ -93,7 +82,7 @@
     
       <item>
         <title>Experimental Material Design</title>
-        <description>&lt;p&gt;Material Design merupakan design yang banyak diminati akhir-akhir penghujung tahun 2014 yang lalu, dan sampai sekarang design ini masih trending.&lt;/p&gt;
+        <description>&lt;p&gt;Material Design merupakan design yang banyak diminati akhir-akhir penghujung tahun 2014 yang lalu. Dan sampai sekarang saat saya menulis artikel ini, design ini masih trending.&lt;/p&gt;
 
 &lt;p&gt;Google adalah salah satunya yang menerapkan design ini ke produk mereka. Salah satunya yaitu Android versi 4.4.+ dan 5.+.
 &lt;!--more--&gt;&lt;/p&gt;
