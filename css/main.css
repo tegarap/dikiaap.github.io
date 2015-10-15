@@ -259,6 +259,9 @@ pre {
   background-color: #F6FFAA;
   background-size: 0px; }
 
+.error {
+  font-size: 200px; }
+
 /**
  * Trigger for align center ~.~
  */
