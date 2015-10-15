@@ -176,8 +176,12 @@ pre {
  * Site header
  */
 .site-header {
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #E6E6E6;
   position: relative; }
+
+.site-header-me {
+  text-align: center;
+  margin-top: 40px; }
 
 /**
  * Add new config
@@ -193,6 +197,17 @@ pre {
   font-size: 18px;
   background: url("/images/fun-line.png") 0 100% no-repeat;
   background-size: 20px; }
+
+.big.plusbig {
+  font-size: 1.3em;
+  color: #505050; }
+
+.big.bg {
+  background-color: #F6FFAA;
+  background-size: 0px; }
+
+.trigger {
+  text-align: center; }
 
 .photos:before, .photos:after,
 .caption:before,
@@ -409,8 +424,9 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  border-top: 1px solid #E6E6E6;
+  padding: 30px 0;
+  background-color: #F9F9F9; }
 
 .footer-heading {
   font-size: 18px;
@@ -432,11 +448,19 @@ pre {
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2));
     text-align: -webkit-center; } }
+.footer-text {
+  font-size: 14px;
+  color: #4B4B4B;
+  text-align: center; }
+
 /**
  * Page content
  */
 .page-content {
   padding: 30px 0 0; }
+
+.page-content.me {
+  padding: 0 0; }
 
 @media screen and (max-width: 800px) {
   .page-content {
@@ -481,10 +505,12 @@ pre {
   font-size: 26px;
   font-family: "Cutive Mono";
   letter-spacing: -1px;
-  line-height: 1; }
+  line-height: 1;
+  text-align: center; }
   @media screen and (max-width: 800px) {
     .post-title-me {
-      font-size: 26px; } }
+      font-size: 26px;
+      text-align: center; } }
 
 .post-line {
   font-size: 18px;
