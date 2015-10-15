@@ -9,7 +9,7 @@ dl, dd, ol, ul, figure {
   padding: 0; }
 
 /**
- * Basic styling
+ * Basic styling :#
  */
 body {
   font-family: "Cutive Mono";
@@ -31,6 +31,7 @@ ul, ol, dl, figure {
 
 /**
  * Images
+ * img.displayed : ico for header links
  */
 img {
   max-width: 100%;
@@ -174,6 +175,7 @@ pre {
 
 /**
  * Site header
+ * .site-header-me for personal info in url/me
  */
 .site-header {
   border-bottom: 1px solid #E6E6E6;
@@ -184,187 +186,7 @@ pre {
   margin-top: 40px; }
 
 /**
- * Add new config
- */
-.titlepost {
-  height: 30px;
-  font-family: "Cutive Mono";
-  width: 90%;
-  float: left;
-  padding-top: 5px; }
-
-.big {
-  font-size: 18px;
-  background: url("/images/fun-line.png") 0 100% no-repeat;
-  background-size: 20px; }
-
-.big.plusbig {
-  font-size: 1.3em;
-  color: #505050; }
-
-.big.bg {
-  background-color: #F6FFAA;
-  background-size: 0px; }
-
-.trigger {
-  text-align: center; }
-
-.photos:before, .photos:after,
-.caption:before,
-.caption:after {
-  content: "";
-  display: block;
-  clear: both; }
-
-.photos {
-  position: relative;
-  margin-bottom: 15px;
-  margin-top: 8px; }
-
-.photo {
-  display: inline-block;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  float: left; }
-  .photo img {
-    background-color: #f0f0f0;
-    width: 50px;
-    height: 50px;
-    border-radius: 10px; }
-  .photo.p0:hover ~ .c0, .photo.p1:hover ~ .c1, .photo.p2:hover ~ .c2, .photo.p3:hover ~ .c3, .photo.p4:hover ~ .c4 {
-    display: block; }
-
-.caption {
-  display: none;
-  top: 100%;
-  line-height: 1.1;
-  font-size: 0.8em;
-  position: absolute; }
-
-.datepost {
-  height: 30px;
-  font-family: "VT323";
-  width: 100px;
-  float: left;
-  border-bottom: 1px dashed #E1E2E3;
-  padding-top: 5px;
-  text-align: left; }
-
-.home {
-  margin-left: 5px;
-  margin-right: 5px; }
-
-/*
- * Content
- */
-.content-col-wrapper {
-  font-size: 15px;
-  color: #6C6C6C;
-  margin-left: -15px; }
-
-.content-col {
-  float: left;
-  margin-bottom: 15px;
-  padding-left: 15px;
-  width: 95%; }
-
-@media screen and (max-width: 800px) {
-  .titlepost,
-  .datepost {
-    border-bottom: 0px;
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2));
-    height: -webkit-calc(20% - (30px / 2));
-    height: calc(20% - (30px / 2));
-    text-align: left; }
-
-  .content-col {
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2));
-    height: -webkit-calc(20% - (30px / 2));
-    height: calc(20% - (30px / 2));
-    text-align: left; } }
-@media screen and (max-width: 600px) {
-  .content-col {
-    float: center;
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
-.dummy {
-  font-size: 17px;
-  letter-spacing: -1px;
-  margin-bottom: 3px;
-  float: left;
-  color: #505050; }
-  .dummy, .dummy:visited {
-    color: #505050; }
-  .dummy .blogpost {
-    text-align: left; }
-
-.site-title {
-  font-family: "Cutive Mono";
-  line-height: 115px;
-  font-size: 36px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center; }
-  .site-title, .site-title:visited {
-    color: #505050; }
-  @media screen and (max-width: 600px) {
-    .site-title {
-      font-family: "Cutive Mono";
-      font-size: 24px;
-      line-height: 107px;
-      letter-spacing: -1px;
-      margin-bottom: 0;
-      float: left; }
-      .site-title, .site-title:visited {
-        color: #f8f8f8; } }
-  @media screen and (max-width: 800px) {
-    .site-title {
-      font-family: "Cutive Mono";
-      font-size: 24px;
-      line-height: 107px;
-      letter-spacing: -1px;
-      margin-bottom: 0;
-      float: left;
-      color: #f8f8f8; }
-      .site-title, .site-title:visited {
-        color: #f8f8f8; } }
-
-/**
- * Simple on {sites}/me/
- */
-.site-title-simple {
-  font-family: "Cutive Mono";
-  font-size: 36px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  width: 740px; }
-  .site-title-simple, .site-title-simple:visited {
-    color: #505050; }
-  @media screen and (max-width: 600px) {
-    .site-title-simple {
-      font-family: "Cutive Mono";
-      font-size: 24px;
-      line-height: 107px;
-      letter-spacing: -1px;
-      margin-bottom: 0; }
-      .site-title-simple, .site-title-simple:visited {
-        color: #f8f8f8; } }
-  @media screen and (max-width: 800px) {
-    .site-title-simple {
-      font-family: "Cutive Mono";
-      font-size: 24px;
-      letter-spacing: -1px;
-      margin-bottom: 0;
-      color: #f8f8f8; }
-      .site-title-simple, .site-title-simple:visited {
-        color: #f8f8f8; } }
-
-/**
- * Site nav
+ * Site nav for web and mobile view
  */
 .site-nav {
   line-height: 90px;
@@ -421,40 +243,65 @@ pre {
         margin-bottom: 15px; } }
 
 /**
- * Site footer
+ * Add new config
+ * .big is underline style for first word or more
  */
-.site-footer {
-  border-top: 1px solid #E6E6E6;
-  padding: 30px 0;
-  background-color: #F9F9F9; }
-
-.footer-heading {
+.big {
   font-size: 18px;
-  margin-bottom: 15px; }
+  background: url("/images/fun-line.png") 0 100% no-repeat;
+  background-size: 20px; }
 
-.footer-col-wrapper {
-  font-size: 15px;
-  color: #4B4B4B;
-  margin-left: -15px; }
+.big.plusbig {
+  font-size: 1.3em;
+  color: #505050; }
 
-.footer-col {
-  float: left;
-  margin-bottom: 15px;
-  padding-left: 15px; }
+.big.bg {
+  background-color: #F6FFAA;
+  background-size: 0px; }
 
-@media screen and (max-width: 600px) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2));
-    text-align: -webkit-center; } }
-.footer-text {
-  font-size: 14px;
-  color: #4B4B4B;
+/**
+ * Trigger for align center ~.~
+ */
+.trigger {
   text-align: center; }
 
 /**
- * Page content
+ * Custom part of instagram photos
+ */
+.photos:before, .photos:after,
+.caption:before,
+.caption:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.photos {
+  position: relative;
+  margin-bottom: 15px;
+  margin-top: 8px; }
+
+.photo {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  float: left; }
+  .photo img {
+    background-color: #f0f0f0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px; }
+  .photo.p0:hover ~ .c0, .photo.p1:hover ~ .c1, .photo.p2:hover ~ .c2, .photo.p3:hover ~ .c3, .photo.p4:hover ~ .c4 {
+    display: block; }
+
+.caption {
+  display: none;
+  top: 100%;
+  line-height: 1.1;
+  font-size: 0.8em;
+  position: absolute; }
+
+/**
+ * All about of content
  */
 .page-content {
   padding: 30px 0 0; }
@@ -483,6 +330,72 @@ pre {
   display: block;
   font-size: 17px;
   font-family: "VT323"; }
+
+.titlepost {
+  height: 30px;
+  font-family: "Cutive Mono";
+  width: 90%;
+  float: left;
+  padding-top: 5px; }
+
+.datepost {
+  height: 30px;
+  font-family: "VT323";
+  width: 100px;
+  float: left;
+  border-bottom: 1px dashed #E1E2E3;
+  padding-top: 5px;
+  text-align: left; }
+
+.content-col-wrapper {
+  font-size: 15px;
+  color: #6C6C6C;
+  margin-left: -15px; }
+
+.content-col {
+  float: left;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  width: 95%; }
+
+@media screen and (max-width: 800px) {
+  .titlepost,
+  .datepost {
+    border-bottom: 0px;
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2));
+    height: -webkit-calc(20% - (30px / 2));
+    height: calc(20% - (30px / 2));
+    text-align: left; }
+
+  .content-col {
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2));
+    height: -webkit-calc(20% - (30px / 2));
+    height: calc(20% - (30px / 2));
+    text-align: left; } }
+@media screen and (max-width: 600px) {
+  .content-col {
+    float: center;
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2)); } }
+/**
+ * Some style for index. #important
+ */
+.dummy {
+  font-size: 17px;
+  letter-spacing: -1px;
+  margin-bottom: 3px;
+  float: left;
+  color: #505050; }
+  .dummy, .dummy:visited {
+    color: #505050; }
+  .dummy .blogpost {
+    text-align: left; }
+
+.home {
+  margin-left: 5px;
+  margin-right: 5px; }
 
 /**
  * Posts
@@ -530,3 +443,66 @@ pre {
 .post-content {
   margin-bottom: 30px;
   font-family: "Cutive Mono"; }
+
+/**
+ * Simple in url/me
+ */
+.site-title-simple {
+  font-family: "Cutive Mono";
+  font-size: 36px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  width: 740px; }
+  .site-title-simple, .site-title-simple:visited {
+    color: #505050; }
+  @media screen and (max-width: 600px) {
+    .site-title-simple {
+      font-family: "Cutive Mono";
+      font-size: 24px;
+      line-height: 107px;
+      letter-spacing: -1px;
+      margin-bottom: 0; }
+      .site-title-simple, .site-title-simple:visited {
+        color: #f8f8f8; } }
+  @media screen and (max-width: 800px) {
+    .site-title-simple {
+      font-family: "Cutive Mono";
+      font-size: 24px;
+      letter-spacing: -1px;
+      margin-bottom: 0;
+      color: #f8f8f8; }
+      .site-title-simple, .site-title-simple:visited {
+        color: #f8f8f8; } }
+
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid #E6E6E6;
+  padding: 30px 0;
+  background-color: #F9F9F9; }
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px; }
+
+.footer-col-wrapper {
+  font-size: 15px;
+  color: #4B4B4B;
+  margin-left: -15px; }
+
+.footer-col {
+  float: left;
+  margin-bottom: 15px;
+  padding-left: 15px; }
+
+@media screen and (max-width: 600px) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2));
+    text-align: -webkit-center; } }
+.footer-text {
+  font-size: 14px;
+  color: #4B4B4B;
+  text-align: center; }
