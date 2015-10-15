@@ -470,10 +470,12 @@ pre {
   font-size: 1.5em;
   font-family: "Halant";
   letter-spacing: -1px;
-  line-height: 1; }
+  line-height: 1;
+  text-align: center; }
   @media screen and (max-width: 800px) {
     .post-title {
-      font-size: 1.5em; } }
+      font-size: 1.5em;
+      text-align: center; } }
 
 .post-title-me {
   font-size: 26px;
@@ -496,6 +498,7 @@ pre {
 .post-detail {
   font-family: "Cutive Mono";
   font-size: 13px;
+  text-align: center;
   margin-top: -10px; }
 
 .post-content {
@@ -512,7 +515,7 @@ pre {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
-    font-size: 20px; }
+    font-size: 21px; }
     @media screen and (max-width: 800px) {
       .post-content h4 {
-        font-size: 18px; } }
+        font-size: 19px; } }
