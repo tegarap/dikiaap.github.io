@@ -262,23 +262,14 @@ pre {
 /**
  *404 Style
  */
-.error {
-  font-size: 200px; }
-
-@media screen and (max-width: 600px) {
-  .error {
-    font-size: 100px; } }
-@media screen and (max-width: 800px) {
-  .error {
-    font-size: 100px; } }
-.trollface {
+.badface {
   opactiy: 0;
-  animation: troll 3s;
+  animation: bad 3s;
   animation-iteration-count: infinite;
   position: relative;
   width: 200px; }
 
-@keyframes troll {
+@keyframes bad {
   0% {
     opacity: 0;
     transform: rotate(0deg);
