@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Diki Andriansyah A P Blog - Stay Brom</title>
-    <description>Ini sebuah blog room Diki Andriansyah A P yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
+    <title>Diki Andriansyah Blog - Stay Brom</title>
+    <description>Ini sebuah blog room Diki Andriansyah yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
     <link>https://dikiaap.github.io/</link>
     <atom:link href="https://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Oct 2015 07:17:14 +0700</pubDate>
-    <lastBuildDate>Fri, 16 Oct 2015 07:17:14 +0700</lastBuildDate>
+    <pubDate>Sun, 25 Oct 2015 12:57:06 +0700</pubDate>
+    <lastBuildDate>Sun, 25 Oct 2015 12:57:06 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
