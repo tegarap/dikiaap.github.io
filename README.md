@@ -1,4 +1,4 @@
-#Brom [ ] Diki Andriansyah A P
+#Diki Andriansyah Blog - Stay Brom
 I post there.
 
 :heart: GitHub, Jekyll & Octopress
