@@ -5,9 +5,9 @@
     <description>Ini sebuah blog room Diki Andriansyah yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
     <link>https://dikiaap.github.io/</link>
     <atom:link href="https://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Nov 2015 02:04:18 +0700</pubDate>
-    <lastBuildDate>Fri, 20 Nov 2015 02:04:18 +0700</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sat, 21 Nov 2015 15:39:14 +0700</pubDate>
+    <lastBuildDate>Sat, 21 Nov 2015 15:39:14 +0700</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Developing to Advance</title>
@@ -15,7 +15,7 @@
 
 &lt;!--more--&gt;
 
-&lt;pre&gt;&lt;code&gt;                                /T /I
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                /T /I
                               / |/ | .-~/
                           T\ Y  I  |/  /  _
          /T               | \I  |  I  Y.-~/
@@ -57,6 +57,7 @@
 								___[=== x]___
 								*-==========-*(&quot;)
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Mon, 12 Oct 2015 04:00:15 +0700</pubDate>
         <link>https://dikiaap.github.io/write/2015/10/12/developing-advancing-and-continue-to-advance/</link>
