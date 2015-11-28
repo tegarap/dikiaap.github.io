@@ -171,17 +171,12 @@ pre {
 
 /**
  * Site header
- * .site-header-me for personal info in url/me
  */
 .site-header {
   border-bottom: 1px solid #E5E5E5;
   position: relative;
   background-color: #F5F5F5;
   text-align: center; }
-
-.site-header-me {
-  text-align: center;
-  margin-top: 40px; }
 
 /**
  * Site nav for web and mobile view
@@ -338,9 +333,6 @@ pre {
 .page-content {
   padding: 30px 0 0; }
 
-.page-content.me {
-  padding: 0 0; }
-
 @media screen and (max-width: 800px) {
   .page-content {
     padding-bottom: 30px; } }
@@ -446,17 +438,6 @@ pre {
       font-size: 1.5em;
       text-align: center; } }
 
-.post-title-me {
-  font-size: 26px;
-  font-family: "Cutive Mono";
-  letter-spacing: -1px;
-  line-height: 1;
-  text-align: center; }
-  @media screen and (max-width: 800px) {
-    .post-title-me {
-      font-size: 26px;
-      text-align: center; } }
-
 .post-line {
   font-size: 18px;
   background: url("/images/fun-line.png") 0 100% no-repeat;
@@ -476,55 +457,6 @@ pre {
   margin-bottom: 30px;
   font-family: "Cutive Mono"; }
 
-/**
- * Simple in url/me
- */
-.site-title-simple {
-  font-family: "Cutive Mono";
-  font-size: 36px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  width: 740px; }
-  .site-title-simple, .site-title-simple:visited {
-    color: #505050; }
-  @media screen and (max-width: 600px) {
-    .site-title-simple {
-      font-family: "Cutive Mono";
-      font-size: 24px;
-      line-height: 107px;
-      letter-spacing: -1px;
-      margin-bottom: 0; }
-      .site-title-simple, .site-title-simple:visited {
-        color: #f8f8f8; } }
-  @media screen and (max-width: 800px) {
-    .site-title-simple {
-      font-family: "Cutive Mono";
-      font-size: 24px;
-      letter-spacing: -1px;
-      margin-bottom: 0;
-      color: #f8f8f8; }
-      .site-title-simple, .site-title-simple:visited {
-        color: #f8f8f8; } }
-
-/**
- * GitHub corners url/me
- */
-.github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out; }
-
-@keyframes octocat-wave {
-  0%,100% {
-    transform: rotate(0); }
-  20%,60% {
-    transform: rotate(-25deg); }
-  40%,80% {
-    transform: rotate(10deg); } }
-@media (max-width: 500px) {
-  .github-corner:hover .octo-arm {
-    animation: none; }
-
-  .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out; } }
 /**
  * Site footer
  */
