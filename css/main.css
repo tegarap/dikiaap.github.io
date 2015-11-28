@@ -13,10 +13,10 @@ dl, dd, ol, ul, figure {
  */
 body {
   font-family: "Cutive Mono";
-  font-size: 16px;
+  font-size: 16.5px;
   line-height: 1.5;
-  color: #090909;
-  background-color: #FBFBFB;
+  color: #2D2D2D;
+  background-color: #F9F9F9;
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust: 100%; }
@@ -38,7 +38,6 @@ img {
   vertical-align: middle; }
 
 img.displayed {
-  display: block;
   margin: 40px auto;
   width: 25px;
   height: 25px; }
@@ -50,7 +49,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 14.4375px; }
 
 /**
  * Lists
@@ -103,11 +102,7 @@ blockquote {
 pre,
 code {
   font-family: "Cutive Mono";
-  font-size: 14px;
-  border: 1px solid #f0f0f0;
-  border-radius: 1em;
-  background-color: #f8f8f8;
-  color: #2E2E2E; }
+  background-color: #EAEAEA; }
 
 code {
   padding: 3px 5px; }
@@ -178,8 +173,10 @@ pre {
  * .site-header-me for personal info in url/me
  */
 .site-header {
-  border-bottom: 1px solid #E6E6E6;
-  position: relative; }
+  border-bottom: 1px solid #E5E5E5;
+  position: relative;
+  background-color: #F5F5F5;
+  text-align: center; }
 
 .site-header-me {
   text-align: center;
@@ -359,7 +356,7 @@ pre {
   list-style: none; }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 14.4375px;
   color: #626262; }
 
 .post-link {
@@ -472,7 +469,7 @@ pre {
 
 .post-detail {
   font-family: "Cutive Mono";
-  font-size: 13px;
+  font-size: 13.5px;
   text-align: center;
   margin-top: -10px; }
 
