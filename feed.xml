@@ -3,10 +3,10 @@
   <channel>
     <title>Diki Andriansyah Blog - Stay Brom</title>
     <description>Ini sebuah blog room Diki Andriansyah yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.</description>
-    <link>https://dikiaap.github.io/</link>
-    <atom:link href="https://dikiaap.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Feb 2016 21:41:07 +0700</pubDate>
-    <lastBuildDate>Tue, 16 Feb 2016 21:41:07 +0700</lastBuildDate>
+    <link>https://blog.dikiaap.id/</link>
+    <atom:link href="https://blog.dikiaap.id/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 16 Feb 2016 21:46:10 +0700</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2016 21:46:10 +0700</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -20,8 +20,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/dikiaap/ama&quot;&gt;&lt;img src=&quot;http://i.imgur.com/Mnfeu7s.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 28 Nov 2015 08:21:51 +0700</pubDate>
-        <link>https://dikiaap.github.io/write/2015/11/28/ask-me-anything/</link>
-        <guid isPermaLink="true">https://dikiaap.github.io/write/2015/11/28/ask-me-anything/</guid>
+        <link>https://blog.dikiaap.id/write/2015/11/28/ask-me-anything/</link>
+        <guid isPermaLink="true">https://blog.dikiaap.id/write/2015/11/28/ask-me-anything/</guid>
         
         
       </item>
