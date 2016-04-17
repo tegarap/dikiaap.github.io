@@ -5,9 +5,67 @@
     <description>Hi! Saya Diki Andriansyah. Suka membangun sesuatu dengan code dan bekerja sebagai developer. Brom [] ini adalah sebuah blog room dan banyak bermacam-macam aktifitas yang saya tulis di sini.</description>
     <link>https://blog.dikiaap.id/</link>
     <atom:link href="https://blog.dikiaap.id/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Apr 2016 14:43:26 +0700</pubDate>
-    <lastBuildDate>Sun, 17 Apr 2016 14:43:26 +0700</lastBuildDate>
+    <pubDate>Sun, 17 Apr 2016 15:59:25 +0700</pubDate>
+    <lastBuildDate>Sun, 17 Apr 2016 15:59:25 +0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Mangan</title>
+        <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;http://i.imgur.com/dgzKZlq.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ruby (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.9.3&lt;/code&gt; or above for &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll 2&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;v2&lt;/code&gt; or above for &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll 3&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rubygems.org/pages/download&quot;&gt;RubyGems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Linux, Unix, or Mac OS X&lt;/li&gt;
+  &lt;li&gt;Git&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;install&quot;&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; : Follow this steps until done and your website will be online.&lt;/p&gt;
+
+&lt;p&gt;Fork, then rename to &lt;code class=&quot;highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt; and clone.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/pReoMqH.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If looks good, then deploy to &lt;strong&gt;GitHub&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/8J09e6A.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Visit your website now and custom you want! &lt;img class=&quot;emoji&quot; title=&quot;:sparkles:&quot; alt=&quot;:sparkles:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/2728.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-in-there&quot;&gt;What’s in there?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Beauty, minify and litle awesome code&lt;/li&gt;
+  &lt;li&gt;Emoji support&lt;/li&gt;
+  &lt;li&gt;Geek theme&lt;/li&gt;
+  &lt;li&gt;Instagram view&lt;/li&gt;
+  &lt;li&gt;Pagination&lt;/li&gt;
+  &lt;li&gt;SEO directly used&lt;/li&gt;
+  &lt;li&gt;Speed up&lt;/li&gt;
+  &lt;li&gt;Unique and secret fun in code and webview&lt;/li&gt;
+  &lt;li&gt;URI&lt;/li&gt;
+  &lt;li&gt;More!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;See demo &lt;a href=&quot;https://blog.dikiaap.id&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;More feature, you can visit &lt;a href=&quot;http://jekyllrb.com&quot;&gt;&lt;strong&gt;jekyllrb.com&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;MIT © &lt;a href=&quot;https://dikiaap.id&quot;&gt;&lt;strong&gt;Diki Andriansyah&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Apr 2016 10:02:20 +0700</pubDate>
+        <link>https://blog.dikiaap.id/post/mangan</link>
+        <guid isPermaLink="true">https://blog.dikiaap.id/post/mangan</guid>
+        
+        
+      </item>
     
       <item>
         <title>Building Aftershock</title>
@@ -19,8 +77,8 @@
 &lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;a href=&quot;http://aftershock.dikiaap.id&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Aftershock&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 20 Feb 2016 12:03:50 +0700</pubDate>
-        <link>https://blog.dikiaap.id/write/2016/02/20/building-aftershock/</link>
-        <guid isPermaLink="true">https://blog.dikiaap.id/write/2016/02/20/building-aftershock/</guid>
+        <link>https://blog.dikiaap.id/post/building-aftershock</link>
+        <guid isPermaLink="true">https://blog.dikiaap.id/post/building-aftershock</guid>
         
         
       </item>
@@ -35,8 +93,8 @@
 &lt;h1 align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img width=&quot;400&quot; src=&quot;https://i.imgur.com/diudlrd.jpg&quot; /&gt;&lt;/h1&gt;
 </description>
         <pubDate>Sat, 20 Feb 2016 00:02:20 +0700</pubDate>
-        <link>https://blog.dikiaap.id/write/2016/02/20/two-archiving/</link>
-        <guid isPermaLink="true">https://blog.dikiaap.id/write/2016/02/20/two-archiving/</guid>
+        <link>https://blog.dikiaap.id/post/two-archiving</link>
+        <guid isPermaLink="true">https://blog.dikiaap.id/post/two-archiving</guid>
         
         
       </item>
@@ -51,8 +109,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/dikiaap/ama&quot;&gt;&lt;img src=&quot;https://i.imgur.com/Mnfeu7s.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 28 Nov 2015 08:21:51 +0700</pubDate>
-        <link>https://blog.dikiaap.id/write/2015/11/28/ask-me-anything/</link>
-        <guid isPermaLink="true">https://blog.dikiaap.id/write/2015/11/28/ask-me-anything/</guid>
+        <link>https://blog.dikiaap.id/post/ask-me-anything</link>
+        <guid isPermaLink="true">https://blog.dikiaap.id/post/ask-me-anything</guid>
         
         
       </item>
