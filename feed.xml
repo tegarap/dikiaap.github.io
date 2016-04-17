@@ -5,18 +5,18 @@
     <description>Hi! Saya Diki Andriansyah. Suka membangun sesuatu dengan code dan bekerja sebagai developer. Brom [] ini adalah sebuah blog room dan banyak bermacam-macam aktifitas yang saya tulis di sini.</description>
     <link>https://blog.dikiaap.id/</link>
     <atom:link href="https://blog.dikiaap.id/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Apr 2016 16:02:49 +0700</pubDate>
-    <lastBuildDate>Sun, 17 Apr 2016 16:02:49 +0700</lastBuildDate>
+    <pubDate>Sun, 17 Apr 2016 16:13:36 +0700</pubDate>
+    <lastBuildDate>Sun, 17 Apr 2016 16:13:36 +0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>Mangan</title>
-        <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;http://i.imgur.com/dgzKZlq.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+        <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;https://i.imgur.com/dgzKZlq.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Ruby (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.9.3&lt;/code&gt; or above for &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll 2&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;v2&lt;/code&gt; or above for &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll 3&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rubygems.org/pages/download&quot;&gt;RubyGems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rubygems.org/pages/download&quot;&gt;RubyGems&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Linux, Unix, or Mac OS X&lt;/li&gt;
   &lt;li&gt;Git&lt;/li&gt;
 &lt;/ul&gt;
@@ -27,11 +27,11 @@
 
 &lt;p&gt;Fork, then rename to &lt;code class=&quot;highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt; and clone.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/pReoMqH.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/pReoMqH.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If looks good, then deploy to &lt;strong&gt;GitHub&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/8J09e6A.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/8J09e6A.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Visit your website now and custom you want! &lt;img class=&quot;emoji&quot; title=&quot;:sparkles:&quot; alt=&quot;:sparkles:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/2728.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
 
@@ -54,7 +54,7 @@
 
 &lt;p&gt;See demo &lt;a href=&quot;https://blog.dikiaap.id&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;More feature, you can visit &lt;a href=&quot;http://jekyllrb.com&quot;&gt;&lt;strong&gt;jekyllrb.com&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;More feature, you can visit &lt;a href=&quot;https://jekyllrb.com&quot;&gt;&lt;strong&gt;jekyllrb.com&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
 
