@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog · @dikiaap - Diki Andriansyah</title>
-    <description>Hi! Saya Diki Andriansyah. Suka membangun sesuatu dengan code dan bekerja sebagai developer. Brom [] ini adalah sebuah blog room dan banyak bermacam-macam aktifitas yang saya tulis di sini.</description>
+    <description>Hi! I am Diki Andriansyah and web stuff is really adorable.</description>
     <link>https://blog.dikiaap.id/</link>
     <atom:link href="https://blog.dikiaap.id/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Aug 2016 08:03:41 +0700</pubDate>
-    <lastBuildDate>Mon, 22 Aug 2016 08:03:41 +0700</lastBuildDate>
+    <pubDate>Mon, 22 Aug 2016 10:03:39 +0700</pubDate>
+    <lastBuildDate>Mon, 22 Aug 2016 10:03:39 +0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -96,6 +96,8 @@
         <link>https://blog.dikiaap.id/post/two-archiving</link>
         <guid isPermaLink="true">https://blog.dikiaap.id/post/two-archiving</guid>
         
+        <category>id</category>
+        
         
       </item>
     
@@ -111,6 +113,8 @@
         <pubDate>Sat, 28 Nov 2015 08:21:51 +0700</pubDate>
         <link>https://blog.dikiaap.id/post/ask-me-anything</link>
         <guid isPermaLink="true">https://blog.dikiaap.id/post/ask-me-anything</guid>
+        
+        <category>id</category>
         
         
       </item>
