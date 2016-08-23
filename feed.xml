@@ -5,16 +5,16 @@
         <description>Hi! I am Diki Andriansyah and web stuff is really adorable.</description>
         <link>https://blog.dikiaap.id/</link>
         <atom:link href="https://blog.dikiaap.id/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 24 Aug 2016 01:38:29 +0700</pubDate>
-        <lastBuildDate>Wed, 24 Aug 2016 01:38:29 +0700</lastBuildDate>
+        <pubDate>Wed, 24 Aug 2016 01:45:27 +0700</pubDate>
+        <lastBuildDate>Wed, 24 Aug 2016 01:45:27 +0700</lastBuildDate>
         <generator>Jekyll v3.2.1</generator>
         
             <item>
                 <title>A primary website</title>
                 <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;#&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;!--more--&gt;
 
-&lt;p&gt;Ordinary act to mapping my website become &lt;strong&gt;3&lt;/strong&gt; partials &amp;amp; I have &lt;strong&gt;1&lt;/strong&gt; domain and &lt;strong&gt;2&lt;/strong&gt; subdomain.&lt;/p&gt;
+&lt;p&gt;Ordinary act to mapping my website become &lt;strong&gt;3&lt;/strong&gt; partials &amp;amp; I have &lt;strong&gt;1&lt;/strong&gt; domain and &lt;strong&gt;2&lt;/strong&gt; subdomain.
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;I create this post for proof what I really doing to maintenance it and in the future I should change some stuff. This is how looks like:&lt;/p&gt;
 
@@ -42,6 +42,8 @@
   &lt;li&gt;Linux, Unix, or Mac OS X&lt;/li&gt;
   &lt;li&gt;Git&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;!--more--&gt;
 
 &lt;h2 id=&quot;install&quot;&gt;Install&lt;/h2&gt;
 
