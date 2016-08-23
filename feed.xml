@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog · Diki Andriansyah</title>
-    <description>Hi! I am Diki Andriansyah and web stuff is really adorable.</description>
-    <link>https://blog.dikiaap.id/</link>
-    <atom:link href="https://blog.dikiaap.id/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Aug 2016 00:39:38 +0700</pubDate>
-    <lastBuildDate>Wed, 24 Aug 2016 00:39:38 +0700</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>A primary website</title>
-        <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;#&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+    <channel>
+        <title>Blog · Diki Andriansyah</title>
+        <description>Hi! I am Diki Andriansyah and web stuff is really adorable.</description>
+        <link>https://blog.dikiaap.id/</link>
+        <atom:link href="https://blog.dikiaap.id/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 24 Aug 2016 01:38:29 +0700</pubDate>
+        <lastBuildDate>Wed, 24 Aug 2016 01:38:29 +0700</lastBuildDate>
+        <generator>Jekyll v3.2.1</generator>
+        
+            <item>
+                <title>A primary website</title>
+                <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;#&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;!--more--&gt;
 
 &lt;p&gt;Ordinary act to mapping my website become &lt;strong&gt;3&lt;/strong&gt; partials &amp;amp; I have &lt;strong&gt;1&lt;/strong&gt; domain and &lt;strong&gt;2&lt;/strong&gt; subdomain.&lt;/p&gt;
@@ -24,16 +24,16 @@
   &lt;li&gt;&lt;a href=&quot;https://find.dikiaap.id&quot;&gt;&lt;strong&gt;find.dikiaap.id&lt;/strong&gt;&lt;/a&gt; · Easy to find my another profile.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 23 Aug 2016 03:20:40 +0700</pubDate>
-        <link>https://blog.dikiaap.id/post/a-primary-website</link>
-        <guid isPermaLink="true">https://blog.dikiaap.id/post/a-primary-website</guid>
+                <pubDate>Tue, 23 Aug 2016 03:20:40 +0700</pubDate>
+                <link>https://blog.dikiaap.id/post/a-primary-website</link>
+                <guid isPermaLink="true">https://blog.dikiaap.id/post/a-primary-website</guid>
+                
+                
+            </item>
         
-        
-      </item>
-    
-      <item>
-        <title>Mangan</title>
-        <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;https://i.imgur.com/dgzKZlq.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+            <item>
+                <title>Mangan</title>
+                <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;https://i.imgur.com/dgzKZlq.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
 &lt;ul&gt;
@@ -82,64 +82,64 @@
 
 &lt;p&gt;MIT © &lt;a href=&quot;https://dikiaap.id&quot;&gt;&lt;strong&gt;Diki Andriansyah&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 17 Apr 2016 10:02:20 +0700</pubDate>
-        <link>https://blog.dikiaap.id/post/mangan</link>
-        <guid isPermaLink="true">https://blog.dikiaap.id/post/mangan</guid>
+                <pubDate>Sun, 17 Apr 2016 10:02:20 +0700</pubDate>
+                <link>https://blog.dikiaap.id/post/mangan</link>
+                <guid isPermaLink="true">https://blog.dikiaap.id/post/mangan</guid>
+                
+                
+            </item>
         
-        
-      </item>
-    
-      <item>
-        <title>Building Aftershock</title>
-        <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img width=&quot;400&quot; src=&quot;https://i.imgur.com/i9cibHJ.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+            <item>
+                <title>Building Aftershock</title>
+                <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img width=&quot;400&quot; src=&quot;https://i.imgur.com/i9cibHJ.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Aftershock&lt;/strong&gt; is Diary Content Management System (CMS) and built with Laravel PHP Framework. It’s based on web platform and make your daily diary will reborn.  Missions: &lt;strong&gt;A Simple&lt;/strong&gt;, with a beautiful interface, make you keep beside at Aftershock. &lt;strong&gt;Useful&lt;/strong&gt;, always create your daily diary. &lt;strong&gt;Remember&lt;/strong&gt;, In the future, you will smile see your diary.
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;a href=&quot;http://aftershock.dikiaap.id&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Aftershock&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 20 Feb 2016 12:03:50 +0700</pubDate>
-        <link>https://blog.dikiaap.id/post/building-aftershock</link>
-        <guid isPermaLink="true">https://blog.dikiaap.id/post/building-aftershock</guid>
+                <pubDate>Sat, 20 Feb 2016 12:03:50 +0700</pubDate>
+                <link>https://blog.dikiaap.id/post/building-aftershock</link>
+                <guid isPermaLink="true">https://blog.dikiaap.id/post/building-aftershock</guid>
+                
+                
+            </item>
         
-        
-      </item>
-    
-      <item>
-        <title>Two Archiving</title>
-        <description>&lt;p&gt;Dua repository telah di arsipkan, yaitu &lt;a href=&quot;https://github.com/dikiaap/mangan/releases/tag/v1.3&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Mangan Jekyll Theme v1.3&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; dan &lt;a href=&quot;https://github.com/dikiaap/frost-plank-theme/releases/tag/v2.0&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Frost Plank Theme v2.0&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; . Karena rilis versi stabil sudah di luncurkan, serta berbagai perbaikan bug dan banyak penyempurnaan, maka dalam beberapa bulan kedepan (&amp;gt; 6 bulan) proyek ini di berhentikan sejenak. Saya juga sedang mengerjakan dan melanjutkan proyek-proyek lainnya di luar maupun di GitHub.
+            <item>
+                <title>Two Archiving</title>
+                <description>&lt;p&gt;Dua repository telah di arsipkan, yaitu &lt;a href=&quot;https://github.com/dikiaap/mangan/releases/tag/v1.3&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Mangan Jekyll Theme v1.3&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; dan &lt;a href=&quot;https://github.com/dikiaap/frost-plank-theme/releases/tag/v2.0&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Frost Plank Theme v2.0&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt; . Karena rilis versi stabil sudah di luncurkan, serta berbagai perbaikan bug dan banyak penyempurnaan, maka dalam beberapa bulan kedepan (&amp;gt; 6 bulan) proyek ini di berhentikan sejenak. Saya juga sedang mengerjakan dan melanjutkan proyek-proyek lainnya di luar maupun di GitHub.
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Walaupun ini proyek kecil, akhirnya saya bisa lepas dari dua repository ini. Hahahaha. Mau tau kenapa? kenapa? kenapa?:smile:&lt;/p&gt;
 
 &lt;h1 align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img width=&quot;400&quot; src=&quot;https://i.imgur.com/diudlrd.jpg&quot; /&gt;&lt;br /&gt;&lt;/h1&gt;
 </description>
-        <pubDate>Sat, 20 Feb 2016 00:02:20 +0700</pubDate>
-        <link>https://blog.dikiaap.id/post/two-archiving</link>
-        <guid isPermaLink="true">https://blog.dikiaap.id/post/two-archiving</guid>
+                <pubDate>Sat, 20 Feb 2016 00:02:20 +0700</pubDate>
+                <link>https://blog.dikiaap.id/post/two-archiving</link>
+                <guid isPermaLink="true">https://blog.dikiaap.id/post/two-archiving</guid>
+                
+                <category>id</category>
+                
+                
+            </item>
         
-        <category>id</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ask me anything</title>
-        <description>&lt;p&gt;Terinspirasi dari &lt;a href=&quot;https://github.com/sindresorhus/ama&quot;&gt;&lt;strong&gt;Sindre Sorhus&lt;/strong&gt;&lt;/a&gt;. Saya memutuskan untuk membuat AMA di GitHub. AMA di GitHub saya gunakan untuk menjawab pertanyaan-pertanyaan yang kalian ajukan. Saya pikir ini mungkin menjadi cara yang berguna untuk setiap orang karena dapat melihat pertanyaan dan jawaban.
+            <item>
+                <title>Ask me anything</title>
+                <description>&lt;p&gt;Terinspirasi dari &lt;a href=&quot;https://github.com/sindresorhus/ama&quot;&gt;&lt;strong&gt;Sindre Sorhus&lt;/strong&gt;&lt;/a&gt;. Saya memutuskan untuk membuat AMA di GitHub. AMA di GitHub saya gunakan untuk menjawab pertanyaan-pertanyaan yang kalian ajukan. Saya pikir ini mungkin menjadi cara yang berguna untuk setiap orang karena dapat melihat pertanyaan dan jawaban.
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Jadi inilah &lt;a href=&quot;https://github.com/dikiaap/ama&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ask me anything&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;. Saya akan melihat dan membalas pertanyaan dari anda. :wink:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/dikiaap/ama&quot;&gt;&lt;img src=&quot;https://i.imgur.com/Mnfeu7s.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 28 Nov 2015 08:21:51 +0700</pubDate>
-        <link>https://blog.dikiaap.id/post/ask-me-anything</link>
-        <guid isPermaLink="true">https://blog.dikiaap.id/post/ask-me-anything</guid>
+                <pubDate>Sat, 28 Nov 2015 08:21:51 +0700</pubDate>
+                <link>https://blog.dikiaap.id/post/ask-me-anything</link>
+                <guid isPermaLink="true">https://blog.dikiaap.id/post/ask-me-anything</guid>
+                
+                <category>id</category>
+                
+                
+            </item>
         
-        <category>id</category>
-        
-        
-      </item>
-    
-  </channel>
+    </channel>
 </rss>
