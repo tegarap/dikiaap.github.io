@@ -5,13 +5,13 @@
         <description>Hi! I am Diki Andriansyah and web stuff is really adorable.</description>
         <link>https://blog.dikiaap.id/</link>
         <atom:link href="https://blog.dikiaap.id/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 24 Aug 2016 01:45:27 +0700</pubDate>
-        <lastBuildDate>Wed, 24 Aug 2016 01:45:27 +0700</lastBuildDate>
+        <pubDate>Wed, 24 Aug 2016 03:05:58 +0700</pubDate>
+        <lastBuildDate>Wed, 24 Aug 2016 03:05:58 +0700</lastBuildDate>
         <generator>Jekyll v3.2.1</generator>
         
             <item>
                 <title>A primary website</title>
-                <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;#&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+                <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;#&quot; alt=&quot;A primary website&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ordinary act to mapping my website become &lt;strong&gt;3&lt;/strong&gt; partials &amp;amp; I have &lt;strong&gt;1&lt;/strong&gt; domain and &lt;strong&gt;2&lt;/strong&gt; subdomain.
 &lt;!--more--&gt;&lt;/p&gt;
@@ -33,7 +33,7 @@
         
             <item>
                 <title>Mangan</title>
-                <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;https://i.imgur.com/dgzKZlq.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+                <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;https://i.imgur.com/dgzKZlq.png&quot; alt=&quot;Mangan&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
 &lt;ul&gt;
@@ -51,11 +51,11 @@
 
 &lt;p&gt;Fork, then rename to &lt;code class=&quot;highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt; and clone.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/pReoMqH.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/pReoMqH.png&quot; alt=&quot;Step 1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If looks good, then deploy to &lt;strong&gt;GitHub&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/8J09e6A.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/8J09e6A.png&quot; alt=&quot;Step 2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Visit your website now and custom you want! :sparkles:&lt;/p&gt;
 
@@ -93,7 +93,7 @@
         
             <item>
                 <title>Building Aftershock</title>
-                <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img width=&quot;400&quot; src=&quot;https://i.imgur.com/i9cibHJ.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+                <description>&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;https://i.imgur.com/i9cibHJ.png&quot; width=&quot;400px&quot; alt=&quot;Aftershock&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Aftershock&lt;/strong&gt; is Diary Content Management System (CMS) and built with Laravel PHP Framework. It’s based on web platform and make your daily diary will reborn.  Missions: &lt;strong&gt;A Simple&lt;/strong&gt;, with a beautiful interface, make you keep beside at Aftershock. &lt;strong&gt;Useful&lt;/strong&gt;, always create your daily diary. &lt;strong&gt;Remember&lt;/strong&gt;, In the future, you will smile see your diary.
 &lt;!--more--&gt;&lt;/p&gt;
@@ -114,7 +114,7 @@
 
 &lt;p&gt;Walaupun ini proyek kecil, akhirnya saya bisa lepas dari dua repository ini. Hahahaha. Mau tau kenapa? kenapa? kenapa?:smile:&lt;/p&gt;
 
-&lt;h1 align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img width=&quot;400&quot; src=&quot;https://i.imgur.com/diudlrd.jpg&quot; /&gt;&lt;br /&gt;&lt;/h1&gt;
+&lt;h1 align=&quot;center&quot;&gt;&lt;br /&gt;&lt;img src=&quot;https://i.imgur.com/diudlrd.jpg&quot; width=&quot;400px&quot; alt=&quot;Laugh&quot; /&gt;&lt;br /&gt;&lt;/h1&gt;
 </description>
                 <pubDate>Sat, 20 Feb 2016 00:02:20 +0700</pubDate>
                 <link>https://blog.dikiaap.id/post/two-archiving</link>
@@ -132,7 +132,7 @@
 
 &lt;p&gt;Jadi inilah &lt;a href=&quot;https://github.com/dikiaap/ama&quot;&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ask me anything&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;. Saya akan melihat dan membalas pertanyaan dari anda. :wink:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/dikiaap/ama&quot;&gt;&lt;img src=&quot;https://i.imgur.com/Mnfeu7s.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/dikiaap/ama&quot;&gt;&lt;img src=&quot;https://i.imgur.com/Mnfeu7s.png&quot; alt=&quot;AMA&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
                 <pubDate>Sat, 28 Nov 2015 08:21:51 +0700</pubDate>
                 <link>https://blog.dikiaap.id/post/ask-me-anything</link>
